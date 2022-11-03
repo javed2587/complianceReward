@@ -1,0 +1,963 @@
+.wrapper {
+    max-width: 1316px;
+    margin: 0 auto;
+}
+
+ul, ol {
+    padding-left: 17px;
+}
+
+.modal.tableModal th{
+    color: #669900;
+    background-color: #dddddd;
+    min-height: 40px;
+    padding: 8px;
+    line-height: 1.42857143;
+}
+.modal.tableModal td {
+    color: #676767;
+    min-height: 40px;
+    padding: 8px;
+    line-height: 1.42857143;
+}
+.modal.tableModal .table-responsive{
+    overflow-x:auto;
+    overflow-y:scroll;
+} 
+.modal{
+    background-color:rgba(0,0,0,0.5);
+}
+.modal .form-group{
+    padding-left:0;
+}
+.customTableRow{
+    margin:0 -10px;
+}
+.customTableRow > div{
+    padding:0 10px;
+}
+.patientTableRow .insuranceContainer i{
+    color: #ef9a5d;
+    font-size: 16px;
+    margin-left: 4px;
+}
+.patientTableRow  .insuranceContainer > span:last-of-type{
+    float:none;
+    text-decoration: none;
+}
+.patientTableRow{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+}
+.patientTableRow .insuranceContainer{
+    margin-bottom:0;
+}
+
+.userBanner > div{
+    background-color: #2171b6;
+    color:#fff;
+    margin:10px 0;
+    font-size: 15.36px;
+    font-family:"Arial";
+    padding:8px 0;
+}
+.userBanner a{
+    color:#fff;
+    text-decoration: underline;
+}
+.userBanner ul{
+    float:left;
+    margin-bottom:0;
+}
+.userBanner li{
+    list-style: none;
+    float:left;
+}
+.userBanner li:nth-child(1){
+    padding-right:20px;
+}
+.userBanner li:nth-child(2){
+    padding-left:20px;
+    padding-right:25px;
+}
+.userBanner li:nth-child(3){
+    padding-left:25px;
+    padding-right:25px;
+}
+.userBanner li:nth-child(4){
+    padding-left:25px;
+    padding-right:25px;
+}
+.userBanner li:nth-child(5){
+    padding-left:25px;
+}
+.userBanner p{
+    text-align:right;
+    float:right;
+    color:#fff;
+    font-size:15.36px;
+    font-family:Arial;
+    margin-bottom:0;
+    margin-right: 9px;
+}
+.savePharm, .queueOver,.userProf,.heightList,.insuranceContainer,.shippingContainer,.contactContainer{
+    background-color:#f5f3f5;
+    border:1px solid #8b8b8b;
+    padding:12px 15px 10px;
+    margin-bottom: 0;
+    position:relative;
+    border-bottom: 0;
+}
+.primume_box{
+    background:#8aca14;
+    min-height:45px;
+    margin:0 0 8px;
+    width:100%;
+    float:none;
+    padding:8px 0 0 9px;
+    box-sizing: border-box;
+    position:relative;
+}
+.primume_box p{
+    color:#FFF;
+    font-size:11px;
+    font-weight:normal;
+    font-family:Arial, Helvetica, sans-serif;
+    line-height:15px;
+    margin:0 0 0;
+}
+.primume_box p span{
+    float:left;
+    font-weight:bold;
+    color:#000000;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:19px;
+    line-height:30px;
+    margin-right:15px;
+}
+.primume_box .primiume_icon{
+    position:absolute;
+    background:url(../images/primiume_icon.png) no-repeat;
+    width:68px;
+    height:45px;
+    top:-2px;
+    right:8px;
+    z-index:100;
+    box-sizing: border-box;
+    padding-left:14px;
+    font-size:10px;
+    padding-top:12px;
+    font-weight:bold;
+    color:#FFF;
+}
+.savePharm, .queueOver, .userProf, .heightList, .insuranceContainer, .shippingContainer, .contactContainer {
+
+    padding: 6px 15px 6px;
+
+}
+.contactContainer p{
+    color:#525252;
+    font-size:13px;
+    font-family:"arial";
+    margin:0;
+}
+.contactContainer span{
+    font-weight:600;
+}
+.contactContainer p:nth-child(2){
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.contactContainer p:nth-child(4){
+    margin-top:7px;
+    margin-bottom:0px;
+}
+.contactContainer i,.shippingContainer i{
+    color:#ef9a5d;
+    font-size:16px;
+    margin-left:4px;
+}
+.blueText{
+    color:#2171b6;
+}
+.shippingContainer .blueText{
+    color: #2171b6;
+}
+.shippingContainer{
+    max-height:117px;
+    overflow-y: scroll;
+}
+.shippingContainer li{
+    color: #2171b6;
+    font-size:13px;
+    margin-bottom:7px;
+}
+.shippingContainer .blueText{
+    color: #2171b6;
+}
+.shippingContainer span:first-of-type{
+    font-size: 13px;
+    font-family: arial;
+    font-weight:600;
+}
+.shippingContainer span,.shippingContainer strong{
+    color: #525252;
+}
+
+.insuranceContainer{
+    border-bottom: 1px solid #8b8b8b;
+}
+.insuranceContainer > span:last-of-type{
+    float:right;
+    text-decoration:underline;
+}
+.insuranceContainer > span:first-of-type{
+    font-weight:600;
+    font-size:13px;
+    font-family:Arial;
+}
+.insuranceContainer > div{
+    margin-top:6px;
+}
+.insuranceContainer img:first-child{
+    margin-right:5px;
+}
+.insuranceContainer > div > img{
+    cursor:pointer;
+}
+.heightList {
+    padding: 0px 0px 4px;
+    position: relative;
+}
+.heightList h4{
+    font-size:13px;
+    font-family:Arial;
+    color: #2171b6;
+    text-transform: none;
+    margin-bottom:8px;
+    margin-top:0;
+}
+
+
+.heightList i{
+    color:#ef9a5d;
+    position:absolute;
+    top:15px;
+    right:10px;
+    font-size: 17px;
+}
+.heightList ul{
+    padding:0 15px 0;
+    margin:0 0 0;
+    display:block;
+    clear:both;
+}
+.heightList ul li{
+    list-style:none;
+    background:none;
+    line-height:inherit;
+    display:inline-block;
+    width:32%;
+    text-align:center;
+    font-size:13px;
+    color:#000000;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.heightList ul li span{
+    font-weight:bold;
+    font-size:13px;
+    color:#2171b6;
+}
+.heightList ul li:first-child{
+    text-align:left;
+}
+.heightList ul li:last-child{
+    text-align:right;
+}
+.messageForm{
+    position:relative;
+}
+.messageForm button{
+    border:0;
+    background-color: transparent;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    font-size:18px;
+}
+.messageBox{
+    width:100%;
+    resize:none;
+    height:95px;
+    padding:6px 8px;
+    color:#666666;
+    font-size:12.88px;
+    font-weight:600;
+    line-height:24.15px;
+}
+.greenText{
+    color:#8aca14 !important;
+}
+
+.messageHistory{
+    font-size:13px;
+    font-family: Arial;
+    text-decoration: underline;
+}
+.rightPatientDiv{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.rightPatientDiv .tableContainer tr td:first-child{
+    color:#000000;
+    text-decoration:none;
+}
+.rightPatientDiv .tableContainer ul.pagination{
+    margin:5px 0 0;
+}
+.rightPatientDiv .tableContainer .tableTenRecord {
+    max-height: 335px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #d1ced3;
+}
+.tableContainer .nav-tabs{
+    border:0;
+}
+.tableContainer .nav-tabs li{
+    border:1px solid #d4d2d6;
+    border-right:0;
+}
+.tableContainer .nav-tabs li a{
+    color:#525252;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:13px;
+    padding:5px 15px;
+    margin-right: 0;
+    background: #f5f3f5;
+}
+.tableContainer .nav-tabs li:last-child{
+    border-right:1px solid #d4d2d6;
+}
+.tableContainer .nav-tabs li.active, .tableContainer .nav-tabs li.active a{
+    background-color:#8aca14;
+    border:1px solid #8aca14;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size:13px;
+}
+.tableContainer .nav-tabs > li > a:hover{
+    border-radius:0;
+
+}
+.tableContainer table{
+    width:100%;
+}
+.tableContainer thead{
+    background-color:#cccccc;
+    color:#000000;
+    font-size:12px;
+    font-weight: 600;
+    font-family: Open Sans;
+}
+.tableContainer th{
+    padding:8px 0 7px;
+}
+.tableContainer thead{
+    border:1px solid #d1ced3;
+}
+.tableContainer tbody{
+    font-size: 11px;
+    color:#000000;
+    font-weight:600;
+    text-transform: uppercase;
+    border:1px solid #d1ced3;
+}
+.tableContainer th,.tableContainer td{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.tableContainer td{
+    padding-top:8px;
+    padding-bottom:7px;
+}
+.tableContainer tr td:first-child,.tableContainer th:first-child{
+    padding-left: 10px;
+}
+
+.tableContainer tr td:first-child{
+    color:#2171b6;
+    text-decoration:underline;
+}
+.tableContainer tr td:nth-child(6),.tableContainer th:nth-child(6){
+
+}
+.tableContainer tr td:nth-child(4){
+    text-align: left;
+}
+.tableContainer .table-striped > tbody > tr:nth-of-type(odd){
+    background-color:#ffffff;
+}
+.tableContainer .table-striped > tbody > tr:nth-of-type(even){
+    background-color:#f7f7f7;
+}
+.tableContainer nav{
+    text-align:center;
+}
+.tableContainer nav li a{
+    margin:0 3px;
+    border:1px solid #d4d2d7;
+    color:#666666;
+    background-color: #f6f5f6;
+}
+.tableContainer nav li.active a,.tableContainer nav li a:hover,.tableContainer nav li.active a:hover{
+    background-color:#8aca14;
+    border:1px solid #8aca14;
+    color:#fff;
+}
+.tableContainer nav li:first-child a,.tableContainer nav li:last-child a{
+    border-radius:0;
+}
+.tableContainer ul.pagination{
+    margin-bottom: 20px;
+}
+.tableContainer nav {
+    text-align: right;
+}
+.tableContainer > .nav-tabs{
+    float:left;
+    width:auto;
+}
+.tableContainer > .tab-content{
+    clear:left;
+}
+.searchRecordsContainer{
+    float:right;
+}
+.searchRecordsContainer input{
+    padding-left:26px;
+}
+.searchRecordsContainer input,
+.searchRecordsContainer select{
+    min-height:28px;
+}
+.searchRecordsContainer select{
+    float:left;
+    margin-right:10px;
+}
+.searchRecordsContainer div{
+    float:left;
+}
+.searchRecordsContainer button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size:19px;
+    margin-left:5px;
+    background-color:transparent;
+    border:0;
+    outline:none;
+}
+.searchRecordsContainer button:focus,
+.searchRecordsContainer button:active{
+    border:0;
+    outline:none;
+}
+.searchBoxField{
+    position:relative;
+}
+
+.tableContainer .pagination > li > a,.tableContainer .pagination > li > span{
+    padding:2px 9px;
+    min-height:26px;
+}
+.tableContainer .pagination > li > a i,.tableContainer .pagination > li > span i{
+    line-height:1.42857143;
+}
+.textBox .col-sm-7{
+    padding-left: 0;
+}
+.textBox .messageForm .messageBox{
+    border:1px solid #2171b6;
+    height:95px;
+}
+.messageForm{
+    position:relative;
+}
+.messageForm button{
+    border:0;
+    background-color: transparent;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    font-size:18px;
+}
+.tableModal .close, .listModal .close, .imgModal .close{
+    box-shadow:none;
+    top:0;
+    outline:0;
+    right: -8px;
+}
+.tableModal .close:hover, .listModal .close:hover, .imgModal .close:hover{
+    background:none;
+    outline:0;
+}
+#dependentsModal .dataTables_wrapper{
+    padding-bottom:10px;
+}
+/*2-9-2016 omair css*/
+
+/*old modal css*/
+/*Dependents,History,Detail,Cards Modal Css*/
+.tableModal.modal .table-responsive{
+    max-height:202px;
+    margin:0;
+}
+.tableModal.modal,
+.listModal,
+.imgModal{
+    height:100%;
+}
+.tableModal.modal .modal-dialog,
+.listModal.modal .modal-dialog,
+.imgModal.modal .modal-dialog{
+    top:50%;
+    width:730px;
+    -webkit-transform:translateY(-70%);
+    transform:translateY(-70%);
+}
+
+
+.tableModal.modal .close,
+.listModal .close,
+.imgModal .close{
+    color:#fff;
+    font-size:24px;
+    font-weight:600;
+    opacity:1;
+    margin:4px 12px 0 0;
+}
+.tableModal.modal .modal-header,
+.listModal .modal-header,
+.imgModal .modal-header{
+    max-height: 38px;
+    padding:0;
+    background-color: #2171b6;
+}
+.tableModal.modal .modal-header h4,
+.listModal .modal-header h4,
+.imgModal .modal-header h4{
+    line-height:38px;
+    padding:0 20px;
+    color:#fff;
+    text-transform: none;
+    font-weight:600;
+    font-size: 16px;
+}
+.tableModal.modal .modal-body,
+.listModal .modal-body{
+    padding:0;
+}
+.tableModal.modal table{
+    margin:0;
+}
+.tableModal.modal th{
+    color:#669900;
+    background-color:#dddddd;
+    min-height:40px;
+}
+.tableModal.modal td{
+    color:#676767;
+    min-height:40px;
+}
+.tableModal.modal td:first-child,.tableModal th:first-child{
+    padding-left:20px;
+}
+.tableModal.modal tbody > tr:nth-of-type(odd){
+    background-color: #f6f6f6;
+}
+.tableModal.modal tbody > tr:nth-of-type(even){
+    background-color: #dddddd;
+}
+.listModal .modal-body{
+    background-color:#dddddd;
+    padding-bottom:16px;
+}
+.listModal ul,
+.listModal dl{
+    list-style: none;
+    margin:0;
+}
+.listModal ul{
+    padding-left:21px;
+}
+.listModal dt{
+    color:#666666;
+}
+.listModal dd{
+    color:#2170b3;
+    font-weight: 600;
+}
+.listModal li{
+    width:50%;
+    float:left;
+    margin:14px 0 0;
+}
+.listModal li:nth-last-child(3){
+    width:100%;
+}
+.listModal.modal .modal-content,.listModal.modal .modal-dialog{
+    width:500px;
+}
+.imgModal .modal-body{
+    padding:20px 35px;
+    position:relative;
+}
+.imgModal.modal .modal-dialog{
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
+.imgModal .modal-content,
+.imgModal.modal .modal-dialog{
+    width:565px;
+}
+.imgModal img{
+    width:487px;
+    height:323px;
+}
+.imgModal i{
+    position:absolute;
+    top:50%;
+    font-size:26px;
+    font-weight: 600;
+    color:#999999;
+    -webkit-transform:translateY(-50%);
+    transform:translateY(-50%);
+    display:none;
+    cursor:pointer;
+}
+.imgModal i.fa-chevron-right{
+    right:8px;
+}
+.imgModal i.fa-chevron-left{
+    left:6px;
+}
+.insuranceContainer > div > img{
+    cursor:pointer;
+}
+.tableContainer nav {
+    text-align: right;
+}
+.userBanner p{
+    line-height:21.9429px;
+}
+.patientTableRow .insuranceContainer i{
+    color: #ef9a5d;
+    font-size: 16px;
+    margin-left: 4px;
+}
+.patientTableRow  .insuranceContainer > span:last-of-type{
+    float:none;
+    text-decoration: none;
+}
+.textBox .col-sm-7{
+    padding-left: 0;
+}
+.textBox .messageForm .messageBox{
+    border:1px solid #2171b6;
+    height:95px;
+}
+.patientTableRow{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+}
+.rightPatientDiv{
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.patientTableRow .insuranceContainer{
+    margin-bottom:0;
+}
+.heightList ul:first-of-type li:last-child a{
+    position:absolute;
+    right:-8px;
+    margin-top:-16px;
+    color: #ef9a5d;
+    font-size: 16px;
+}
+.rightPatientDiv .tableContainer tr td:first-child{
+    color:#000000;
+    text-decoration:none;
+}
+.pagination > li > a, .pagination > li > span{
+    padding:2px 9px;
+}
+
+/*health modal css*/
+.formModal .modal-body{
+    padding: 12px 20px 15px;
+}
+.healthModal.modal .modal-dialog,.healthModal.modal .modal-content{
+    width:220px;
+}
+.formModal .form-group{
+    margin-bottom:7px;
+}
+.healthForm .form-group:first-child,.healthForm .form-group:nth-child(2){
+    float:left;
+    width:50%;
+}
+.healthForm .form-group:first-child{
+    padding-right:4px;
+}
+.healthForm .form-group:nth-child(2){
+    padding-left:4px;
+}
+.formModal label{
+    color:#666666;
+    font-size:13px;
+    margin-bottom:0;
+    font-weight: 600;
+}
+.formModal input{
+    border-radius:0;
+    border:1px solid #999999;
+    margin-top:5px;
+}
+.modal .blueSubmitButton,
+.blueSubmitButton{
+    height:31px;
+    width:81px;
+    color:#fff;
+    background-color: #2368b2;
+    border:none;
+    font-size:13px;
+    font-weight: 600;
+    margin:12px auto 0;
+    display:block;
+}
+
+/*allergy modal*/
+.allergyModal.modal .modal-dialog,.allergyModal.modal .modal-content{
+    width:400px;
+}
+
+/*shipping modal*/
+
+.shippingModal.modal .modal-dialog{
+    -webkit-transform: translateY(-56%);
+    transform: translateY(-56%);
+}
+.shippingForm .form-group{
+    float:left;
+    width:50%;
+}
+.shippingForm .form-group:first-child,
+.shippingForm .form-group:nth-child(2){
+    float:none;
+    width:100%;
+}
+.shippingForm .form-group:nth-child(3),
+.shippingForm .form-group:nth-child(5),
+.shippingForm .form-group:nth-child(7){
+    padding-right:4px;
+}
+.shippingForm .form-group:nth-child(4),
+.shippingForm .form-group:nth-child(6),
+.shippingForm .form-group:nth-child(8){
+    padding-left:4px;
+}
+.shippingForm .form-group:nth-child(9){
+    clear:left;
+    float:none;
+}
+.shippingModal input[type="radio"]{
+    display: inline-block;
+    width:26px;
+    height:26px;
+    position:absolute;
+    margin-top:4px;
+}
+.shippingModal input[type="radio"] + span{
+    padding-left: 30px;
+    line-height: 40px;
+}
+.shippingModal input[type="radio"]:last-of-type,
+.shippingModal input[type="radio"]:last-of-type + span{
+    margin-left:5px;
+}
+
+.shippingModal input[type="checkbox"]{
+    display: inline-block;
+    width:26px;
+    height:26px;
+    position:absolute;
+    margin-top:0;
+}
+.shippingModal input[type="radio"] + span,.shippingModal input[type="checkbox"] + span{
+    color:#666666;
+}
+
+.shippingModal input[type="checkbox"] + span{
+    padding-left: 30px;
+    line-height: 35px;
+}
+
+/*Insurance Edit Modal*/
+
+.insEditForm .form-group{
+    float:left;
+    width:50%;
+}
+.insEditForm .form-group:nth-child(5){
+    float:none;
+    width:100%;
+    clear:left;
+}
+.insEditForm .form-group:nth-child(1),
+.insEditForm .form-group:nth-child(3),
+.insEditForm .form-group:nth-child(6){
+    padding-right:4px;
+}
+.insEditForm .form-group:nth-child(2),
+.insEditForm .form-group:nth-child(4),
+.insEditForm .form-group:nth-child(7){
+    padding-left:4px;
+}
+
+/*2-9-2016 after JScheck*/
+
+.rightPatientDiv .tableContainer ul.pagination{
+    margin:5px 0 0;
+}
+.rightPatientDiv .tableContainer .tableTenRecord {
+    max-height: 335px;
+    overflow-y: scroll;
+    border-bottom: 1px solid #d1ced3;
+}
+.messageBox{
+    height:95px;
+}
+.shippingModal select{
+    width:100%;
+    min-height:34px;
+    margin-top:5px;
+    border: 1px solid #999999;
+}
+.shippingModal input{
+    min-height:34px;
+}
+
+.tableContainer > .nav-tabs{
+    float:left;
+    width:auto;
+}
+.tableContainer > .tab-content{
+    clear:left;
+}
+.searchRecordsContainer{
+    float:right;
+}
+.searchRecordsContainer input{
+    padding-left:26px;
+}
+.searchRecordsContainer input,
+.searchRecordsContainer select{
+    min-height:28px;
+}
+.searchRecordsContainer select{
+    float:left;
+    margin-right:10px;
+}
+.searchRecordsContainer div{
+    float:left;
+}
+.searchBoxField{
+    position:relative;
+}
+.searchRecordsContainer button{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size:19px;
+    margin-left:5px;
+    background-color:transparent;
+    border:0;
+    outline:none;
+    margin-top:4px;
+}
+.searchRecordsContainer button:focus,
+.searchRecordsContainer button:active{
+    border:0;
+    outline:none;
+}
+
+
+.tableContainer th{
+    color: #000000;
+    font-size: 12px;
+}
+.tableContainer .nav-tabs li a{
+    padding: 5px 15px;
+    margin-right: 0;
+    background: #f5f3f5;
+}
+.tableContainer .nav > li.active,.tableContainer .nav > li.active > a{
+    height:auto;
+}
+.tableContainer .nav > li > a:hover,.tableContainer .nav > li > a:focus {
+    height: auto;
+}
+.tableContainer ul.pagination{
+    padding:0 0 0 0;
+}
+.tableContainer .tab-content>.active{
+    background-color:#fff;
+}
+.messageForm button,.messageBox + button[type="submit"]{
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+    bottom: 15px;
+    right: 18px;
+    font-size: 22px;
+}
+.p_detail_wrp{
+    padding-bottom:50px;
+}
+.searchRecordsContainer select,.searchRecordsContainer i{
+    color:rgb(51,51,51);
+}
+.healthForm .form-group:nth-child(2) label{
+    min-height:20px;
+}
+.tableContainer .table-striped>tbody>tr:nth-child(odd)>td,.tableContainer .table-striped>tbody>tr:nth-child(odd)>th{
+    background-color:transparent;
+}

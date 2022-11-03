@@ -1,0 +1,463 @@
+@media all and (max-width: 1200px) {
+.wrapper{
+    width:96%;
+}
+.banner_video img{
+	height:115%;
+	width:auto;
+}
+.ico_video {
+    right: 57%;
+    top: 52%;
+}
+.btextual_content h2 {
+    font-size: 28px;
+    line-height: 35px;
+}
+.btextual_content p {
+    font-size: 13px;
+    line-height: 22px;
+}
+.btextual_content .btn {
+    font-size: 18px;
+
+    padding: 5px 30px 6px;
+    margin: 12px 0 22px;
+}
+.btextual_content h5 {
+    font-size: 16px;
+}
+}
+@media all and (max-width: 1120px) {
+.banner_video img{
+	height:110%;
+	width:auto;
+}
+.btextual_content {
+    padding: 30px 52px 0 30px;
+}
+.my_apps {
+    padding: 10px 10px 0 30px;
+}
+.ico_video {
+    right: 56%;
+    top: 57%;
+}
+}
+
+@media all and (max-width: 1045px) {
+.banner_video img {
+    height: 117%;
+    width: auto;
+}
+.btextual_content {
+    padding: 30px 52px 0 30px;
+}
+.ico_video {
+    right: 54%;
+    top: 57%;
+}
+.banner {
+    min-height: 411px;
+}
+.banner_video {
+    min-height: 308px;
+}
+}
+@media all and (max-width: 1199px) {
+.footer p{
+    text-align:center;
+}
+.footer_privcy{
+    text-align:center;
+    padding-top:7px;
+    padding-bottom:12px;
+}
+.registration_layout{
+	padding:0 15px 0;
+}
+.r_p_head{
+	padding-top:10px;
+}
+.regi_col{
+	margin-bottom:15px;
+}
+.time_third{
+	float:none;
+	clear:left;
+}
+.cle{
+	clear:left;
+}
+.schedule_list .timeBlock:nth-child(2n+3){
+	clear:left;
+}
+}
+@media all and (max-width:1199px){
+    .registration_menu ul li{
+        width:16%;
+        float: left;
+        margin:0 0 3px 7px;
+    }
+}
+@media all and (max-width:1110px){
+    .registration_menu ul li{
+        width:32%;
+        margin:0 0 8px 8px;
+    }
+}
+
+@media all and (max-width: 1032px) {
+}
+@media all and (max-width: 1032px) {
+.mini_wrapper{
+    width:100%;
+}
+
+}
+@media all and (max-width: 991px) {
+.login_col {
+    padding-right: 15px;
+    border-right:0;
+        border-bottom: #999999 1px solid;
+        padding-bottom:25px;
+}
+.register_col{
+    padding-top:20px;
+}
+.licence_col{
+    padding-bottom:20px;
+    border-bottom: #999999 1px solid;
+    margin-bottom:20px;
+}
+.home_content h2{
+    font-size:23px;
+}
+.footer ul{
+    padding-top:7px;
+}
+.footer_privcy{
+    text-align:center;
+    padding-top:0px;
+    padding-bottom:12px;
+}
+.banner_video img {
+    height: 100%;
+    width: auto;
+	bottom:0;
+}
+.ico_video {
+    right: 232px;
+    top: 31%;
+}
+.my_apps{
+	position:relative;
+}
+.my_apps ul {
+    padding: 0 0 0;
+    margin: 0 0 0;
+    list-style: none;
+    background: none;
+    overflow: hidden;
+	position:absolute;
+	left:30px;
+	bottom:15px;
+}
+.my_apps ul li{
+	width:31%;
+	margin-right:2%;
+}
+.my_apps ul li img{
+	width:100%;
+}
+.my_apps ul li:first-child{ 
+	display:block;
+	float:none;
+	background:none;
+	width:auto;
+}
+}
+@media all and (max-width: 890px) {
+.home_content h2{
+    font-size:20px;
+}
+.home_widget h5{
+    font-size:14px;
+}
+.home_widget p{
+    font-size:12px;
+    line-height:18px;
+}
+}
+@media all and (max-width: 770px) {
+.modal-content{
+    width:94%;
+}
+}
+@media all and (max-width: 767px) {
+.logo h1{
+    display:inline-block
+}
+.logo{
+    text-align:center;
+}
+.home_content h2 {
+    font-size: 17px;
+    margin: 0 0 24px;
+    padding: 0 0 14px;
+}
+.home_content{
+    padding-top:0px;
+}
+.secont_field{
+	padding-left:15px;
+}
+.first_field{
+	padding-right:15px;
+}
+.regi_col i{
+	margin-bottom:10px;
+}
+}
+@media all and (max-width: 660px) {
+.my_apps{
+	padding-bottom:20px;
+
+}
+.my_apps ul{
+	width:80%;
+}
+}
+@media all and (max-width: 650px) {
+.registration_menu ul li {
+    width: 49%;
+    margin: 0 2% 8px 0;
+}
+.registration_menu ul li:nth-child(2n){
+	margin-right:0;
+}
+}
+@media all and (max-width: 620px) {
+.home_content h2 {
+    font-size: 15px;
+    margin: 0 0 24px;
+    padding: 0 0 14px;
+    line-height:22px;
+}
+}
+@media all and (max-width: 590px) {
+.registration_head p{
+	font-size:16px;
+}
+}
+@media all and (max-width: 530px) {
+.modal-content{
+    width:92%;
+}
+.login_col {
+        padding-bottom:15px;
+}
+.regitsre_model .select_div ul li label{
+    font-size:14px;
+}
+.regitsre_model .select_div ul li label span{
+    font-size:11px;
+}
+.banner_video img {
+    height: auto;
+    width: 80%;
+    bottom: 0;
+}
+.ico_video {
+    right: 42%;
+    top: 38%;
+}
+.btextual_content h2 {
+    font-size: 25px;
+    line-height: 33px;
+}
+}
+@media all and (max-width: 480px) {
+.registration_head p{
+	font-size:14px;
+}
+.registration_head p span{
+	padding-top:3px;
+}
+.registration_head{
+	margin-bottom:15px;
+}
+.r_p_head p {
+    font-size: 14px;
+    line-height: 25px;
+}
+.ico_video {
+    right: 42%;
+    top: 40%;
+}
+}
+@media all and (max-width: 450px) {
+.modal-content{
+    width:90%;
+}
+.login_model h2{
+    font-size:23px;
+}
+.login_footer p{
+    font-size:11px;
+}
+.regitsre_model .select_div ul li label{
+    font-size:12px;
+    line-height:inherit;
+}
+.regitsre_model .select_div ul li label span{
+    font-size:10px;
+}
+.ico_video {
+        right: 40%;
+    top: 39%;
+}
+.banner_video {
+    min-height: 280px;
+}
+}
+@media all and (max-width: 440px) {
+.home_widget p {
+    font-size: 11px;
+    line-height: 15px;
+}
+.home_widget h5{
+    font-size:13px;
+    text-transform:capitalize;
+    line-height:16px;
+}
+.home_widget {
+    background: #f0f0f0;
+    position: relative;
+       padding: 24px 17px 15px 96px;
+}
+.timeBlock {
+    min-width: 47.7px;
+	height:22px;
+    font-size: 10px;
+    padding: 3px 4px 0;
+    margin: 0 3px 8px 0;
+}
+.regi_col label{
+	font-size:12px;
+}
+.regi_col .radio_style ul li label{
+	font-size:12px;
+}
+.regi_col h5{
+	font-size:15px;
+}
+.regi_col h4{
+	font-size:14px
+}
+.regi_cofi p{
+	font-size:11px;
+}
+.ico_video {
+    width: 45px;
+    height: 31px;
+    right: 44%;
+    top: 46%;
+	background-size:100%;
+}
+.btextual_content h2 {
+    font-size: 17px;
+    line-height: 27px;
+	font-weight:normal;
+}
+.btextual_content p {
+    font-size: 12px;
+    line-height: 22px;
+}
+.btextual_content h5 {
+    font-size: 14px;
+}
+}
+@media all and (max-width: 400px) {
+.login_col .field_btn{
+    float:none !important;
+    display:block;
+    width:100px;
+    margin-bottom:10px;
+}
+.forget_pass{
+    float:none !important;
+}
+.footer_privcy p{
+    display:block;
+}
+
+.footer p{
+    font-size:11px;
+}
+.footer ul li{
+    font-size:12px;
+}
+.footer_privcy a{
+    display:inline-block;
+    clear:left;
+    margin:0 0 0 5px;
+}
+.registration_menu ul li {
+    width: 100%;
+    margin: 0 0 8px 0;
+}
+.banner_video {
+    min-height: 238px;
+}
+.ico_video {
+    right: 44%;
+    top: 40%;
+}
+.my_apps {
+    padding-bottom: 36px;
+}
+}
+@media all and (max-width: 390px) {
+}
+@media all and (max-width: 335px) {
+.footer ul li{
+    margin:0 6px 0;
+}
+.timeBlock {
+    min-width: 44.7px;
+    height: 22px;
+    font-size: 9px;
+    padding: 5px 2px 0;
+    margin: 0 3px 8px 0;
+}
+}
+@media all and (max-width: 370px) {
+	.ico_video {
+    right: 42%;
+    top: 38%;
+}
+.banner_video {
+    min-height: 213px;
+}
+.btextual_content h5 {
+    font-size: 12px;
+}
+}
+@media all and (max-width: 345px) {
+	.ico_video {
+    right: 42%;
+    top: 42%;
+}
+.banner_video {
+    min-height: 213px;
+}
+}
+@media all and (max-width: 320px) {
+.footmenu{
+    display:none;
+}
+}
+
+/*O responsive*/
+

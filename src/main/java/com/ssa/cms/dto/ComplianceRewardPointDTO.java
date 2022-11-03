@@ -1,0 +1,200 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.ssa.cms.dto;
+
+import com.ssa.cms.model.*;
+import java.io.Serializable;
+import java.util.Date;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+/**
+ *
+ * @author Jandal
+ */
+public class ComplianceRewardPointDTO {
+    private int rewardId;
+    private PatientProfile profile;
+    private String RxNo;
+    private Order orders;
+    private RewardActivity rewardactivities;
+    private int activityCount;
+    private String rxPatientOutOfPocket;
+    private String currentEarnReward;
+    private String currentRemainBalance;
+    private Date createdOn;
+    private Date updateOn;
+    private String drugName;
+    private String drugType;
+    private String strength;
+    private String genericOrBrand;
+    private float earnedWegaWalletBounusPoint;
+    private int totalwwPointYouCanEarn;
+    private float remianingwwPoint;
+    private String wegaWalletPointOverDue;
+    private int vegaWalletActivityCount;
+
+
+
+    public String getDrugName() {
+        return drugName;
+    }
+
+    public void setDrugName(String drugName) {
+        this.drugName = drugName;
+    }
+
+    public int getRewardId() {
+        return rewardId;
+    }
+
+    public void setRewardId(int RewardId) {
+        this.rewardId = RewardId;
+    }
+    public PatientProfile getProfile() {
+        return profile;
+    }
+
+    public void setProfile(PatientProfile profile) {
+        this.profile = profile;
+    }
+    public String getRxNo() {
+        return RxNo;
+    }
+
+    public void setRxNo(String RxNo) {
+        this.RxNo = RxNo;
+    }
+    public Order getOrders() {
+        return orders;
+    }
+
+    public void setOrders(Order orders) {
+        this.orders = orders;
+    }
+    public RewardActivity getRewardactivities() {
+        return rewardactivities;
+    }
+
+    public void setRewardactivities(RewardActivity rewardactivities) {
+        this.rewardactivities = rewardactivities;
+    }
+    public int getActivityCount() {
+        return activityCount;
+    }
+
+    public void setActivityCount(int ActivityCount) {
+        this.activityCount = ActivityCount;
+    }
+    public String getRxPatientOutOfPocket() {
+        return rxPatientOutOfPocket;
+    }
+
+    public void setRxPatientOutOfPocket(String OrignalPointAuth) {
+        this.rxPatientOutOfPocket = OrignalPointAuth;
+    }
+    public String getCurrentEarnReward() {
+        return currentEarnReward;
+    }
+
+    public void setCurrentEarnReward(String CurrentEarnReward) {
+        this.currentEarnReward = CurrentEarnReward;
+    }
+    public String getCurrentRemainBalance() {
+        return currentRemainBalance;
+    }
+
+    public void setCurrentRemainBalance(String CurrentRemainBalance) {
+        this.currentRemainBalance = CurrentRemainBalance;
+    }
+    public Date getCreatedOn() {
+        return createdOn;
+    }
+
+    public void setCreatedOn(Date CreatedOn) {
+        this.createdOn = CreatedOn;
+    }
+    public Date getUpdateOn() {
+        return updateOn;
+    }
+
+    public void setUpdateOn(Date UpdateOn) {
+        this.updateOn = UpdateOn;
+    }
+        public String getDrugType() {
+        return drugType;
+    }
+
+    public void setDrugType(String drugType) {
+        this.drugType = drugType;
+    }
+
+    public String getStrength() {
+        return strength;
+    }
+
+    public void setStrength(String strength) {
+        this.strength = strength;
+    }
+
+    public String getGenericOrBrand() {
+        return genericOrBrand;
+    }
+
+    public void setGenericOrBrand(String genericOrBrand) {
+        this.genericOrBrand = genericOrBrand;
+    }
+   public float getEarnedWegaWalletBounusPoint() {
+        return earnedWegaWalletBounusPoint;
+    }
+
+    public void setEarnedWegaWalletBounusPoint(float earnedWegaWalletBounusPoint) {
+        this.earnedWegaWalletBounusPoint = earnedWegaWalletBounusPoint;
+    }
+
+    public int getTotalwwPointYouCanEarn() {
+        return totalwwPointYouCanEarn;
+    }
+
+    public void setTotalwwPointYouCanEarn(int totalwwPointYouCanEarn) {
+        this.totalwwPointYouCanEarn = totalwwPointYouCanEarn;
+    }
+
+    public float getRemianingwwPoint() {
+        return remianingwwPoint;
+    }
+
+    public void setRemianingwwPoint(float remianingwwPoint) {
+        this.remianingwwPoint = remianingwwPoint;
+    }
+    public String getWegaWalletPointOverDue() {
+        return wegaWalletPointOverDue;
+    }
+
+    public void setWegaWalletPointOverDue(String wegaWalletPointOverDue) {
+        this.wegaWalletPointOverDue = wegaWalletPointOverDue;
+    }
+    
+    public int getVegaWalletActivityCount() {
+        return vegaWalletActivityCount;
+    }
+
+    public void setVegaWalletActivityCount(int vegaWalletActivityCount) {
+        this.vegaWalletActivityCount = vegaWalletActivityCount;
+    }
+
+
+
+}

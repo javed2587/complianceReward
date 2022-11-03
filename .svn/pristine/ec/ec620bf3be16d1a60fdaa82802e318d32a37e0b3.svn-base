@@ -1,0 +1,13 @@
+#
+# Autor: Muhammad Mohsin Aziz
+#
+delete.success = selected {0} removed successfully.
+delete.failure = Failed to remove {0}
+
+update.success = selected {0} updated successfully.
+update.failure = Failed to update {0}
+
+insert.success =  New {0} has been created successfully.
+insert.failure = selected {0} could not be saved successfully.
+
+edit.failure = Requested instance {0} is not found in the data base.

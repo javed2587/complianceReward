@@ -1,0 +1,621 @@
+   
+                    /*Css for android Screen 1*/
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+.logos{
+    text-align: center;
+    margin-bottom:5px;
+}
+.logo_width{
+    width: 230px;
+}
+.dat_s1{
+    font-family: roboto condensed;
+    font-size: 11px;
+    color: #000000;
+    padding-top: 12px;
+}
+.dat_s1 P{
+    text-align: left;
+    font-family: roboto condensed;
+    font-size: 11px;
+    color: #000000;
+    margin-bottom: 2px;
+    padding-left: 16px;
+}
+.dat_s1 h3{
+    text-align: center;
+    font-family: roboto condensed;
+    font-size: 19px;
+    color: #000000;
+    margin: 10px 0 5px 0;
+    font-weight: 700;
+    
+}
+.olym_one{
+        text-align: center;
+        color:grey;
+        font-family: roboto condensed;
+        font-weight: bold;
+        font-size: 17px;
+        margin: 20px 0 20px 0;
+}
+.logos_one{
+    text-align: center;
+}
+.olym_one h5{
+        text-align: center;
+        color: orange;
+        font-family: roboto condensed;
+        font-weight: bold;
+        font-size: 11px;
+        margin-bottom: 25px;
+}
+.btns_one{
+    text-align: center;
+    padding-left: 14px;
+}
+.btnb_my{
+    text-align: center;
+    font-family: roboto condensed;
+    font-weight: 700;
+    border-radius: 0;
+    margin: 8px auto;
+    background-color: #95c241;
+    color: #ffffff;
+    font-size: 20px;
+    border: 0;
+    width: 99%;
+    height: 30px;
+     /*padding: 5px;*/
+    display: block;
+    text-decoration: none;
+}
+.btnb_home{
+    text-align: center;
+    font-family: roboto condensed;
+    font-weight: 700;
+    border-radius: 0;
+    margin: 8px auto;
+    background-color:#0070c0;
+    color: #ffffff;
+    font-size: 20px;
+    border: 0;
+    width: 99%;
+    height: 30px;
+    display: block;
+     /*padding: 5px;*/
+    text-decoration: none;
+}
+.pre_one{
+    color: #000000;
+    text-align: center;
+    font-family: roboto condensed;
+    font-size: 15px;
+    margin: 5px 0 0 0;
+    padding: 0 5px 0 5px;
+}
+.pre_one span{
+    color: #949494;
+}
+.footer{
+    position: absolute;
+    bottom: 15px;
+    /* margin-bottom: 10px; */
+    width: 96%;
+} 
+/*///////////////2nd ///////////////////*/
+             /* Screen 4 */
+
+             /* Screen 4 */
+
+
+.marg_d{
+    margin: 10px 0 auto;
+    padding:0 15px;
+}
+.date_f{
+    margin-left: 0; 
+    margin-top: 10px;
+    margin-bottom:0;
+}
+.date_f p{
+   
+    margin:0;
+    padding-left:0;
+}
+.txt_algn{
+    text-align: center;
+    margin-bottom:5px;
+}
+.dat_s4{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #000000;
+    padding-top: 5px;
+}
+.dat_s4 P{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+.dat_s4 h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #ff0000;
+    margin: 0 0 20px 0;
+    font-weight: 700;
+}
+
+.olym_four{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.olym_four h5{
+    text-align: left;
+    color: #0a75c2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.olym_four h4{
+    text-align: left;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+    display: inline-block;
+}
+.olym_four span{
+    text-align: left;
+    color: #0070c0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin:0;
+    display: inline-block;
+}
+.olym_four label{
+    text-align: left;
+    color: #ff0000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin:0;
+    display: inline-block;
+}
+.olym_four h6{
+    text-align: left;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 10px;
+    margin:6px 0 6px 0;
+    display: inline-block;
+}
+.olym_four p{
+    text-align: left;
+    color: #7f7f7f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    margin:0;
+    display: inline-block;
+}
+.mrg{
+    padding-top:18px;
+}
+.logos_four{
+    text-align: center;
+}
+.logos_four h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding:10px 16px;
+}
+
+.btns_four{
+    text-align: center;
+    margin:20px 0 0 0;
+}
+.btnb_back {
+       text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 0;
+    margin: 8px 0 auto;
+    background-color: #95c241;
+    color: #ffffff;
+    font-size: 20px;
+    border: 0;
+    width: 94%;
+    height: 30px;
+    padding: 6px 0 0 0px;
+    display: block;
+    text-decoration: none;
+}
+.btnb_auth {
+   text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 0;
+    margin: 8px 0 auto;
+    background-color: #0070c0;
+    color: #ffffff;
+    font-size: 20px;
+    border: 0;
+    width: 94%;
+    height: 30px;
+    display: block;
+    padding: 5px 0 0 0;
+    text-decoration: none;
+}
+
+
+.footer_four {
+    position: absolute;
+    bottom: 15px;
+    width: 92%;
+}
+             /* Screen 4 */
+       
+       
+  /* Screen Authorization */
+
+
+.marg_autho{
+    margin-top: 10px;
+    
+}
+.date_autho{
+    margin-left: 0; 
+    margin-top: 10px;
+    margin-bottom:0;
+}
+.date_autho p{
+   
+    margin:0;
+    padding-left:0;
+}
+.txt_algn_autho{
+    text-align: center;
+    margin-bottom:5px;
+}
+.dat_autho{
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #000000;
+    padding-top: 5px;
+}
+.dat_autho P{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #000000;
+}
+.dat_autho h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #ff0000;
+    margin: 10 0 18px 0;
+    font-weight: 700;
+}
+
+.olym_autho{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.olym_autho h5{
+    text-align: left;
+    color: #0a75c2;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.olym_autho h4{
+    text-align: left;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0;
+    display: inline-block;
+}
+.olym_autho span{
+    text-align: left;
+    color: #0070c0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin:0;
+    display: inline-block;
+}
+.olym_autho label{
+    text-align: left;
+    color: #ff0000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 10px;
+    margin:0;
+    display: inline-block;
+}
+.olym_autho h2{
+    text-align: left;
+    color: #ff0000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 13px;
+    margin:0;
+    display: inline-block;
+}
+.olym_autho h6{
+    text-align: left;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 10px;
+    margin:6px 0 6px 0;
+    display: inline-block;
+}
+.olym_autho p{
+    text-align: left;
+    color: #7f7f7f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 11px;
+    margin:0;
+    display: inline-block;
+}
+.mrg_autho{
+    padding-top:18px;
+}
+.olym_autho img{
+    width:56px;
+    
+    float:right;
+}
+.logos_autho{
+    text-align: center;
+}
+.logos_autho h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding:10px 16px;
+}
+
+.btns_autho{
+    text-align: center;
+    margin:20px 0 0 0;
+}
+.btnb_back_autho{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 0;
+    margin: 8px auto;
+    background-color: #95c241;
+    color: #ffffff;
+    font-size: 20px;
+    border: 0;
+    width: 99%;
+    height: 30px;
+    padding-top: 5px;
+    display: block;
+    text-decoration: none;
+}
+.btnb_auth_autho{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 0;
+    margin: 8px auto;
+    background-color:#0070c0;
+    color: #ffffff;
+    font-size: 20px;
+    border: 0;
+    width: 99%;
+    height: 30px;
+    display: block;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+
+.footer_autho{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 10px;
+    width: 92%;
+}
+            /* Screen Authorization */
+       
+
+            /*Css for android screen 3 successfully paid*/
+    /*Css for android screen 3 successfully paid*/
+.logos{
+    text-align: center;
+    margin-bottom:5px;
+}
+.logo_width{
+    width: 230px;
+}
+.dat_paid{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    color: #63a0e1;
+    padding-top: 12px;
+}
+.olym_paid{
+    text-align: center;
+    color:grey;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 20px 0 20px 0;
+}
+.prescp p{
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 20px 0 0 0;
+    padding: 0 5px 0 5px;
+}
+.prescp h4{
+    color:gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding:0 5px 0 5px;
+}
+.imme_paid{
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.rite_paid label{
+    text-align: right;
+}
+.smal_tex_paid{
+    color:#63a0e1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.rx_span_paid{
+    color:#63a0e1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+}
+.patient_out_paid{
+    color:#63a0e1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: right;
+    margin:20px 0 20px 0;
+    padding-right: 5px;
+}
+.forty{
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 55px;
+}
+.pay_now{
+    color:#3c66ff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.pharm{
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.once_t{
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0 30px 0;
+    padding:0 5px 16px 5px;
+}
+
+
+.pre_paid p{
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+.pre_paid h4{
+    color:gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding:0 5px 0 5px;
+    margin-top:0;
+}
+.paide_paid{
+    color:gray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    padding:0 55px 0 0;
+}
+.medic_paid{
+    color:#000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.btm_paid{
+    margin-bottom: 20px;
+}
+.clk_here_paid{
+    color:#e13131;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+}
+.discont_paid {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 10px 0 0 0;
+    padding: 0 5px 0 5px;
+ }
+ 
+.footer_paid{
+    position: absolute;
+    bottom: 0px;
+    margin-bottom: 10px;
+    width: 85%;
+    text-align: center;
+ }
+ .btnb_back_paid{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    border-radius: 0;
+    margin: 8px auto;
+    background-color: #0070c0;
+    color: #ffffff;
+    font-size: 20px;
+    border: 0;
+    width: 99%;
+    height: 30px;
+    padding-top: 5px;
+    display: block;
+    text-decoration: none;
+}
+.flot_paid{
+    float:right;
+    padding-right: 30px;
+}
+    /*Css for android screen 3 successfully paid*/

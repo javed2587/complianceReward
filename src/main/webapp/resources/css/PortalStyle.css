@@ -1,0 +1,3891 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+img,a {
+    border:none;
+}
+body,p {
+    font-family: Arial !important;
+    font-size: 16px;
+    color:#333333;
+}
+
+.hearder {
+    background: #efefef none repeat scroll 0 0;
+    width: 100%;
+}
+
+#top {
+    padding: 10px 15px;
+}
+
+.logo {
+    height: 48px;
+}
+
+/*manu*/
+.menu_header {
+    height: auto;
+    background-color: #2071b6;
+    background: -webkit-gradient(linear, 0 50%, 0 100%, from(#1f4c76), to(#1f4c76));
+    background: -webkit-linear-gradient(top, #1f4c76, #1f4c76);
+    background: -moz-linear-gradient(top, #1f4c76, #1f4c76);
+    background: -o-linear-gradient(top, #2071b6, #1f4c76);
+    background: -ms-linear-gradient(top, #1f4c76, #1f4c76);
+    background: linear-gradient(to bottom, #1f4c76, #1f4c76);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    /* font-family: Myriad Pro;*/
+    font-size:13px;
+}
+
+.navbar-nav > li > a:hover {
+    color: #fff !important;
+    background-color: #14426d;
+    background: -webkit-gradient(linear, 0 50%, 0 100%, from(#14426d), to(#14426d));
+    background: -webkit-linear-gradient(top, #14426d, #14426d);
+    background: -moz-linear-gradient(top, #14426d, #14426d);
+    background: -o-linear-gradient(top, #14426d, #14426d);
+    background: -ms-linear-gradient(top, #14426d, #14426d);
+    background: linear-gradient(to bottom, #14426d, #14426d);
+}
+
+.navbar-nav > li > a:focus {
+    color: #000 !important;
+    background-color: #14426d;
+    background: -webkit-gradient(linear, 0 50%, 0 100%, from(#14426d), to(#14426d));
+    background: -webkit-linear-gradient(top, #14426d, #14426d);
+    background: -moz-linear-gradient(top, #14426d, #14426d);
+    background: -o-linear-gradient(top, #14426d, #14426d);
+    background: -ms-linear-gradient(top, #14426d, #14426d);
+    background: linear-gradient(to bottom, #14426d, #14426d);
+}
+
+.navbar-nav > li > a {
+    line-height: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar-nav > li {
+    border-right: 1px solid #fff;
+}
+
+.navbar-nav > li:last-child {
+    border-right: none;
+}
+
+#navbar {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.btn-primary {
+    background-color: #1f4c76;
+    border-color: #174673;
+}
+
+.btn-primary:hover {
+    color: #fff !important;
+    background-color: #14426d;
+    background: -webkit-gradient(linear, 0 50%, 0 100%, from(#14426d), to(#14426d));
+    background: -webkit-linear-gradient(top, #14426d, #14426d);
+    background: -moz-linear-gradient(top, #14426d, #14426d);
+    background: -o-linear-gradient(top, #14426d, #14426d);
+    background: -ms-linear-gradient(top, #14426d, #14426d);
+    background: linear-gradient(to bottom, #14426d, #14426d);
+    border-color: #1f4c76;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+#logo {
+    padding-left: 0px;
+}
+
+#login button {
+    float: right;
+    margin-right: -14px;
+    margin-top: 7px;
+}
+
+#crateaccount {
+    padding-left: 10px;
+}
+
+.navbar-default {
+    background-color: #2071b6;
+    background: -webkit-gradient(linear, 0 50%, 0 100%, from(#1f4c76), to(#1f4c76));
+    background: -webkit-linear-gradient(top, #1f4c76, #1f4c76);
+    background: -moz-linear-gradient(top, #1f4c76, #1f4c76);
+    background: -o-linear-gradient(top, #2071b6, #1f4c76);
+    background: -ms-linear-gradient(top, #1f4c76, #1f4c76);
+    background: linear-gradient(to bottom, #1f4c76, #1f4c76);
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.invalidmessage {
+    color: #ff0000;
+    font-size: 8pt;
+    line-height: 23px;
+}
+
+.primry {
+    color: #2071b6;
+    font-size: 8pt !important;
+    line-height: 12pt !important;
+    margin-top: 10px !important;
+}
+
+.messgae1 {
+    color: #1f4c76;
+    font-size: 22pt !important;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.messgae2 {
+    font-family: Arial;
+    color: #1f4c76;
+    font-size: 18pt !important;
+    margin-top: 12px !important;
+}
+
+.textbox {
+    width: 100%;
+    height: 35px !important;
+    border-radius: 2px;
+    border: 1px solid #14426d;
+    margin-top: 5px !important;
+}
+
+.phormacyloginInvalidMessage{
+    color: #ff0000;
+    font-size: 8pt;
+    line-height: 23px;
+}
+
+.paharmacyloginmessgae1 {
+    color: #1f4c76;
+    font-size: 24pt !important;
+    font-weight: bold;
+    margin-top: -7px;
+}
+
+.pharmacyloginmessage2{
+    color: #2071b6;
+    font-size: 8pt !important;
+    line-height: 12pt !important;
+    margin-top: 10px !important;
+}
+
+.pharmacylogintextboxes{
+    width: 100%;
+    height: 35px !important;
+    border-radius: 2px;
+    border: 1px solid #14426d;
+    margin-top: 5px !important;
+}
+
+.signupmessage {
+    float: right;
+}
+
+.innermessage {
+    color: #1f4c76;
+    font-family: Arial;
+    font-size: 16pt;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    vertical-align: middle;
+}
+.innermessage2{
+    font-size: 12pt;
+    color: #1f4c76;
+    font-weight: bold;
+}
+#prescriptionBtnsDiv{
+    text-align: right;
+}
+.div-padding{
+    padding: 0;
+}
+.background1 {
+    background-color: #fff;
+    padding: 10px;
+    min-height: 128px;
+    font-size: 14px;
+    line-height: 18pt;
+    padding-bottom: 0px;
+    font-family: arial;
+}
+
+.background2 {
+    background-color: #fff;
+    padding: 10px;
+    min-height: 85px;
+    font-size: 13pt;
+    line-height: 18pt;
+    padding-bottom: 0px;
+}
+
+.sperator {
+    margin: 10px;
+}
+
+.imageicon {
+    color: #fff;
+    height: auto;
+    border-radius: 1px;
+    background-color: #003468;
+    background: -webkit-gradient(linear, 0 50%, 0 100%, from(#003468), to(#003468));
+    background: -webkit-linear-gradient(top, #003468, #003468);
+    background: -moz-linear-gradient(top, #003468, #003468);
+    background: -o-linear-gradient(top, #003468, #003468);
+    background: -ms-linear-gradient(top, #003468, #003468);
+    background: linear-gradient(to bottom, #003468, #003468);
+    padding: 4px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+.messagecontent {
+    font-size: 14px;
+    text-align: justify;
+    padding-top: 5px;
+    line-height: 18px;
+}
+
+.left-devs {
+    padding-left: 0px;
+    padding-right: 10px;
+}
+
+.right-dev {
+    margin: 0px !important;
+    padding: 0px;
+}
+
+.formcontent {
+    padding-right: 0px;
+}
+
+.radiobuttonsetting {
+    color: #1f4c76;
+    font-size: 8pt !important;
+    margin-top: 14px !important;
+}
+
+.alignsignupmessage {
+    color: #b8b8b8;
+    font-size: 8pt;
+}
+
+.smallinfo {
+    text-align: justify;
+    font-size: 8pt;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.wellcomeheading {
+    text-align: center;
+    color: #1f4c76;
+    font-size: 18pt;
+    margin-top: 10px;
+}
+
+.discription {
+    margin-left: 23px;
+    margin-right: 23px;
+    text-align: center;
+}
+
+.foripad {
+    margin-top: 10px !important;
+}
+
+.padding {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.maininputarea {
+    margin-top: 18px !important;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.footer {
+    background: #1f4c76 none repeat scroll 0 0;
+    border-top: 1px solid #d6d3d8;
+    bottom: 0;
+    clear: both;
+    color: #fff;
+    font-family: arial;
+    font-size: 12px;
+    height: 30px;
+    /*line-height: 56px;*/
+    /*padding: 0 15px;*/
+    position: fixed;
+    /*text-align: center;*/
+    width: 100%;
+    z-index: 999;
+}
+
+.pull-left {
+    padding-top: 6px;
+    padding-left: 0px;
+}
+
+.pull-right {
+    padding-top: 6px;
+    padding-right: 0px;
+}
+
+.pull-right, .pull-left :hover {
+    color: #fff;
+}
+
+#fo-left {
+    padding: 0px !important;
+}
+
+#fo-right {
+    padding: 0px !important;
+}
+
+.container1 {
+    width: 95% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.messagemarginbottom {
+    padding: 0px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.marginbottom {
+    padding: 0px;
+    width: 100%;
+    /* margin-bottom: 20px;*/
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+.wellcomeheading {
+    text-align: center;
+    color: #1f4c76;
+    font-size: 18pt;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.termCondition {
+    padding: 3px 0px;
+    text-align: justify;
+}
+
+.TermConditionrmCondition{}
+
+.TermCondition ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.TermCondition ul li {
+    padding-left: 1em;
+    text-indent: 1em;
+}
+
+.TermCondition ul li:before {
+    content: "\2022 ";
+    color: #09108f; /* or whatever color you prefer */
+    font-size:1.2em;
+    margin-right: 5px;
+}          
+
+.item ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.item ul li {
+    padding-left: 1em;
+    text-indent: 1em;
+}
+
+.item ul li:before {
+    content: "\2022 ";
+    color: #09108f; /* or whatever color you prefer */
+    font-size:1.2em;
+    margin-right: 5px;
+}
+
+.textboxchangepasswod {
+    border-radius:0px !important;
+}
+
+.contactUspadding {
+    padding-bottom:25px !important;
+}
+
+.address-setting {
+    margin-bottom:7px !important;
+}
+
+.textareaheight {
+    min-height:157px !important;
+}    
+
+.aboutusimag {
+    padding-left: 5px !important;
+    padding-right: 7px !important;
+}
+
+.privacyinfo{
+    padding-left:0px !important;
+    padding-right: 0px !important;
+}
+
+.termconditioninfo{
+    padding-left:0px !important;
+    padding-right: 0px !important;
+}
+
+.aboutusinfo{
+    padding-left:0px !important;
+    padding-right:0px !important;
+}        
+
+.removebootstrappadding{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}        
+
+#buttonrigisteration{
+    float: right !important;
+    padding-right: 0px;
+}
+
+#lectregisteration{
+    padding-left: 0px !important;
+}
+
+#accountSummaryBtnContainer{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+/*Media quries for tab*/
+@media screen and (max-width:1920px) {
+
+    .text-center {
+        text-align: left !important; 
+        margin-top: -5px;        
+    }       
+    .messgae1 {
+        font-size: 2.6vh !important;
+        font-size: 2.6vw !important;
+    }
+
+    .messgae2 {
+        font-size: 1.9vh !important;
+        font-size: 1.9vw !important;
+        padding-top: 2% !important;
+    }
+
+    .radiobuttonsetting {
+        font-size: 0.9vh !important;
+        font-size: 0.9vw !important;
+        padding-top: 1% !important;
+    }
+
+    .invalidmessage {
+        font-size: 1vh !important;
+        font-size: 1vw !important;
+        line-height: 25px !important;
+    }
+
+    .primry {
+        font-size: 0.91vh !important;
+        font-size: 0.91vw !important;
+        line-height: 14pt !important;
+        padding-top: 0.4% !important;
+    }
+
+    .foripad {
+        padding-top: 6.7% !important;
+    }
+
+    .maininputarea {
+        padding-top: 1% !important;
+    }
+
+    .pharmacyloginmaininputarea{
+        padding-top: 3% !important;
+    }
+
+    .textbox {
+        height: 35px !important;
+        /*padding-top: 1% !important;*/
+    }
+    .pharmacyloginforipad {
+        padding-top: 3.8% !important;
+    }
+    .paharmacyloginmessgae1 {
+        font-size: 3.3vh !important;
+        font-size: 3.3vw !important;
+    }
+
+    .pharmacyloginmessage2{
+        color: #1f4c76;
+        font-size: 1.5vh !important;
+        font-size: 1.5vw !important;
+        line-height: 21pt !important;
+        padding-top: 1.2% !important;
+        text-align: justify;
+    }
+
+    .pharcmacyloginInputArea{
+        margin-top: 10px !important;
+    }
+    .pharmacylogintextboxes{
+        margin-bottom: 3% !important;
+    }
+
+    .phormacyloginInvalidMessage{
+        padding-top: 1.7% !important;
+    }
+    .pharmacyloginforgetpassword{
+        font-size: 10px !important;
+    }
+    .indextextbox{
+        height: 4vh !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .prescdivheight{
+        height: 445px;
+    }
+    .pharmacyloginpage{
+        font-size: 1.4vw !important;
+        line-height: 24pt !important;
+        font-style: italic !important;
+    }
+    .logintextfield{
+        height: 30pt !important;
+    }
+    .emailfield{
+        margin-bottom: 16px !important;
+    }
+    #acceptBtnDiv{
+        padding-bottom: 27px;
+    }
+    #prescriptionBtnsDiv{
+        padding-top: 8px !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 22pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 16pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 0.1vw !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.8vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .indexbtn{
+        margin-right: -13px !important;
+    }
+    .fieldContainer1920{
+        background: #1f4c76 !important;
+        height: 12vh !important;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2.6vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+    }
+    .indextopmessage21920{
+        position: relative;
+        bottom: 24px;
+        font-size: 1.8vw;
+    }
+    #phoneContainer > div{
+        padding-top: 43px;
+    }
+    .indexfontsize{
+        font-size: 18px !important;
+    }
+    .emailtab{
+        padding: 14px 10px !important;
+    }
+    .indexpagecontainer{
+        position: absolute;background: white; top:2%;right:1%;bottom: 2%;border-radius: 13px;padding-top: 10px;padding-bottom: 10px;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:20px;
+        padding-top: 30px;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.5vw !important;
+    }
+}
+
+@media screen and (max-width:1860px) {
+    .foripad {
+        margin-top: 1.7% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 3.1% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 35pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 24pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 15px !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.5vw !important;
+    }
+}
+
+@media screen and (max-width:1840px) {
+
+    .messgae1 {
+        font-size: 2.6vw !important;
+    }
+
+    .pharmacyloginforipad {
+        padding-top: 2.7% !important;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:1820px) {
+    .maininputarea {
+        padding-top: 0 !important;
+    }
+    .pharmacyloginmaininputarea{
+        padding-top: 3% !important;
+    }
+
+    .pharmacyloginforipad {
+        padding-top: 3.5% !important;
+    }
+    .pharmacylogintextboxes {
+        margin-bottom: 1% !important;
+    }
+    .pharmacylogin{
+        top: 25px;
+        position: relative;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 35pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 24pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 15px !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.5vw !important;
+    }
+}
+
+@media screen and (max-width:1790px) {
+    .pharmacyloginforipad {
+        padding-top: 3.1% !important;
+    }
+}
+
+@media screen and (max-width:1790px) {
+    .pharmacyloginforipad {
+        padding-top: 2.8% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 34pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 24pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.5vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.5vw !important;
+    }
+}
+
+@media screen and (max-width:1760px) {
+    .foripad {
+        padding-top: 4.3% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 2.4% !important;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:1730px) {
+    .pharmacyloginforipad {
+        padding-top: 2.2% !important;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:1720px) {
+
+    .messgae2 {
+        font-size: 1.9vw !important;
+        padding-top: 1% !important;
+    }
+
+    .foripad {
+        margin-top: -5% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 1.2% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 33pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 24pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.6vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .indextopmessage21920 {
+        bottom: 24px;
+        font-size: 1.5vw !important;
+        position: relative;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:1690px) {
+    .pharmacyloginforipad {
+        padding-top: 0.9% !important;
+    }
+    .pharmacyloginmaininputarea{
+        padding-top: 2% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 33pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 24pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.6vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2.4vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+    }
+    .indextopmessage21920 {
+        bottom: 24px;
+        font-size: 1.1vw !important;
+        position: relative;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:1650px) {
+    .pharmacyloginforipad {
+        padding-top: 0.5% !important;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:1640px) {
+
+    .foripad {
+        padding-top: 3.3% !important;
+        /*padding-top: 1.3% !important;*/
+    }
+    .pharmacyloginmessage2 {
+        font-size: 1.1vw !important;
+        padding-top: 0.7% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 32pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 23pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.5vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:1610px) {
+    .pharmacyloginmessage2 {
+        line-height: 20pt !important;
+        padding-top: 0.1% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 31pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 22pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.5vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:1590px) {
+    .pharmacyloginforipad {
+        padding-top: 4% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 31pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 22pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.5vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:1570px) {
+    .foripad {
+        padding-top: 2% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 3% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 4.3% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 31pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 22pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.5vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+}
+
+@media screen and (max-width:1550px) {
+    .invalidmessage {
+        font-size: 0.7vw !important;
+        line-height: 9px !important;
+    }
+
+    .maininputarea {
+        padding-top: 0.3% !important;
+    }
+    .pharmacyloginmaininputarea{
+        padding-top: 2.3% !important;   
+    }
+
+    .messgae2 {
+        padding-top: 0% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 3.3% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 31pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 22pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.5vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1540px) {
+    .pharmacyloginforipad {
+        padding-top: 0.3% !important;
+    }
+    .pharmacyloginmaininputarea {
+        padding-top: 1.3% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 31pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 22pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.5vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1530px) {
+    .pharmacyloginforipad {
+        padding-top: 2.3% !important;
+    }
+    .pharmacyloginmessage2 {
+        line-height: 18pt !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 30pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 22pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.5vw !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1520px) {
+    .pharmacyloginmaininputarea {
+        padding-top: 1.3% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 30pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 22pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 15px !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .fieldContainer1920{
+        background: #1f4c76 !important;
+        height: 7vh !important;
+    }
+    #phoneContainer > div{
+        padding-top: 20px;
+    }
+    .indextextbox{
+        height: auto !important;
+    }
+    .indexfontsize {
+        font-size: 12px !important;
+    }
+    .emailtab{
+        padding: 5px 10px !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1490px) {
+    .pharmacylogintextboxes {
+        margin-bottom: 3% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 2.3% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 28pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 18pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 12px !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1460px) {
+    .foripad {
+        padding-top: 4.8% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 2.1% !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .maininputarea {
+        padding-top: 0.5% !important;
+    }
+
+    .discription {
+        margin-left: 24px !important;
+        margin-right: 24px !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 0 !important;
+    }
+    .paharmacyloginmessgae1 {
+        font-size: 3vw !important;
+    }
+    .pharmacyloginmessage2 {
+        line-height: 16pt !important;
+    }
+    .pharmacyloginmaininputarea {
+        padding-top: 1.9% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 27pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 18pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 12px !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .foripad {
+        padding-top: 2.9% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 2.9% !important;
+    }
+    .maininputarea {
+        padding-top: 0% !important;
+    }
+    .pharmacyloginmaininputarea{
+        padding-top: 0% !important;
+    }
+    .radiobuttonsetting {
+        font-size: 1.2vw !important;
+        padding-top: 0 !important;
+    }
+
+    .primry {
+        font-size: 0.89vw !important;
+        line-height: 9pt !important;
+        padding-top: 0.9% !important;
+    }
+    .email_index{
+        top: 11px;
+        position: relative;
+    }
+    .profilebtn{
+        float: right;
+        position: relative;
+        top:-30px;
+        right: -22px;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 22pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 16pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 11px !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+
+@media screen and (max-width:1385px) {
+    .pharmacyloginmaininputarea {
+        padding-top: 2% !important;
+    }
+    .pharmacyloginmessage2 {
+        line-height: 13pt !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 1.7% !important;
+    }
+    .pharmacylogintextboxes {
+        margin-bottom: 3% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 0.1% !important;
+    }
+    .phormacyloginInvalidMessage {
+        padding-top: 1% !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 26pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 17pt !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 12px !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .row-1{
+        min-width: 96px !important;
+    }
+    .prescdivheight{
+        height: 445px;
+    }
+    .pharmacyloginpage{
+        font-size: 1.4vw !important;
+        line-height: 18pt !important;
+        font-style: italic !important;
+    }
+    .emailfield{
+        margin-bottom: 10px !important;
+    }
+    .logintextfield{
+        height: auto !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1340px) {
+    .foripad {
+        padding-top: 2% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 0% !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .foripad {
+        padding-top: 1% !important;
+    }
+    .fieldContainer1920{
+        background: #1f4c76 none repeat scroll 0 0 !important;
+        height: 70px !important;
+    }
+    #phoneContainer > div{
+        padding-top: 20px;
+    }
+    .indextextbox{
+        height: auto !important;
+    }
+    .indexfontsize {
+        font-size: 12px !important;
+    }
+    .emailtab{
+        padding: 3px 10px !important;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+    }
+    .indextopmessage21920{
+        position: relative;
+        bottom: 24px;
+        font-size: 1vw;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.5vw !important;
+    }
+}
+
+@media screen and (max-width:1290px) {
+    .foripad {
+        padding-top: 0.5% !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 0 !important;
+    }
+    .pharmacyloginmaininputarea {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    /*    .btnlogin{
+            margin-left:110px;float: left;margin-top: 7px;
+        }*/
+    .indexdatacontainer{
+        background-color:#efefef !important;
+        margin-top:10px !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 22pt !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 1.5vw !important;
+    }
+    .indexMessage {
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 10px !important;
+        padding-left: 0px !important;
+    }
+    .indexbtncontainer{
+        position: relative !important;
+        right:-3% !important;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .background1 {
+        background-color: #fff !important;
+        padding: 10px !important;
+        min-height: 128px !important;
+        font-size: 14px !important;
+        line-height: 18pt !important;
+        padding-bottom: 0px !important;
+        font-family: arial !important;
+    }
+    .row-1{
+        min-width: 96px !important;
+    }
+    .prescdivheight{
+        height: 445px !important;
+    }
+    .pharmacyloginpage{
+        font-size: 1.4vw !important;
+        line-height: 18pt !important;
+        font-style: italic !important;
+    }
+    .emailfield{
+        margin-bottom: 10px !important;
+    }
+    .logintextfield{
+        height: auto !important;
+    }
+    .indexbtn{
+        margin-right: -13px !important;
+    }
+    .indexpagecontainer{
+        position: absolute;background: white; top:2%;right:1%;bottom: 2%;border-radius: 13px;padding-top: 10px;padding-bottom: 10px;
+    }
+    .textFieldContainer{
+        padding-left: 0px;
+    }
+    .emaillinktabs{
+        width: 10vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:20px;
+        padding-top: 30px;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.5vw !important;
+    }
+}
+
+@media screen and (max-width:1260px) {
+    .foripad {
+        padding-top: 0 !important;
+    }
+
+    .messgae2 {
+        padding-top: 0.1% !important;
+    }
+
+    .pharmacyloginforipad {
+        padding-top: 0 !important;
+    }
+    .prescdivheight{
+        height: 445px !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1238px) {
+    .messgae2 {
+        padding-top: 0 !important;
+    }
+    .paharmacyloginmessgae1 {
+        font-size: 2.8vw !important;
+    }
+    .prescdivheight{
+        height: 468px !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+}
+
+@media screen and (max-width:1230px) {
+    .discription {
+        margin-left: 23px !important;
+        margin-right: 23px !important;
+    }
+
+    .messgae2 {
+        font-size: 1.8vw !important;
+    }
+
+    .radiobuttonsetting {
+        font-size: 1vw !important;
+    }
+    .pharmacyloginmessage2 {
+        font-size: 1vw !important;
+    }
+    .pharmacyloginforipad {
+        padding-top: 1% !important;
+    }
+    .prescdivheight{
+        height: 468px !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px !important;
+        padding-top: 25px !important;
+        padding-left: 10px !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px;
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width:1199px) {
+    .pharmacylogintextboxes {
+        margin-bottom: 0 !important;
+    }
+    .pharmacyloginmessage2 {
+        text-align: center !important;
+        padding-bottom: 7px !important;
+        font-size: 1.8vw !important;
+        line-height: 17pt !important;
+    }
+    .pharmacyloginforipad{
+        text-align: center !important;
+    }
+    .messgae1, .messgae2, .radiobuttonsetting, .primry {
+        text-align: center;
+    }
+
+    .left-devs {
+        padding-right: 10px !important;
+        padding-left: 0 !important;
+        padding-bottom: 5px
+    }
+
+    .background2 {
+        margin-bottom: 10px;
+        min-height: 0px;
+        padding-bottom: 0.1px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .background1 {
+        margin-bottom: 10px;
+        min-height: 0px;
+        padding-bottom: 0.1px !important;
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+    }
+
+    .sperator {
+        margin: 5px auto !important;
+    }
+
+    .foripad {
+        margin-top: 2px !important;
+        text-align: center;
+    }
+
+    .formcontent {
+        padding-left: 0px !important;
+    }
+
+    .signupmessage {
+        float: none !important;
+    }
+
+    .messgae1 {
+        margin-top: 5px !important;
+        font-size: 35pt;
+    }
+
+    .primry {
+        font-size: 12pt;
+    }
+    .pharmacyRegistration .form-group {
+        padding-bottom: 10px !important;
+        width: 100% !important;
+    }
+    #buttonrigisteration{
+        text-align: center;
+        float: left !important;
+    }
+    .margin-top-10{
+        margin-top: 7px !important;
+    }
+    .pharmacyloginmaininputarea{
+        padding-bottom: 0px !important;
+    }
+    .phormacyloginInvalidMessage{
+        padding-top: 0px !important;
+    }
+    .pharmacyloginforipad{
+        padding-top: 0px !important;
+    }
+    #pharmacyloginform{
+        margin-bottom: 0px !important;
+    }
+    #dateRangeLinkContainer{
+        text-align: center;
+    }
+    #accountSummaryBtnContainer{
+        margin-top: 5px !important;
+        text-align: center !important;
+    }
+    .presctable{
+        float: left !important;
+        width: 100% !important;
+    }
+    .div-padding{
+        padding: 0 10px 0 0 !important;
+    }
+    .prescdivheight{
+        height: 445px;
+    }
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: none !important;
+    }
+    .table-responsive > .table {
+        margin-bottom: 0;
+    }   
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+        padding-left: 10px;
+    }
+    .indextopmessage21920 {
+        bottom: 24px;
+        font-size: 1vw;
+        position: relative;
+        padding-left: 10px;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px !important;
+        padding-top: 25px !important;
+        padding-left: 10px !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px;
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width:1198px) {
+    .pharmacyloginmessage2 {
+        font-size: 1.7vw !important;
+        line-height: 13pt !important;
+    } 
+    #inchargeInfo1, #inchargeInfo2 {
+        padding-bottom: 0 !important;
+    }
+    .text-center {
+        text-align: center !important;     
+    }
+    .discription {
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    .right-dev {
+        margin-bottom: -5px !important;
+        padding-right: 10px !important;
+    }
+    #facilityOpertaionDiv{
+        padding-right: 0 !important;
+    }
+    .radiobuttonsetting {
+        font-size: 12pt !important;
+    }
+    .pharmacylogin{
+        position: relative !important;
+        top:0px !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef;
+        /*        margin-top:240px !important;*/
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 2.5vw !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+        padding-left: 10px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 1.8vw !important;
+        padding-left: 10px !important;
+    }
+    .indexMessage{
+        color: #424146 !important;
+        font-size: 9px !important;
+    }
+    .phoneValidMsg{
+        font-size: 8px !important;
+        bottom: 4px !important;
+        top:0px !important;
+    }
+    .indexbtncontainer{
+        text-align: right;
+        position: relative;
+        left:15px;
+    }
+    .radioButtonContainer{
+        padding-left: 10px !important;
+        width: 40vw !important;
+    }
+    #facilityOperationDiv, #adminLastNameDiv, #adminPhoneDiv{
+        padding-left: 0 !important;
+    }
+    .pharmacyloginpage{
+        font-size: 1.4vw !important;
+        line-height: 18pt !important;
+        font-style: italic !important;
+    }
+    .emailfield{
+        margin-bottom: 10px !important;
+    }
+    .logintextfield{
+        height: auto !important;
+    }
+    .prescdivheight{
+        height:auto !important;
+    }
+    #acceptBtnDiv{
+        padding-bottom: 27px;
+    }
+    .indexpagecontainer{
+        position:absolute;background: white; top:2%;right:1%;bottom: 2%;border-radius: 13px;padding-top: 10px;padding-bottom: 10px;
+    }
+    .ipadbanner{
+        /*        height: 241px;*/
+        min-height: 241px;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+        padding-left: 10px;
+    }
+    .indextopmessage21920 {
+        bottom: 24px;
+        font-size: 1vw;
+        position: relative;
+        padding-left: 10px;
+    }
+    .pull-left, .pull-right {
+        text-align: center !important;
+    }
+    #prescriptionBtnsDiv{
+        text-align: center !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px !important;
+        padding-top: 25px !important;
+        padding-left: 10px !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px;
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width:1100px) {
+    /*    .btnlogin{
+            margin-left:177px !important;
+            float: left;
+            margin-top: 0px !important;
+        }*/
+    .pharmacyloginpage{
+        font-size: 1.4vw !important;
+        line-height: 18pt !important;
+        font-style: italic !important;
+    }
+    .emailfield{
+        margin-bottom: 10px !important;
+    }
+    .logintextfield{
+        height: auto !important;
+    }
+    .prescdivheight{
+        height:auto !important;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 2vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+        padding-left: 10px;
+    }
+    .indextopmessage21920 {
+        bottom: 24px;
+        font-size: 1vw;
+        position: relative;
+        padding-left: 10px;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px !important;
+        padding-top: 25px !important;
+        padding-left: 10px !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px;
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width:800px) {
+    /*    .btnlogin{
+            margin-left:90px !important;
+            float: left;
+            margin-top: 0px !important;
+        }*/
+    .headertitle{
+        line-height: 5px !important;
+        white-space: nowrap !important;
+    }
+    .pharmacyloginpage{
+        font-size: 1.4vw !important;
+        line-height: 18pt !important;
+        font-style: italic !important;
+    }
+    .emailfield{
+        margin-bottom: 10px !important;
+    }
+    .logintextfield{
+        height: auto !important;
+    }
+    .prescdivheight{
+        height:auto !important;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 2.5vw !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+        padding-left: 10px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 1.7vw !important;
+        padding-left: 10px !important;
+    }
+    .indexMessage{
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.9vw !important;
+        bottom: 4px !important;
+        top:0px !important;
+    }
+    .ipadbanner{
+        /*        height: 241px;*/
+        min-height: 225px;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.7vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px;
+        padding-top: 25px;
+    }
+}
+@media screen and (max-width:799px) {
+
+    .pharmacyloginmaininputarea {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+    }
+
+    .background2 {
+        margin-bottom: 10px;
+        min-height: 0px !important;
+    }
+
+    .background1 {
+        margin-bottom: 10px;
+        min-height: 0px !important;
+    }
+
+    .sperator {
+        margin: 5px auto !important;
+    }
+
+    .pharmacyloginmessage2 {
+        font-size: 1.9vw !important;
+    }
+    .btnlogin{
+        margin-left:77px !important;
+        float: left;
+        margin-top: 0px !important;
+    }
+    .indexdatacontainer{
+        background-color:#efefef;
+        /*        margin-top:240px !important;*/
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 2.5vw !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+        padding-left: 10px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 1.7vw !important;
+        padding-left: 10px !important;
+    }
+    .indexMessage{
+        color: #424146 !important;
+        font-size: 1vw !important;
+    }
+    .phoneValidMsg{
+        font-size: 0.8vw !important;
+        bottom: 4px !important;
+        top:0px !important;
+    }
+    .indexbtncontainer{
+        text-align: right;
+        position: relative;
+        left:15px;
+    }
+    .radioButtonContainer{
+        padding-left: 10px !important;
+        left:1px !important;
+    }
+    .headertitle{
+        line-height: 5px !important;
+        white-space: nowrap !important;
+    }
+    .background1 {
+        padding: 10px !important;
+        min-height: 128px !important;
+        font-size: 14px !important;
+        line-height: 18pt !important;
+        padding-bottom: 0px !important;
+        font-family: arial !important;
+        background-color: #fff !important;
+    }
+    .presctable{
+        float: left !important;
+        width: 100% !important;
+    }
+    #dateRangeLinkContainer{
+        text-align: center;
+    }
+    .pharmacyloginpage{
+        font-size: 1.4vw !important;
+        line-height: 18pt !important;
+        font-style: italic !important;
+    }
+    .emailfield{
+        margin-bottom: 10px !important;
+    }
+    .logintextfield{
+        height: auto !important;
+    }
+    .prescdivheight{
+        height:auto !important;
+    }
+    .indexpagecontainer{
+        position:absolute;background: white; top:2%;right:1%;bottom: 2%;border-radius: 13px;padding-top: 10px;padding-bottom: 10px;
+    }
+    .ipadbanner{
+        /*        height: 241px;*/
+        min-height: 225px;
+    }
+    .indexMessage1920 {
+        color: #424146;
+        font-size: 9px !important;
+    }
+    .emaillinktabs{
+        width: 12vw !important;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.7vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px;
+        padding-top: 25px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .pharmacyRegistration .form-group {
+        width:28% !important;
+    }
+    .text-center {
+        text-align: center !important;     
+    }  
+    .margin-top-10 { 
+        margin-top: 10px !important;
+    }
+    .discription {
+        margin-left: 16px !important;
+        margin-right: 16px !important;
+    }
+
+    .padding {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+    .footer {
+        height: 35px !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .navbar-header {
+        width: 100% !important;
+    }
+
+    .smallinfo {
+        font-size: 6pt;
+        padding: 10px 8px !important;
+    }
+
+    .pull-left {
+        float: none !important;
+        padding: 0px !important;
+        text-align: center !important;
+    }
+
+    .fpull-right {
+        float: none !important;
+        padding: 0px !important;
+    }
+
+    .pull-left, .pull-right {
+        text-align: center !important;
+    }
+
+    .messagecontent {
+        font-size: 9pt;
+        letter-spacing: 0px;
+    }
+
+    .textbox {
+        width: 100%;
+    }
+
+    .maininputarea {
+        margin-top: 1px !important;
+        padding: 0px 5px;
+    }
+
+    .background1 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        padding-bottom: 0.1px !important;
+        font-size: 10pt !important;
+        line-height: 15pt !important;
+    }
+
+    .background2 {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        padding-bottom: 0.1px !important;
+        font-size: 10pt !important;
+        line-height: 15pt !important;
+    }
+
+    #button {
+        float: left;
+        margin-left: 20px !important;
+        border-radius: 0px !important;
+        border: 0px !important;
+    }
+
+    #logo {
+        text-align: center;
+    }
+
+    .innermessage {
+        font-size: 15pt;
+    }
+
+    .alignsignupmessage {
+        font-size: 7pt !important;
+    }
+
+    .navbar-nav > li > a {
+        padding-left: 45px !important;
+    }
+
+    .primry {
+        font-size: 5pt !important;
+    }
+
+    .wellcomeheading {
+        font-size: 13pt !important;
+    }
+
+    .discription {
+        margin-left: 5px !important;
+        margin-right: 5px !important;
+        font-size: 10pt;
+    }
+
+    .messgae2 {
+        font-size: 12px !important;
+    }
+
+    .primry {
+        padding-left: 5px !important;
+        padding-right: 5px !important;
+        font-size: 10pt !important;
+    }
+
+    .icon-bar {
+        background-color: #fff !important;
+    }
+
+    .invalidmessage {
+        font-size: 8pt !important;
+        line-height: 10px !important;
+    }
+
+    .marginbottom {
+        margin-bottom: 27px !important;
+    }
+
+    .radiobuttonsetting {
+        font-size: 11pt !important;
+    }
+    .margin-top-18{
+        float:left !important; 
+    } 
+    .pharmacyloginforgetpassword{
+        font-size: 10px !important;
+    }
+    .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        padding-left: 0px !important; 
+        padding-right:0px !important;
+    }
+    .pharmacylogin{
+        position: relative !important;
+        top:0px !important;
+    }
+    #dateRangeLinkContainer{
+        text-align: center;
+    }
+    .indexbtn{
+        margin-right: 0px !important;
+    }
+    #topRow{
+        margin: 5px !important;
+    }
+    #phoneContainer >div{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    #email >div{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .indexpagecontainer{
+        position:relative;background: white; top:2%;right:1%;bottom: 2%;border-radius: 13px;padding-top: 10px;padding-bottom: 10px;
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 6vw !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+        padding-left: 5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 4vw !important;
+        padding-left: 6px !important;
+    }
+    .indexMessage{
+        color: #424146 !important;
+        font-size: 2vw !important;
+    }
+    .phoneValidMsg{
+        font-size: 2.3vw !important;
+        bottom: 4px !important;
+        top:0px !important;
+    }
+    .indexdatacontainer{
+        position: relative;
+        top:-20px;
+    }
+    .radioButtonContainer{
+        right: -6px !important;
+        width: auto !important;;
+    }
+    .indextopmessgae1920 {
+        color: #1f4c76;
+        font-size: 5vw !important;
+        font-weight: bold;
+        margin-top: -5px;
+        padding-left: 10px;
+    }
+    .indextopmessage21920 {
+        bottom: 24px;
+        font-size: 2vw !important;
+        position: relative;
+    }
+    .emailtab {
+        margin-left: 15px;
+        margin-right: 15px;
+        padding: 3px 10px !important;
+    }
+    .phonetab{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .emaillinktabs{
+        width: 10vw;
+    }
+    .pharmacyName{
+        font-size: 15px !important;
+    }
+    .pharmacyAddress{
+        font-size: 11px !important;
+    }
+    .pageTitle{
+        font-size: 18px !important;
+    }
+    .innermessage2{
+        font-size: 11pt !important;
+    }
+    .contentBox .boxTitle {
+        font-size: 10pt !important;
+    } 
+    #accountSummarySearchBarDiv{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .emaillinktabs{
+        width: 14vw !important;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.7vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px;
+        padding-top: 25px;
+    }
+    #email{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    #phoneId{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .paharmacyloginmessgae1 {
+        font-size: 4.8vw !important;
+    }
+    .discription {
+        font-size: 10pt;
+        margin-left: 14px !important;
+        margin-right: 14px !important;
+    }
+    .text-center {
+        text-align: center !important;     
+    }
+    .margin-top-18{
+        float:left !important; 
+    } 
+    .padd-bottom-10 {
+        padding-bottom: 10px;
+    }  
+    .pharmacyRegistration .form-group {
+        width:100% !important;
+    }
+    .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        padding-left: 0px !important; 
+        padding-right:0px !important;
+    }
+    .text-center-mobile {
+        text-align: center !important;     
+    }     
+    .pharmacylogin{
+        position: relative !important;
+        top:0px !important;
+    }
+    .profilebtn{
+        float: right;
+        position: relative;
+        top:-30px;
+        right: -14px !important;
+    }
+    .contactfield{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contactfieldAdd{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .changepwcontainer{
+        background-color:#efefef;
+        margin-top:10px !important;
+        margin-bottom: 30px !important;
+    }
+    .profileeditfield{
+        background:#f1f0f0 !important;
+        margin-left: 0px !important;
+    }
+    .profileLastName{
+        padding-top: 15px;
+    }
+    .profilefo{
+        padding-top: 10px;
+    }
+    .profile2ndcontact{
+        padding-top: 5px;
+    }
+    #dateRangeLinkContainer{
+        text-align: center;
+    }
+    .indexdatacontainer{
+        background-color:#efefef;
+        /*        margin-top:223px !important;*/
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 5vw !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 10pt !important;
+    }
+    .indextxtfield{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .indexMessage{
+        padding-left: 5px !important;
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 8px !important;
+        bottom: 4px !important;
+        margin-left: 5px !important;
+        top:0px !important;
+    }
+    .indexbtncontainer{
+        text-align: right;
+        position: relative;
+        left:0px;
+    }
+    .radioButtonContainer{
+        margin-left: 4px;
+        margin-right: -6px;
+    }
+    .hidden-xs1{
+        display: none !important;
+    }
+    .prescdivheight{
+        height:auto !important;
+    }
+    .lastlogintext{
+        width: 60% !important;
+    }
+    .pharmacyloginpage{
+        font-size: 1.4vw !important;
+        line-height: 18pt !important;
+        font-style: italic !important;
+    }
+    .emailfield{
+        margin-bottom: 10px !important;
+    }
+    .logintextfield{
+        height: auto !important;
+    }
+    .logininfo{
+        position: relative;
+        top:3px;
+    }
+    .prebtnpadding{
+        margin-top: 7px !important;
+    }
+    .indexbtn{
+        margin-right: 0px !important;
+    }
+    /*    #topRow{
+            margin-left: 0 !important;
+        }*/
+    .indexpagecontainer{
+        position: relative;background: white; top:2%;right:1%;bottom: 2%;border-radius: 13px;padding-top: 10px;padding-bottom: 10px;
+    }
+    .phonetab{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .emaillinktabs{
+        width: 14vw !important;
+    }
+    .innermessage {
+        font-size: 12pt !important;
+    }
+    .innermessage2{
+        font-size: 10pt !important;
+    }
+    .contentBox .boxTitle {
+        font-size: 9pt !important;
+    }
+    #prescriptionBtnsDiv{
+        text-align: center !important;
+        padding-top: 0 !important;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.7vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px;
+        padding-top: 25px;
+    }
+}
+@media (max-width: 600px) and (min-width: 501px) {
+    .emaillinktabs{
+        width: 18vw !important;
+    }
+}
+@media screen and (max-width:500px) {
+    .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        padding-left: 0px !important; 
+        padding-right:0px !important;
+    }
+    .pharmacyloginmessage2 {
+        font-size: 12px !important;
+        line-height: 12pt !important;
+    }
+    .pharmacyRegistration .form-group {
+        width:100% !important;
+    }
+    .padd-bottom-10 {
+        padding-bottom: 10px;
+    }
+    .margin-top-18{
+        float:left !important; 
+    } 
+    .text-center {
+        text-align: center !important;     
+    }  
+    .foter-left {
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-size: 10pt;
+    }
+
+    .foter-right {
+        font-size: 10pt;
+        float: left !important;
+        text-align: center;
+    }
+
+    #logo {
+        text-align: center;
+    }
+
+
+    .innermessage {
+        font-size: 10pt;
+    }
+
+    .messagecontent {
+        font-size: 10pt;
+        text-align: justify;
+    }
+
+    .primry {
+        font-size: 5pt !important;
+    }
+    .margin-top-10 {
+        margin-top: 10px !important;
+        float:left !important; 
+    }
+    .text-center-mobile {
+        text-align: center !important;     
+    } 
+    #dateRangeLinkContainer{
+        text-align: center;
+    }
+    .logintextfield{
+        height: auto !important;
+    }
+    .indexbtn{
+        margin-right: 0px !important;
+    }
+    .emaillinktabs{
+        width: 22vw !important;
+    }
+    .indextopmessage21920 {
+        bottom: 24px;
+        font-size: 4vw !important;
+        position: relative;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.7vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:15px;
+        padding-top: 25px;
+    }
+}
+
+/*************************************My Css starts here************************************/
+@media screen and (max-width:360px) {
+    .text-center-mobile {
+        text-align: center !important;     
+    }
+    .padd-bottom-10 {
+        padding-bottom: 10px;
+    }
+    .text-center {
+        text-align: center !important;     
+    }   
+    .margin-top-10 {
+        margin-top: 10px !important;
+        float:left !important; 
+    }
+    .pharmacyRegistration .form-group {
+        width:100% !important;
+    }
+    .padd-bottom-10 {
+        padding-bottom: 10px;
+    }
+    .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        padding-left: 0px !important; 
+        padding-right:0px !important;
+    }
+    .pharmacylogin{
+        position: relative !important;
+        top:0px !important;
+    }
+    .profilebtn{
+        float: right;
+        position: relative;
+        top:-30px;
+        right: -14px !important;
+    }
+    .contactfield{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .contactfieldAdd{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .profileeditfield{
+        background:#f1f0f0 !important;
+        margin-left: 0px !important;
+    }
+    .profileLastName{
+        padding-top: 15px;
+    }
+    .profilefo{
+        padding-top: 10px;
+    }
+    .profile2ndcontact{
+        padding-top: 5px;
+    }
+    #dateRangeLinkContainer{
+        text-align: center;
+    }
+    .indexdatacontainer{
+        background-color:#efefef;
+        /*        margin-top:223px !important;*/
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 5vw !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+        padding-left: 10px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 10pt !important;
+        padding-left: 10px !important;
+    }
+    .indextxtfield{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .indexMessage{
+        padding-left: 5px !important;
+        color: #424146 !important;
+        font-size: 10px !important;
+    }
+    .phoneValidMsg{
+        font-size: 8px !important;
+        bottom: 4px !important;
+        margin-left: 5px !important;
+        top:0px !important;
+    }
+    .indexbtncontainer{
+        text-align: right;
+        position: relative;
+        left:0px;
+    }
+    .radioButtonContainer{
+        padding-left: 0px !important;
+    }
+    .hidden-xs1{
+        display: none !important;
+    }
+    .row-1{
+        min-width: 110px !important;
+    }
+    .row-2{
+        min-width: 110px !important;
+    }
+    .row-3{
+        min-width: 110px !important;
+    }
+    .row-4{
+        min-width: 110px !important;
+    }
+    .row-5{
+        min-width: 85px !important;
+        text-align:inherit !important;
+    }
+    .row-6{
+        min-width: 110px !important;
+    }
+    .row-7{
+        min-width: 110px !important;
+    }
+    .row-8{
+        min-width: 110px !important;
+    }
+    .row-9{
+        min-width: 110px !important;
+    }
+    .row-10{
+        min-width: 110px !important;
+    }
+    .row-11{
+        min-width: 110px !important;
+    }
+    .row-12{
+        min-width: 85px !important;
+    }
+    .row-13{
+        min-width: 56px !important;
+    }
+    .row-14{
+        min-width: 60px !important;
+    }
+    .row-14-position{
+        position:initial !important;
+    }
+    .row-13-padding{
+        padding-left: 0px !important;
+    }
+    .row-12 i{
+        color:#1f4c76 !important;
+        font-size: 18px !important;
+        font-weight:bold !important;
+        cursor: pointer !important;
+        padding-left: 21px !important;
+    }
+    .no-text-align{
+        text-align:inherit !important;
+    }
+    .prescdivheight{
+        height:auto !important;
+    }
+    .lastlogintext{
+        width: 72% !important;
+    }
+
+    .pharmacyloginpage{
+        font-size: 1.4vw !important;
+        line-height: 18pt !important;
+        font-style: italic !important;
+    }
+    .emailfield{
+        margin-bottom: 10px !important;
+    }
+    .logintextfield{
+        height: auto !important;
+    }
+    .logininfo{
+        position: relative;
+        top:3px;
+    }
+    .prebtnpadding{
+        margin-top: 7px !important;
+    }
+    #acceptBtnDiv{
+        padding-bottom: 47px;
+    }
+    .indexbtn{
+        margin-right: 0px !important;
+    }
+    .emaillinktabs{
+        width: 25vw !important;
+    }
+    .indextopmessage21920 {
+        bottom: 24px;
+        font-size: 4vw !important;
+        position: relative;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 1.7vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:20px;
+        padding-top: 30px;
+    }
+}
+@media screen and (max-width:320px) {
+    .text-center-mobile {
+        text-align: center !important;     
+    }
+    .text-center {
+        text-align: center !important;     
+    }   
+    .margin-top-10 {
+        margin-top: 10px !important;
+        float:left !important; 
+    }
+    .pharmacyRegistration .form-group {
+        width:100% !important;
+    }
+    .col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+        padding-left: 0px !important; 
+        padding-right:0px !important;
+    } 
+
+    #dateRangeLinkContainer{
+        text-align: center;
+    }
+    .indexdatacontainer{
+        background-color:#efefef;
+        /*        margin-top:218px !important;*/
+    }
+    .indextopmessgae {
+        color: #1f4c76 !important;
+        font-size: 5vw !important;
+        font-weight: bold !important;
+        margin-top: -5px !important;
+        padding-left: 4px !important;
+    }
+    .indextopmessage2{
+        position: relative !important;
+        bottom: 24px !important;
+        font-size: 4vw !important;
+        padding-left: 4px !important;
+    }
+    .phoneValidMsg{
+        font-size: 8px !important;
+        bottom: 4px !important;
+        margin-left: 5px !important;
+        top:0px !important;
+    }
+    .indexbtncontainer{
+        text-align: right !important;
+        position: relative !important;
+        left:0px !important;
+    }
+    .indexerrormsg{
+        position: absolute !important;
+        right: 3% !important;
+        top:8% !important;
+        color: #E70000 !important;
+        font-size: 9px !important;
+    }
+    /*    .hearder {
+            background: #efefef none repeat scroll 0 0;
+            width: 100% !important;
+        }
+        .wrapper {
+            width: 100% !important;
+        }*/
+    .pharmacyloginpage{
+        font-size: 1.4vw !important;
+        line-height: 18pt !important;
+        font-style: italic !important;
+    }
+    .emailfield{
+        margin-bottom: 10px !important;
+    }
+    .logintextfield{
+        height: auto !important;
+    }
+    .logininfo{
+        position: relative;
+        top:3px;
+    }
+    .prebtnpadding{
+        margin-top: 7px !important;
+    }
+    .indexbtn{
+        margin-right: 0px !important;
+    }
+    .indexpagecontainer{
+        position: relative;background: white; top:2%;right:1%;bottom: 2%;border-radius: 13px;padding-top: 10px;padding-bottom: 10px;
+    }
+    .emaillinktabs{
+        width: 25vw !important;
+    }
+    .indextopmessage21920 {
+        bottom: 24px;
+        font-size: 4vw !important;
+        position: relative;
+    }
+    .radioButtonContainer{
+        margin-left: 4px;
+        margin-right: -3px;
+    }
+    .optinindextopmessage2{
+        position: relative !important;
+        bottom: 16px !important;
+        font-size: 4vw !important;
+    }
+    .optinSucessMessage{
+        color: green;
+        font-size:20px;
+        padding-top: 30px;
+    }
+}
+
+.contentsContainer {
+    background-color:#efefef;
+    margin-top:10px;
+    /*padding:10px;*/
+    margin-bottom: 45px;
+    overflow:hidden;
+    min-height: 320px !important;
+    max-height: 100% !important;
+    padding-bottom: 15px;
+}
+
+.pageTitle{
+    text-transform:uppercase;
+    margin:auto;
+    font-size: 20px;
+    text-align: center;
+    color:#1f4c76;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+
+.titleBorder {
+    background-color: #c5c4c4;
+    width:100px;
+    margin:auto;
+    height:2px;
+    margin-bottom:10px;
+}
+/*p {
+    margin-top: 10px;
+    margin-bottom: 10px;}*/
+label.error {
+    color:#c81300;
+    font-size: 14px;
+    margin-bottom: 12px;
+    /*    float:left;*/
+}
+.margin-top-18 {
+    margin-top: 10px;
+}
+.document {
+    width:100%;
+    padding:5px;
+    background:white;
+    float:left;
+    clear: both;
+    vertical-align: central;
+    font-size: 15px;
+    line-height: 25px;
+    color:#7b7b7b;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.document i {
+    color:#ea4c3a; 
+    float:left;
+    font-size:31px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.document span a { color:#333333;}
+.document span a:hover { color:#1f4c76;}
+.document span {
+    line-height: 25px;
+    color:#333333;
+    float:left;
+    text-align: left;
+    padding-top: 5px;
+}
+.document .filesize {
+    color:#7b7b7b;
+    margin-right: 10px;
+}
+a.blue {
+    color:#1f4c76;  
+}
+a.blue:hover {text-decoration: underline;}
+.blueHeading {
+    font-size:15.5px;
+    font-weight: bold;
+    color:#1f4c76;
+    line-height: 25px;
+    float:left;
+    clear:both;
+    width:100%;
+    margin-top: 5px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.descriptionText {
+    font-size:15.5px;
+    color:#333333;
+    line-height: 24px; 
+    float:left;
+    margin-top: 0px;
+    text-align: left;
+}
+.serchResult {
+    background:white;
+    padding: 0px 10px;
+    float:left;
+    width:100%;
+    margin:17px 0px; 
+    min-height: 60px;
+}
+.serchResultprofile {
+    background:white;
+    padding: 0px 10px;
+    float:none;
+    width:100%;
+    margin:17px 0px; 
+    min-height: 60px;
+}
+.dotCircle {
+    float:left;
+    margin-right: -50px;
+    vertical-align: middle;
+    line-height:25px; 
+    clear:left;
+}
+.dotCircle i {
+    color:#1f4c76;
+
+    font-weight:bold;
+    line-height: 56px;
+}
+.pharmacyRegistration .form-group {
+    width:25.5%;
+}
+.pharmacyRegistration .form-group:first-child{
+    padding-left: 0px !important;
+}
+button.large {
+    /*   font-size: 16px;*/
+    line-height: 26px;
+    margin-left:5px;
+    margin-right: 5px;
+}
+/*.form-control {
+    height:37px;
+    padding:8px 12px;
+    border-radius: 1px;
+}*/
+/*................................*/
+.ingredientsTable {
+    width:100%; 
+    background:#f1f0f0;
+    float:left;
+    overflow: hidden;
+}
+.ingredientsTable tbody tr {
+    background: white;
+    border-bottom: 10px solid #f1f0f0;
+}
+.ingredientsTable thead {
+    background:#1f4c76;
+    /*    padding: 10px 15px 10px 15px; */
+}
+.ingredientsTable th {
+    font-size:13px;
+    color:white;
+    line-height: 25px;
+    font-weight: normal;
+    padding-left: 10px;
+    white-space: nowrap;   
+}
+
+.ingredientsTable td {
+    font-size: 12px;
+    color:#333333;
+    line-height: 24.93px;
+    vertical-align: middle;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+.ingredientsTable td:first-child,.ingredientsTable th:first-child {
+    padding-left: 16px !important;
+}
+.ingredientsTable td:last-child, .ingredientsTable th:last-child {
+    padding-right: 16px !important;
+}
+.ingredientsTable tbody tr:nth-child(even) {
+    background: #d9d9d9 none repeat scroll 0 0;
+}
+.pharmacyAddress {
+    font-weight:bold;
+    color:#666666;
+    font-size: 15px;
+    text-align: center;
+}
+.pharmacyName {
+    font-weight:bold;
+    color:#1f4c76;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 2px;
+}
+/*..............................06-25-2015................*/
+.whiteBackground {
+    background:white;
+    padding:10px 15px;
+    overflow: hidden;
+    min-height: 218px;
+}
+.accountHeading {
+    font-size: 15px;
+    font-weight: bold;
+    line-height:24.93px;
+    color:#1f4c76;
+}
+.accountLabel {
+    font-size: 13px;
+    line-height:24.93px;
+    color:#1f4c76;
+    padding-left: 0px;
+    padding-right: 0px;
+    clear: both;
+}
+.labelDescription {
+    font-size: 13px;
+    line-height:24.93px;
+    color:#333333;
+}
+.secondaryContacts {
+    padding:10px 15px;
+    overflow: hidden;
+    background:#d9d9d9;
+    float:left;
+    clear: both;
+    width:100%;
+    margin-top: 5px;
+}
+.colon {
+    float:right;
+    color:#1f4c76;
+}
+abbr {
+    /*    min-width:90px;
+        float:left;*/
+}
+/*.....New........*/
+.orderHeading{
+    font-size: 18px;
+    font-weight:bold;
+    color:#1f4c76;
+    line-height: 24.93px;
+    float:left;
+    background:#d9d9d9;
+    padding:8px 15px;
+    width:100%;
+    clear:both;
+    margin-top:5px;
+    margin-bottom: 0px;
+}
+.orderForm {
+    background: white;
+    clear: both;
+    float:left;
+    width:100%;
+    padding: 10px;
+}
+.orderForm .form-group {
+    padding-left:5px;
+    padding-right: 5px;
+    min-width:20%
+}
+.orderForm .form-group .form-control {
+    height:33px;
+    padding: 5px 12px;
+}
+/*.mobileOverflow {
+    overflow-x: auto; 
+}*/
+.orderTable {
+    width:100%; 
+    background:#f1f0f0;
+    float:left;
+    overflow: hidden;
+}
+.orderTable tbody tr {
+    background: white;
+    border-bottom: 5px solid #f1f0f0;
+}
+.orderTable thead {
+    background:#1f4c76;
+    /*    padding: 10px 15px 10px 15px; */
+}
+.orderTable th {
+    font-size:13px;
+    color:white;
+    line-height: 9px !important;
+    font-weight: normal;
+    padding-left:0px;
+}
+.orderTable th:first-child {
+    padding-left: 15px;
+}
+
+.orderTable td {
+    font-size: 13px;
+    color:#333333;
+    line-height: 24.93px;
+    vertical-align: middle;
+    /*    padding: 5px 0px 2px 0px; */
+}
+.orderTable td:first-child,.ingredientsTable th:first-child {
+    padding-left: 15px !important;
+}
+.blueUnderline {
+    text-decoration:underline;
+    cursor:pointer;
+    /*    color:#1f4c76;  */
+}
+.tablePaging {
+    background:#d9d9d9 !important;
+    color:#333333;
+    font-size: 15px;
+    line-height: 24.93px;
+}
+.overviewContainer {
+    overflow: hidden;
+    width: 100%;
+    padding: 5px 5px 8px 5px;
+    background: white;
+    float:left;
+}
+.overviewHeading {
+    font-size: 18px;
+    font-weight:bold;
+    color:white;
+    line-height: 24.93px;
+    float:left;
+    width:100%;
+    background:#1f4c76;
+    margin:0px;
+    padding: 0px 15px;
+    text-align: center;
+}
+
+.contentBox {
+    padding:10px;
+    padding-top:4px;
+    padding-bottom:6px;
+    background:#f0f1f1;
+    float: left;
+    overflow: hidden;
+    width:100%;
+}
+
+.contentBox .boxTitle {
+    color:#1f4c76;
+    font-weight:bold;
+    line-height: 24.93px;
+    width:100%;
+    float:left;
+    font-size: 11pt;
+}
+.contentBox span {
+    font-size: 12px;
+    line-height: 20px;
+    color:#333333;
+    text-align: left;
+}
+label.error {
+    color:#dc3434;
+    float:left;
+    font-size: 12px;
+    line-height: 23px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+}
+.accountOverview {
+    float:left;
+    width:100%;
+    background:white;
+    line-height: 15.34px;
+    color:#333333;
+    padding:5px 15px;
+}
+.accountOverview span {
+    font-size: 14px;
+    line-height: 24px;
+}
+.bluetext {color:#1f4c76;}
+
+.errorMessageValid{color: #E70000; width: 100px; font-size: 12px;}
+.errorMessage{color: #E70000;font-size: 12px;}
+.message { font-size:11px !important;color: #067512;}
+.dataTables_paginate{text-align: center !important;float: none !important;}
+
+.menu_selected {background-color: #1d7fb8;}
+/*....for pharmacy home white background.....*/
+.min-height {min-height: 162px !important;} 
+.recentOrder thead tr {
+    background:#1f4c76;
+}
+.recentOrder th {
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    line-height: 24px !important;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+.recentOrder th:first-child {
+    padding-left:6px;
+}
+.recentOrder td {
+    color: #333333;
+    font-size: 12px;
+    line-height: 24.93px;
+    vertical-align: middle;
+    padding-left: 10px;
+    white-space: nowrap;   
+}
+.recentOrder td:first-child {padding-left: 5px;}
+.recentOrder tbody tr {
+    background: white none repeat scroll 0 0;
+    border-bottom: 5px solid #f1f0f0;
+}
+.recentOrder tbody tr:nth-child(even) {
+    background: #d9d9d9 none repeat scroll 0 0;
+}
+.paging_full_numbers {
+    height:auto !important;
+}
+.phoneHour{
+    color: white;background: #b6b6b6;padding-left: 5px;width: 53%;
+}
+.phoneHourTO{
+    color: white;background: #b6b6b6;padding-left: 5px;width: 35%;
+}
+.phoneHourDays{height: 25px;}
+.phoneHourDaysIIE{height: 24px;}
+
+.ui-dialog{
+    padding: 0 !important;
+}
+
+.ui-widget-content {
+    border: 1px solid #174673 !important;
+}
+
+.ui-widget-header{
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #1f4c76, #1f4c76) repeat scroll 0 0 !important;
+    border: medium none !important;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl{
+    border-top-left-radius: 0px !important;
+}
+
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr{
+    border-top-right-radius: 0px !important;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl{
+    border-bottom-left-radius: 0px !important;
+}
+
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br{
+    border-bottom-right-radius: 0px !important;
+}
+.errorMessage2{
+    width: 100%;
+    text-align: left !important;
+    position: absolute;
+    display: inline;
+    font-size: 0.7vw !important;
+    color: red;
+}
+.errorMessage3{
+    display: inline;
+    float: left;
+    padding-left: 87.5%;
+}
+
+.ui-state-default .ui-icon{
+    background-image: url("../media/css/images/ui-icons_ffffff_256x240.png") !important;
+    background-color: #1f4c76 !important;    
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+    border: 1px solid white !important;
+}
+
+.ui-dialog-titlebar > .ui-button {
+    outline-width: 0px !important;
+}
+
+
+.pharmacylogin_cms{margin-right: 10px;}
+.pharmacylogin_cmstop{margin-top: 10px;}
+.emptyorderview{text-align: center;font-size: 13px;color: #333333;}
+.orderoverview{
+    font-size: 13px;
+    color:white;
+    line-height: 24.93px;
+    float:left;
+    width:100%;
+    background:#1f4c76;
+    margin:0px;
+    padding: 0px 15px;
+    text-align: center;
+}
+.generic{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.accountsummary{
+    padding-bottom: 3px;
+}
+.btnfocus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.changepwcontainer{
+    background-color:#efefef;margin-top:10px;margin-bottom: 10px;
+}
+.profileeditfield{
+    background:#f1f0f0;
+    margin-left: -30px;
+}
+
+#tabs.nav > li > a {
+    display: block;
+    padding: 6px 15px;
+    position: relative;
+}
+#tabs.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #ffffff;
+    cursor: default;
+    background-color: #1f4c76;
+    border: 1px solid #1f4c76;
+    border-bottom-color: transparent;
+}
+#tabs.nav-tabs > li > a {
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    line-height: 1.42857;
+    margin-right: 2px;
+    border-left: 1px solid #1f4c76;
+    border-top: 1px solid #1f4c76;
+    border-right: 1px solid #1f4c76;
+}
+.form-control1 {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #555555;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius:1px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.indexerrormsg{
+    position: absolute;right: 4%;top:8%;color: #E70000;font-size: 10px;
+}
+#btnContainer.btn-primary {
+    background-color: #0e407b;
+    border-color: #0e407b;
+}
+
+.recentOrder tbody tr {
+    border-bottom: none !important;
+}
+
+.recentOrder td {
+    line-height: 15px !important;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+    width: 2px !important;
+    color: #FFFFFF;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+    border-radius: 2px !important;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #FFFFFF;
+}
+/*.btnlogin1280{
+    margin-left:110px;float: left;
+}*/
+
+.fieldContainer{
+    background: #1f4c76 !important;
+    height: 82px !important;
+}
+.formContainer{
+    position: relative;
+    bottom: 30px;
+}
+.formContainer1920{
+    position: relative;
+    bottom: 23px;
+}
+.indexMessage1920 {
+    color: #424146;
+    font-size: 12px;
+}
+.indexerrormsg1920{
+    position: absolute;right: 2%;top:6%;color: #E70000;font-size: 14px;
+}
+.faphone{
+    color:white;background: #3f9614;padding: 1px 2px;
+}
+.faenvelope{
+    color:#3f9614;
+}
+.textfontsize{
+    font-size: 12px !important;
+}
+.commentspopup{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.messagecount{
+    float: right;
+    color: #E70000;
+    font-size: 10px;
+}
+.messageleft{
+    float: left;
+}
+#example.display {
+    margin: 0 auto;
+    width: 110%;
+    clear: both;
+    border-collapse: collapse;
+    table-layout: fixed;         
+    word-wrap:break-word;         
+}
+.btnmsghistory{
+    height:29px;font-size: 12px;
+}
+#orderMessage.error {
+    color:#dc3434;
+    float:left;
+    font-size: 12px;
+    line-height: 23px;
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+#orderMessage.message 
+{ 
+    font-size:12px !important;
+    color: #067512;
+    margin-top: 2px;
+}
+.emptydivheight{
+    height: auto;
+}
+@viewport {
+    width: 640px;
+}

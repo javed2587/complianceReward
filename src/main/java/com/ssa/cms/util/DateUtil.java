@@ -1,0 +1,447 @@
+package com.ssa.cms.util;
+
+import com.ssa.cms.common.Constants;
+import java.text.DateFormat;
+import java.text.DateFormatSymbols;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import static java.time.MonthDay.now;
+import java.time.ZoneId;
+import java.util.Calendar;
+import static java.util.Calendar.DAY_OF_MONTH;
+import static java.util.Calendar.MONTH;
+import static java.util.Calendar.YEAR;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Locale;
+import java.util.concurrent.TimeUnit;
+
+/**
+ *
+ * @author Zubair
+ */
+public class DateUtil {
+
+    static final long ONE_MINUTE_IN_MILLIS=60000;//millisecs
+
+    public static String dateToString(Date date, String format) throws Exception {
+        DateFormat dateFormat = new SimpleDateFormat(format);
+        String convertedDateString = dateFormat.format(date);
+        return convertedDateString;
+    }
+    
+    public static String changeDateFormat(String date, String currentFormat, String requiredFormat) throws Exception{
+        String changedDate = "";
+        SimpleDateFormat currentDateFormat = new SimpleDateFormat(currentFormat);
+        SimpleDateFormat requiredDateFormat = new SimpleDateFormat(requiredFormat);
+        Date currentFormattedDate = currentDateFormat.parse(date);
+        System.out.println("currentFormattedDate : " + currentFormattedDate.toString());
+        changedDate = requiredDateFormat.format(currentFormattedDate);
+        System.out.println("changedDate : " + changedDate.toString());
+        return changedDate;
+    }
+ 
+    public static Date stringToDate(String date, String format) throws ParseException {
+        try {
+            SimpleDateFormat simpleDateFormat = new SimpleDateFormat(format);
+            Date retDate = simpleDateFormat.parse(date);
+            return retDate;
+        } catch (Exception e) {
+            return null;
+        }
+    }
+
+    public static Date formatDate(Date date, String format) throws ParseException {
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(format);
+        Date retDate = simpleDateFormat.parse(simpleDateFormat.format(date));
+        return retDate;
+    }
+        public static String formatDateReturnstring(Date date, String format) throws ParseException {
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(format);
+        String retDate = simpleDateFormat.format(date);// .parse(simpleDateFormat.format(date));
+        return retDate;
+    }
+
+    public static Date stringToDateTime(String date, String format) throws ParseException {
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(format);
+        Date retDate = simpleDateFormat.parse(date);
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(retDate);
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        calendar.set(Calendar.MILLISECOND, 0);
+        return calendar.getTime();
+    }
+
+    public static Date stringToDateTime1(String date, String format) throws ParseException {
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(format);
+        Date retDate = simpleDateFormat.parse(date);
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(retDate);
+        calendar.set(Calendar.HOUR_OF_DAY, 23);
+        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.SECOND, 59);
+        return calendar.getTime();
+    }
+
+    public static Date getDateVariation(Integer variation, Date currentDate) {
+        Calendar c = Calendar.getInstance();
+        c.setTime(currentDate);
+        c.add(Calendar.DAY_OF_YEAR, -(variation));
+        c.set(Calendar.HOUR_OF_DAY, 23);
+        c.set(Calendar.MINUTE, 59);
+        c.set(Calendar.SECOND, 59);
+        return c.getTime();
+    }
+
+    public static int getHour(Date date) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(date);
+        int hour = calendar.get(Calendar.HOUR_OF_DAY);
+        return hour;
+    }
+
+    public static Date getOneWeekBeforeDate() {
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        calendar.set(Calendar.MILLISECOND, 0);
+        calendar.add(Calendar.DAY_OF_WEEK, -7);
+        return calendar.getTime();
+    }
+
+    public static Date getOneMonthBefore() {
+        Calendar calendar = Calendar.getInstance();
+        calendar.set(Calendar.HOUR_OF_DAY, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 0);
+        calendar.set(Calendar.MILLISECOND, 0);
+        calendar.add(Calendar.MONTH, -1);
+        return calendar.getTime();
+    }
+
+    public static Date endDateFormat(Date currentDate) {
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(currentDate);
+        calendar.set(Calendar.HOUR_OF_DAY, 23);
+        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.SECOND, 59);
+        return calendar.getTime();
+    }
+
+    public static int getDiffYears(Date first, Date last) {
+        Calendar a = getCalendar(first);
+        Calendar b = getCalendar(last);
+        int diff = b.get(YEAR) - a.get(YEAR);
+        if (a.get(MONTH) > b.get(MONTH)
+                || (a.get(MONTH) == b.get(MONTH) && a.get(DAY_OF_MONTH) > b.get(DAY_OF_MONTH))) {
+            diff--;
+        }
+        return diff;
+    }
+
+    public static Calendar getCalendar(Date date) {
+        Calendar cal = Calendar.getInstance(Locale.US);
+        cal.setTime(date);
+        return cal;
+    }
+
+    public static Date getTimeWithDate(String time, String format) {
+        SimpleDateFormat timingFormat = new SimpleDateFormat(format, Locale.US);
+        Date date;
+        try {
+            date = timingFormat.parse(time);
+            return date;
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public static Date getTimeWithDate(String time) {
+        SimpleDateFormat timingFormat = new SimpleDateFormat("h:mma", Locale.US);
+        Date date;
+        try {
+            date = timingFormat.parse(time);
+            return date;
+        } catch (ParseException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
+        return null;
+    }
+
+    public static boolean getfromTimeEqualsOrGrThenToTime(Date fromDate, Date toDate) {
+        boolean flag = false;
+
+        if (fromDate != null && toDate != null) {
+            if (fromDate.equals(toDate)) {
+                flag = true;
+            } else if (fromDate.after(toDate)) {
+                flag = true;
+            }
+
+        }
+        return flag;
+    }
+
+    public static Date addDaysToDate(Date date, int value) {
+        try {
+            Calendar c = Calendar.getInstance();
+            c.setTime(date);
+            c.add(Calendar.DATE, value);
+            return c.getTime();
+        } catch (Exception e) {
+            return date;
+        }
+
+    }
+    public static Date addMinutesTodate (Date date, int value) {
+        
+        try {
+            Calendar c = Calendar.getInstance();
+             c.setTime(date);
+            c.add(Calendar.MINUTE, value);
+            return c.getTime();            
+        } catch (Exception e) {
+            return date;
+        }
+    }
+        public static Date addHoursTodate (Date date, int value) {
+        
+        try {
+            Calendar c = Calendar.getInstance();
+             c.setTime(date);
+            c.add(Calendar.HOUR, value);
+            return c.getTime();            
+        } catch (Exception e) {
+            return date;
+        }
+    }
+
+    public static long dateDiffInDays(Date dateStart, Date dateStop) {
+
+        try {
+
+            long diff = dateStop.getTime() - dateStart.getTime();
+
+//			long diffSeconds = diff / 1000 % 60;
+//			long diffMinutes = diff / (60 * 1000) % 60;
+//			long diffHours = diff / (60 * 60 * 1000) % 24;
+            long diffDays = diff / (24 * 60 * 60 * 1000);
+
+            System.out.println(diffDays + " days, ");
+//			System.out.print(diffHours + " hours, ");
+//			System.out.print(diffMinutes + " minutes, ");
+//			System.out.print(diffSeconds + " seconds.");
+            return diffDays;
+
+        } catch (Exception e) {
+            e.printStackTrace();
+            return 0;
+        }
+    }
+
+    public static String getDateDiffFromCurrentDate(Date createdDate) {
+        String timeAgo = "";
+        try {
+            SimpleDateFormat format = new SimpleDateFormat(Constants.DATE_FORMATE);
+
+            Date past = format.parse(DateUtil.dateToString(createdDate, Constants.DATE_FORMATE));
+            Date now = new Date();
+
+            System.out.println(TimeUnit.MILLISECONDS.toMillis(now.getTime() - past.getTime()) + " milliseconds ago");
+            System.out.println(TimeUnit.MILLISECONDS.toMinutes(now.getTime() - past.getTime()) + " minutes ago");
+            System.out.println(TimeUnit.MILLISECONDS.toHours(now.getTime() - past.getTime()) + " hours ago");
+            System.out.println(TimeUnit.MILLISECONDS.toDays(now.getTime() - past.getTime()) + " days ago");
+
+            timeAgo = TimeUnit.MILLISECONDS.toHours(now.getTime() - past.getTime()) + " h " + TimeUnit.MILLISECONDS.toMinutes(now.getTime() - past.getTime()) + " min";
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return timeAgo;
+    }
+        public static String getDateDiffFromCurrentDateForHoursAndMinutes(Date createdDate) {
+        String timeAgo = "";
+        try {
+            SimpleDateFormat format = new SimpleDateFormat(Constants.DATE_FORMATE);
+
+            Date past = format.parse(DateUtil.dateToString(createdDate, Constants.DATE_FORMATE));
+            Date now = new Date();
+
+            System.out.println(TimeUnit.MILLISECONDS.toMillis(now.getTime() - past.getTime()) + " milliseconds ago");
+            System.out.println(TimeUnit.MILLISECONDS.toMinutes(now.getTime() - past.getTime()) + " minutes ago");
+            System.out.println(TimeUnit.MILLISECONDS.toHours(now.getTime() - past.getTime()) + " hours ago");
+            System.out.println(TimeUnit.MILLISECONDS.toDays(now.getTime() - past.getTime()) + " days ago");
+
+            timeAgo = TimeUnit.MILLISECONDS.toHours(past.getTime() - now.getTime()) + " h " + TimeUnit.MILLISECONDS.toMinutes(past.getTime() - now.getTime()) + " min";
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return timeAgo;
+    }
+
+    public static String getDateDiffInSecondsFromCurrentDate(Date createdDate) {
+        String timeAgo = "";
+        try {
+            SimpleDateFormat format = new SimpleDateFormat(Constants.USA_DATE_TIME_FORMATE);
+            Date past = format.parse(DateUtil.dateToString(createdDate, Constants.USA_DATE_TIME_FORMATE));
+            Date now = new Date();
+
+            System.out.println(TimeUnit.MILLISECONDS.toMillis(now.getTime() - past.getTime()) + " milliseconds ago");
+            System.out.println(TimeUnit.MILLISECONDS.toSeconds(now.getTime() - past.getTime()) + " seconds ago");
+            System.out.println(TimeUnit.MILLISECONDS.toMinutes(now.getTime() - past.getTime()) + " minutes ago");
+            System.out.println(TimeUnit.MILLISECONDS.toHours(now.getTime() - past.getTime()) + " hours ago");
+            System.out.println(TimeUnit.MILLISECONDS.toDays(now.getTime() - past.getTime()) + " days ago");
+
+            timeAgo = TimeUnit.MILLISECONDS.toSeconds(now.getTime() - past.getTime()) + ""; //+ " h " + TimeUnit.MILLISECONDS.toMinutes(now.getTime() - past.getTime()) + " min";
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return timeAgo;
+    }
+        public static String getDateDiffInMinutesFromCurrentDate(Date createdDate) {
+        String timeAgo = "";
+        try {
+            SimpleDateFormat format = new SimpleDateFormat(Constants.USA_DATE_TIME_FORMATE);
+            Date past = format.parse(DateUtil.dateToString(createdDate, Constants.USA_DATE_TIME_FORMATE));
+            Date now = new Date();
+
+            System.out.println(TimeUnit.MILLISECONDS.toMillis(now.getTime() - past.getTime()) + " milliseconds ago");
+            System.out.println(TimeUnit.MILLISECONDS.toSeconds(now.getTime() - past.getTime()) + " seconds ago");
+            System.out.println(TimeUnit.MILLISECONDS.toMinutes(now.getTime() - past.getTime()) + " minutes ago");
+            System.out.println(TimeUnit.MILLISECONDS.toHours(now.getTime() - past.getTime()) + " hours ago");
+            System.out.println(TimeUnit.MILLISECONDS.toDays(now.getTime() - past.getTime()) + " days ago");
+
+            timeAgo = TimeUnit.MILLISECONDS.toMinutes(past.getTime() - now.getTime() ) + " ";
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return timeAgo;
+    }
+                public static String getDateDiffInHoursFromCurrentDate(Date createdDate) {
+        String timeAgo = "";
+        try {
+            SimpleDateFormat format = new SimpleDateFormat(Constants.DATE_FORMATE);
+            Date past = format.parse(DateUtil.dateToString(createdDate, Constants.DATE_FORMATE));
+            Date now = new Date();
+            
+            /*System.out.println(TimeUnit.MILLISECONDS.toMillis(now.getTime() - past.getTime()) + " milliseconds ago");
+            System.out.println(TimeUnit.MILLISECONDS.toSeconds(now.getTime() - past.getTime()) + " seconds ago");
+            System.out.println(TimeUnit.MILLISECONDS.toMinutes(now.getTime() - past.getTime()) + " minutes ago");
+            System.out.println(TimeUnit.MILLISECONDS.toHours(now.getTime() - past.getTime()) + " hours ago");
+            System.out.println(TimeUnit.MILLISECONDS.toDays(now.getTime() - past.getTime()) + " days ago");
+
+            timeAgo = TimeUnit.MILLISECONDS.toHours(past.getTime() - now.getTime() ) + " h";*/
+            long diff = past.getTime() - now.getTime(); // difference
+            long diffSeconds = diff / 1000 %60;
+            long diffMinutes = diff / (60 * 1000) %60;         
+            long diffHours = diff / (60 * 60 * 1000) %60;
+            timeAgo=diffHours+" hrs "+diffMinutes+" ";
+        if(diffHours==0 && diffMinutes==0 && diffSeconds>0)
+        {timeAgo="1 min";}
+        else if(diffHours==0 && diffMinutes>0 )
+        {
+            timeAgo=diffMinutes+" ";
+        }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return timeAgo;
+    }
+
+    public static int getWeekOfTheYear(Date date) {
+        Calendar sDateCalendar = new GregorianCalendar();
+        sDateCalendar.setTime(date);
+        return sDateCalendar.get(Calendar.WEEK_OF_YEAR);
+    }
+    
+   public static int getDayOfWeek(Date date) {
+        Calendar sDateCalendar = new GregorianCalendar();
+        sDateCalendar.setTime(date);
+        return sDateCalendar.get(Calendar.DAY_OF_WEEK);
+    }
+
+    public static int getCurrYear(Date date) {
+        Calendar sDateCalendar = new GregorianCalendar();
+        sDateCalendar.setTime(date);
+        return sDateCalendar.get(Calendar.YEAR);
+    }
+
+    public static Date getDateFromASpecificWeek(int week, int year) {
+
+        // Get calendar, clear it and set week number and year.
+        Calendar calendar = Calendar.getInstance();
+        calendar.clear();
+        calendar.set(Calendar.WEEK_OF_YEAR, week);
+        calendar.set(Calendar.YEAR, year);
+
+        // Now get the first day of week.
+        Date date = calendar.getTime();
+        return date;
+    }
+
+    public static Date stringToDateTime(Date date, String format) throws ParseException {
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(format);
+        Date retDate = simpleDateFormat.parse(simpleDateFormat.format(date));
+        Calendar calendar = Calendar.getInstance();
+        calendar.setTime(retDate);
+        calendar.set(Calendar.HOUR_OF_DAY, 23);
+        calendar.set(Calendar.MINUTE, 59);
+        calendar.set(Calendar.SECOND, 59);
+        return calendar.getTime();
+    }
+
+    public static Date addDays(Date date, int days) {
+        Calendar cal = Calendar.getInstance();
+        cal.setTime(date);
+        cal.add(Calendar.DATE, days); //minus number would decrement the days
+        return cal.getTime();
+    }
+
+    public static String getMonthForInt(int num) {
+        String month = "-";
+        num = num-1;
+        DateFormatSymbols dfs = new DateFormatSymbols();
+        String[] months = dfs.getMonths();
+        if (num >= 0 && num <= 11 ) {
+            month = months[num];
+        }
+        return month;
+    }
+     public static String getDayForInt(int num) {
+        String day = "-";
+        DateFormatSymbols dfs = new DateFormatSymbols();
+        String[] days = dfs.getWeekdays();
+        if (num >= 0 && num <= 6 ) {
+            day = days[num];
+        }
+        return day; 
+    }
+      public static int getMonthValue(Date date) {
+       
+        LocalDate localDate = date.toInstant().atZone(ZoneId.systemDefault()).toLocalDate();
+        int month = localDate.getMonthValue();
+        return month;
+    }
+  
+    public static Long getCounterVlaue(String date, String format) {
+        long s3 = 0L;
+        try {
+            
+            SimpleDateFormat s1 = new SimpleDateFormat(format);
+//            SimpleDateFormat s2 = new SimpleDateFormat("ddMMyyyyHHmm");
+            Date dd = s1.parse(date);
+            s3 = dd.getTime();
+//            s3 = s2.format(dd);
+        } catch (ParseException e) {
+        }
+        return s3;
+    }
+}

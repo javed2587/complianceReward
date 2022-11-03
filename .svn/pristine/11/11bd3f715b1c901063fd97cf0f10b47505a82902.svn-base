@@ -1,0 +1,138 @@
+ # To change this license header, choose License Headers in Project Properties.
+# To change this template file, choose Tools | Templates
+
+# and open the template in the editor.
+
+# Local Environment 
+#https://www.compliancereward.com
+#=========Ip configuration===============================
+##APP_PATH=http://192.168.100.130:8080
+#https://www.compliancereward.com/App/login
+
+#=========//live_Production_ComplianceReward.==============
+#APP_PATH_CODE=/App/
+#SERVER_MODE=Prduction
+#APP_PATH=https://www.compliancereward.com/Apps
+#INVALID_SESSION_URL=https://www.compliancereward.com/App/login
+#PHP_WEB_PDF = https://www.compliancereward.com/pharmacy/public/
+#PHP_RX_REPORTER = https://compliancereward.com/reporter/public/
+#INSURANCE_CARD_URL=https://www.compliancereward.com/ComplianceReward/
+#INSURANCE_CARD_PATH=/home/complianceprod/public_html/ComplianceReward/              
+
+
+#=========//rxdev_dev_ComplianceReward=======================
+#APP_PATH_CODE=/
+#SERVER_MODE=dev
+#APP_PATH=https://compliancereward.ssasoft.com/CRQA
+#INVALID_SESSION_URL=https://compliancereward.ssasoft.com/login
+#PHP_WEB_PDF =http://compliancerewards.ssasoft.com/compliancereward/public/
+#INSURANCE_CARD_URL=https://compliancereward.ssasoft.com/ComplianceReward/
+#INSURANCE_CARD_PATH=/home/compliancereward/public_html/ComplianceReward/
+
+#=========//rxdev_Clint/QA__ComplianceReward===================
+#APP_PATH_CODE=/
+#SERVER_MODE=dev
+#APP_PATH=https://compliancereward.ssasoft.com
+#INVALID_SESSION_URL=https://compliancereward.ssasoft.com/login
+#PHP_WEB_PDF = http://compliancerewards.ssasoft.com/cnew/public/
+#PHP_RX_REPORTER = http://compliancerewards.ssasoft.com/rx_reporter/public/
+#INSURANCE_CARD_URL=https://compliancereward.ssasoft.com/ComplianceReward/
+#INSURANCE_CARD_PATH=/home/compliancereward/public_html/ComplianceReward/
+
+##==================localhost ===============================
+APP_PATH_CODE=/
+SERVER_MODE=dev 
+APP_PATH=http://localhost:8080/ComplianceRewardsssss
+#ServerMode=dev
+PHP_WEB_PDF =http://compliancerewards.ssasoft.com/compliancereward/public/
+INSURANCE_CARD_PATH=C:\\Users\\Javed Iqbal\\Documents\\javed\\pictures\\
+INSURANCE_CARD_URL=C:\\Users\\Javed Iqbal\\Documents\\javed\\pictures\\
+#===========================================================
+#PHP_SURVEY 
+#http://compliancerewards.ssasoft.com/compliancereward/public/sponser-maintenance?mstate=
+#==================================================================
+#APP_PATH=http://localhost:8484
+
+#INSURANCE_CARD_PATH=C:\\Users\\arsalan.ahmad\\Pictures\\insuranceCard\\
+#ORDER_IMAGES_CARD_PATH=C:\\Users\\arsalan.ahmad\\Pictures\\insuranceCard\\
+
+#APP_PATH=http://rxrun.ssasoft.com:8080/ComplianceRewards
+#INVALID_SESSION_URL=http:un.ssasoft.com:8080/ComplianceRewards/login/
+
+# Live Environment
+
+#APP_PATH=https://www.rxdeliverydfw.com
+#INVALID_SESSION_URL=https://www.rxdeliverydfw.com/pharmacyqueue/login
+#For QA insatance
+#PHP_WEB_PDF =http://compliancerewards.ssasoft.com/compliancereward/public/
+#for Production
+#PHP_WEB_PDF =http://compliancerewards.ssasoft.com/compliancereward/cnew/public/
+# Constants for Application 
+#INSURANCE_CARD_URL=https://compliancereward.ssasoft.com/ComplianceReward/
+ORDER_IMAGES_CARD_PATH=/home/compliancereward/public_html/ComplianceReward/
+#COMMAND=chown -R compliancereward:compliancereward /home/compliancereward/public_html/ComplianceReward/
+
+# Messages 
+INVALID_SECURITY_TOKEN=Invalid security token.
+SUCCESS =Success
+EMPTY_MESSAGE=No drug found.
+# Drug Support Page
+PATIENT_GUIDE_ATTACHMENT=drug/attachment/PatientGuide/
+MEDICATION_GUIDE_ATTACHMENT=drug/attachment/MedicalGuide/
+DRUG_IMAGE=drug/attachment/DrugImages/ 
+DRUG_ATTACHMENT_PATH=/home/rxdev/public_html/RxRun/
+
+# Patient Profile Member 
+#INSURANCE_CARD_PATH=/home/compliancereward/public_html/ComplianceReward/
+#/home/complianceprod/public_html/ComplianceReward
+# order 
+PHARMACY_ABR_PREFIX=RXD-
+
+NEXT_ORDER_LOADING=3000
+
+MAX_SUB_LEN=397;
+APP_KEY_ANDROID=AIzaSyAS2M7aCCkvSJbVGKgIpnM8AAlycU5VYiE
+#APP_KEY_ANDROID=AAAASiXg29s:APA91bGh7UXfLcVDq05TKAxtIqM0Rw9Ee2FfP7vmgeaC3RJPqSG4yAujZW-uw7apd_F9ftnskiTuY1a4ADe2ge1gKMbtzJg1bxwHD6HQ6R-ChzGZCZ9eGoezKZWnJ5F8hSVMuAvx3_5q
+#APP_KEY=AIzaSyAS2M7aCCkvSJbVGKgIpnM8AAlycU5VYiE
+#APP_KEY=AIzaSyChYLy7sR0tT7V3uvl56lF668SEWABfHhE
+APP_KEY_IOS=AIzaSyAS2M7aCCkvSJbVGKgIpnM8AAlycU5VYiE
+#SERVER_MODE=Prduction
+APP_KEY_IOS_PROD=AAAAp2V7rs8:APA91bFwWi1ohVxp9eKkv1X5QJThGxKj_xJBwF9i2YodVuxk2MRgDJ5YRuSFu71hiXC3Ln_qRKWu3Op1zkSXMFx8m7ibtT5hMpF76tHCtkLnLEWwapTPgphtbexnJ4yKNFwg6HjFcMLG
+#APP_KEY_IOS_PROD=AAAAnAGrlfQ:APA91bG3SsibtYdEXs-xNTBFIPnTUo6K5o_KEMRtofQOUQKZkzeQsYbfgBLmgEOtSv-_WnIkm4UNGcJsE8bEsg9JVzMFqspSa_OFepOgYAmJCbr6wzNb1-gwyHFM5WGucWP0x0D1fjJ5
+#APP_KEY_IOS_PROD=AAAAhvcUgT0:APA91bHSmwDpRL6eiHLHyvQX2QwYe5-SeuVM0L6rYIp9nTgHksClJW8hBbzYO8-UeO_VqdWSDqmHMOxUah6VI57yqv5XZL3X5Hydd79N1xT9dvQ4f6usIPpDNrty3o0AIGYhlPI_rEbN
+#APP_KEY_IOS=AIzaSyA5wgNE-8oqLGougSWzMZ4oWJc9JFSGB-w
+#APP_KEY_IOS=AIzaSyCgzSNZadYQg3SG7lwYjvbF6SpdmTmohxQ
+FCM_URL=https://fcm.googleapis.com/fcm/send
+
+APP_LOGIN=https://compliancereward.ssasoft.com
+
+
+#SMTP_PORT= 25
+##SMTP_PORT= 465
+#SMTP_PORT= 587
+#SMTP_FROM_EMAIL= noreply@compliancereward.com
+#SMTP_HOST = smtp.gmail.comf
+#SMTP_FROM_NAME = ComplianceRewards
+#SMTP_USER_NAME = compliancereward@gmail.com
+#SMTP_KEY = ComplianceReward@95
+
+
+SMTP_PORT=25
+#SMTP_FROM_EMAIL = noReply@rxdeliverydfw.com
+SMTP_FROM_EMAIL=noreply@compliancereward.com
+SMTP_HOST = compliancereward.com
+SMTP_FROM_NAME = ComplianceRewards
+SMTP_USER_NAME = noreply@compliancereward.com
+SMTP_KEY = TijRWQXwDSZH
+
+
+AUTO_DELETION_DATE = -2
+
+MOBILE_NO=8179052855
+EMAIL=one2onekb@gmail
+PLACE_ORDER_CMS_EMAIL_CONTENT_ID=4
+EXPIRING_SOON_DAYS=45
+
+#MBR MSG Detail
+MBR_Folder_Id=3
+MBR_Message_Type_Id=4

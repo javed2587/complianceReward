@@ -1,0 +1,227 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.ssa.cms.dto;
+
+import java.util.Date;
+import java.util.List;
+
+/**
+ *
+ * @author Javed Iqbal
+ */
+public class PracticesDTO {
+    
+    private Integer id;
+    private Long userId;
+    private Integer practiceId;
+
+   
+    private String practicename;
+    private String practicetype;
+    private String practiceaddress;
+    private String practicewebsite;
+    private String practicecity;
+    private String practicestate;
+    private Integer practicezip;
+    private String practicephonenumber;
+    private String practicelicenseissuer;
+    private String practicelicensenumber;
+    private String practiceAvialable;
+    private Integer sessionStatus;
+    private int sessionId;
+    private String createdAt;
+    private String physicainImage;
+    private List<String> majorSpecialization;
+    private List<String> subSpecialization;
+    private List<String> physicainLanguages;
+    private String practiceLogo;
+    private String physicianName;
+
+
+
+
+
+ 
+
+    public String getPhysicainImage() {
+        return physicainImage;
+    }
+
+    public void setPhysicainImage(String physicainImage) {
+        this.physicainImage = physicainImage;
+    }
+
+
+    public String getPracticeAvialable() {
+        return practiceAvialable;
+    }
+
+    public void setPracticeAvialable(String practiceAvialable) {
+        this.practiceAvialable = practiceAvialable;
+    }
+   
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+ public Long getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Long userId) {
+        this.userId = userId;
+    }
+
+    public Integer getPracticeId() {
+        return practiceId;
+    }
+
+    public void setPracticeId(Integer practiceId) {
+        this.practiceId = practiceId;
+    }
+    public String getPracticename() {
+        return practicename;
+    }
+
+    public void setPracticename(String practicename) {
+        this.practicename = practicename;
+    }
+
+    public String getPracticetype() {
+        return practicetype;
+    }
+
+    public void setPracticetype(String practicetype) {
+        this.practicetype = practicetype;
+    }
+
+    public String getPracticeaddress() {
+        return practiceaddress;
+    }
+
+    public void setPracticeaddress(String practiceaddress) {
+        this.practiceaddress = practiceaddress;
+    }
+
+    public String getPracticewebsite() {
+        return practicewebsite;
+    }
+
+    public void setPracticewebsite(String practicewebsite) {
+        this.practicewebsite = practicewebsite;
+    }
+
+    public String getPracticecity() {
+        return practicecity;
+    }
+
+    public void setPracticecity(String practicecity) {
+        this.practicecity = practicecity;
+    }
+
+    public String getPracticestate() {
+        return practicestate;
+    }
+
+    public void setPracticestate(String practicestate) {
+        this.practicestate = practicestate;
+    }
+
+    public Integer getPracticezip() {
+        return practicezip;
+    }
+
+    public void setPracticezip(Integer practicezip) {
+        this.practicezip = practicezip;
+    }
+
+    public String getPracticephonenumber() {
+        return practicephonenumber;
+    }
+
+    public void setPracticephonenumber(String practicephonenumber) {
+        this.practicephonenumber = practicephonenumber;
+    }
+
+    public String getPracticelicenseissuer() {
+        return practicelicenseissuer;
+    }
+
+    public void setPracticelicenseissuer(String practicelicenseissuer) {
+        this.practicelicenseissuer = practicelicenseissuer;
+    }
+
+    public String getPracticelicensenumber() {
+        return practicelicensenumber;
+    }
+
+    public void setPracticelicensenumber(String practicelicensenumber) {
+        this.practicelicensenumber = practicelicensenumber;
+    }
+        public Integer getSessionStatus() {
+        return sessionStatus;
+    }
+
+    public void setSessionStatus(Integer sessionStatus) {
+        this.sessionStatus = sessionStatus;
+    }
+        public int getSessionId() {
+        return sessionId;
+    }
+
+    public void setSessionId(int sessionId) {
+        this.sessionId = sessionId;
+    }
+
+    public String getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(String createdAt) {
+        this.createdAt = createdAt;
+    }
+       public List<String> getMajorSpecialization() {
+        return majorSpecialization;
+    }
+
+    public void setMajorSpecialization(List<String> majorSpecialization) {
+        this.majorSpecialization = majorSpecialization;
+    }
+        public List<String> getSubSpecialization() {
+        return subSpecialization;
+    }
+
+    public void setSubSpecialization(List<String> subSpecialization) {
+        this.subSpecialization = subSpecialization;
+    }
+
+    public List<String> getPhysicainLanguages() {
+        return physicainLanguages;
+    }
+
+    public void setPhysicainLanguages(List<String> physicainLanguages) {
+        this.physicainLanguages = physicainLanguages;
+    }
+        public String getPracticeLogo() {
+        return practiceLogo;
+    }
+
+    public void setPracticeLogo(String practiceLogo) {
+        this.practiceLogo = practiceLogo;
+    }
+        public String getPhysicianName() {
+        return physicianName;
+    }
+
+    public void setPhysicianName(String physicianName) {
+        this.physicianName = physicianName;
+    }
+
+}

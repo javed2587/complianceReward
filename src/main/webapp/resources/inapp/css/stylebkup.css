@@ -1,0 +1,784 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+     Created on : March 09, 2015, 3:20:37 PM
+    Author     : Saimoon Durrani
+*/
+* {
+    margin:0px;
+    padding:0px;
+}
+html,body {
+    height: 100%;
+    color:#666666;  
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size:13px;
+    background:#dbdbdb;
+}
+html.rx-del, body.rx-del{
+    background:#FFF;
+}
+img, a {
+    border:none;
+    outline: none !important; 
+}
+
+
+.max-width {width:100%;}
+.img-responsive {width:100%;}
+.padd-zero {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.refil h5{
+    font-weight:bold;
+}
+
+
+.newmedimodel .modal-header{
+    padding:15px;
+    border-bottom:0;
+}
+.newmedimodel .modal-header h2{
+    background:#9ac642;
+    margin:0 0 0;
+    padding:8px 8px;
+    font-size:20px;
+    color:#FFF;
+    text-align:center;
+    text-transform:uppercase;
+}
+.newmedimodel .modal-header h3{
+    background:#ff0000;
+    margin:0 0 0;
+    padding:5px 8px;
+    font-size:16px;
+    color:#FFF;
+    text-align:center;
+    font-weight:400;
+    text-transform:uppercase;
+}
+.newmedimodel .modal-content{
+    width:100%;
+}
+.newmedimodel .modal-body{ 
+    padding:0 0 0 !important;
+}
+.blue_bg{
+    background:#256fbd;
+    padding:6px 10px; 
+}
+.green_bg{
+    background:#9bc44c;
+    padding:6px 10px; 
+}
+.green_bg a{
+    color:#FFF;
+    text-decoration:none;
+}
+.blue_bg a{
+    color:#FFF;
+    text-decoration:none;
+}
+.prv_a{
+    font-weight:400;
+    text-transform:uppercase;
+}
+.prv_a:before{
+    content:'<<';
+    color:#FFF;
+    display:inline-block;
+    font-weight:400;
+    padding-right:3px;
+}
+.next_a{
+    font-weight:400;
+    text-transform:uppercase;
+    float:right;
+}
+.next_a:after{
+    content:'>>';
+    color:#FFF;
+    display:inline-block;
+    font-weight:400;
+    padding-left:3px;
+}
+.new_msge{
+    text-align:center;
+    color:#72797a;
+    font-size:11px;
+    line-height:30px;
+    background:#dbdbdb;
+}
+.body_contentt{
+    padding:13px 15px 0px;
+    background:#dbdbdb;
+    clear:both;
+}
+.body_contentt h4{
+    font-size:15px;
+    color:#000;
+    text-transform:uppercase;
+    margin:0 0 4px;
+    font-weight:bold;
+    display: inline-block;
+}
+.body_contentt small{
+    color: #000;
+}
+.body_contentt h4 span{
+    font-weight:normal;
+    float:right;
+    font-size:11px;
+    text-transform:none;
+
+	line-height: 16.5px;
+	
+	margin: 1px 0 0 3px;
+}
+.body_contentt p{
+    font-size:13px;
+    color:#000;
+    text-transform:none;
+    margin:0 0 8px;
+}
+.body_contentt{
+}
+.body_contentt h5{
+    font-size:13px;
+    margin:0 0 3px;
+    color:#000;
+    text-transform:uppercase;
+}
+.body_contentt h5 span{
+    color:#256fbd;
+}
+.body_contentt h5 small{
+    font-size:10px;
+    font-weight:normal;
+    color:#000;
+}
+.margin-top{
+    margin-top:10px;
+    clear:both;
+}
+.pharmacy_commets{
+    background:#FFF;
+    padding:7px 10px 10px;
+    margin-top:13px;
+    margin-bottom:8px;
+    clear: both;
+}
+.pharmacy_commets h6{
+    color:#ff1700;
+    font-weight:400;
+    text-transform:uppercase;
+    margin:0 0 4px;
+    font-size:13px;
+}
+.pharmacy_commets h6 span{
+    text-transform:capitalize;
+    color:#000;
+    font-weight:normal;
+}
+.pharmacy_commets p{
+    font-size:13px;
+    color:#0170c0;
+    margin:0 0 6px;
+    font-weight:400;
+}
+.action_comment p{
+    font-size:15px;
+    color:#000;
+    margin:0 0 4px;
+    font-weight:bold;
+    text-transform:none;
+}
+.action_comment p a{
+    color:#0170c0;
+    text-decoration:underline;
+}
+.ctr_btn{
+    background:#0170c0;
+    color:#FFF;
+    float:right;
+    text-transform:uppercase;
+    margin-bottom:7px;
+    border-radius: 0;
+}
+.ctr_btn:hover, .ctr_btn:focus{
+    color:#FFF;
+}
+.action_comment h4{
+    clear:both;
+}
+.action_comment h4 span{
+    font-size:11px;
+    font-weight:normal;
+    color:#000;
+    clear:both;
+    float:none;
+}
+.action_comment textarea{
+    resize:none;
+    margin-bottom:6px;
+
+}
+.qsent{
+    color:#FFF;
+    background:#256fbd;
+    float:right;
+    margin-bottom:8px;
+    border-radius: 0;
+}
+.qsent:focus, .qsent:hover{
+    color:#FFF;
+
+}
+.markvbtn{
+    background:#256fbd;
+    color:#ffff99;
+    font-size:15px;
+    display:block;
+    clear:both;
+    border-radius:0;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position:fixed;
+    bottom:0;
+    left:2%;
+    width:96%;
+}
+.markvbtn:focus, .markvbtn:hover{
+    color:#ffff99;
+}
+.pharmacy_commets ul{
+    padding:0 0 0;
+    margin:0 0 8px;
+}
+.pharmacy_commets ul li{
+    color:#000;
+    font-weight:400;
+    text-transform:uppercase;
+    list-style:none;
+    padding:0 0 0;
+    background:none;
+    clear:both; 
+    font-size:13px;
+    overflow:hidden;
+}
+.pharmacy_commets ul li span{
+    float:right;
+}
+.pharmacy_commets ul li:last-child span{
+    font-weight:bold;
+    border-bottom:1px solid #000; padding-bottom:2px;
+}
+.newmedimodel .close{
+    right:10px;
+    top:8px;
+    background:none;
+    opacity:1;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+    outline:0;
+}
+.newmedimodel .close:focus, .newmedimodel .close:hover{
+    outline:0;
+}
+
+.center_div{
+    text-align:center;
+    padding-top:20px;
+}
+.center_div .ctr_btn{
+    float:none;
+    display:inline-block;
+}
+.rciept_div{
+}
+.rciept_div h4{
+    font-weight:normal;
+    text-align:center;
+    margin-bottom:4px;
+}
+.rx_rct_logo{
+    padding-left:0;
+}
+.rx_rct_logo img{
+    width:100%;
+}
+.rx_rct_adr{
+    padding:0 0 0;
+}
+.rx_rct_adr p{
+    font-size:13px;
+    margin:0 0 0;
+    color:#000;
+}
+.rx_rct_title{
+    padding-right:0;
+    text-align:right;
+
+}
+.rx_rct_title h3{
+    margin:0 0 0;
+    font-weight:bold;
+    color:#000;
+    padding-top:10px;
+}
+.rct_contatcs{
+    padding:5px 0 10px;
+    clear:both;
+}
+.rct_contatcs p{
+    font-size:13px;
+    color:#000;
+}
+.rct_container h4{
+    text-align:left;
+    font-weight:bold;
+}
+.rct_container h5{
+    font-weight:bold;
+    color:#000;
+}
+.blue{
+    color:#256fbd;
+}
+.red{
+    color:#ff1b00 !important;
+}
+.rct_container ul li:last-child span{
+    border-bottom:0;
+}
+.rct_container .ctr_btn{
+    float:none;
+    margin:10px auto 0;
+}
+.send_rct{
+    text-align:center;
+}
+
+.rx_app_ht{
+    width:100%;
+    margin:0 auto;
+    padding:0 15px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.rx_app_ht .logo{
+    text-align:center;
+    margin-bottom:10px;
+    padding-top:10px;
+}
+.rx_app_ht h4{
+    color:#000;
+    font-weight:bold;
+    font-size:17px;
+    margin:0 0 0;
+}
+.rx_app_ht p{
+    font-size:13px;
+    line-height:inherit;
+    margin:0 0 14px;
+}
+.rx_app_ht .green{
+    color:#94c242;
+    font-weight:bold;
+}
+.rx_app_ht .blue{
+    color:#246dbc;
+    font-weight:bold;
+}
+.rx_app_ht h5{
+    color:#94c242;
+    font-weight:bold;
+    font-size:15px;
+    margin:0 0 0;
+}
+.rx_app_ht h5 span{
+    display:block;
+    color:#000;
+}
+.ad_span{
+    font-weight:bold;
+    color:#2a71ba;
+    display:block;
+}
+.rx_app_ht small{
+    display:block;
+    width:96%;
+    text-align:center;
+    font-size:13px;
+    color:#666666;
+    padding-top:14px;
+}
+.rx_app_ht small a{
+    color:#000;
+    font-size:13px;
+    font-weight:bold;
+    text-decoration:none;
+    margin-bottom:5px;
+    display:inline-block;
+}
+.refil .qsent, .refil .ctr_btn{
+    float:none;
+}
+.cancel_bt{
+    background:#a8a8a8;
+    color:#f3f142;
+}
+.refil .send_rct{
+    padding-bottom:10px;
+    padding-top:10px;
+    margin-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.reward_point{
+    padding:0 0 0;
+    margin-bottom:10px;
+    position:relative;
+}
+.reward_point img{
+    vertical-align:top;
+    width:75%;
+}
+.reward_para{
+    padding:0 10px 0 0;
+    margin-bottom:10px;
+}
+.reward_point span{
+    font-weight:bold;
+    position:absolute;
+    display:block;
+    left:0;
+    text-align:center;
+    top: 26%;
+    width:65%;
+    font-size:24px;
+    line-height:inherit;
+}
+.reward_point h5{
+    color:#256fbd;
+}
+.refil .blue_bg{
+    background:#256fbd !important;
+}
+.yellow{
+    color:#efff00;
+}
+.refil h2{
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0 0 12px;
+    padding-top:8px;
+    font-weight: bold;
+    clear:both;
+    text-align:center;
+}
+.grey{
+    background:#8497b0 !important;
+}
+.green{
+    color:#94c242;
+    font-weight:bold;
+}
+.refil .form-control{
+    font-size:11px;
+}
+.red_bg{
+    background:#ff0000;
+}
+.body_contentt h4 i{
+    font-style:normal;
+    background:#FFF;
+    padding:0 8px 0;
+    text-transform:capitalize;
+    color:#0070c0;
+}
+.body_contentt p.red{
+    color:#ff0000;
+}
+.body_contentt p span{
+    font-weight:bold;
+    color:#0070c0;
+}
+.body_contentt h5 span.red{
+    color:#ff1b00; 
+}
+body{
+    padding-bottom:40px;
+}
+.backhome{
+    display:block;
+    bottom:0;
+    margin:0 0 0;
+    left:0;
+    width:100%;
+    border-radius:0;
+    color:#ffffff;
+    font-weight:normal;
+    background: #94c242;
+    font-size: 16px;
+}
+
+.pharmacy_commets .type{
+    float:right;
+    color:#000;
+    margin:0 0 0;
+    font-size:11px;
+    font-weight:bold;
+}
+.pharmacy_commets .type span{
+    display:block;
+    font-size:9px;
+    font-weight:normal;
+}
+.modal-footer{
+    min-height: 66px;
+    border-top: none;
+
+}
+
+.body_contentt textarea.form-control{
+    border-top: 2px dashed #000;
+    border-bottom: 2px dashed #000;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    background: #dbdbdb;
+    margin-top: 10px;
+}
+.bg_white{
+    background: #ffffff;
+    
+}
+.inline_heading{
+    display: inline-block;
+    margin-right: 20px !important;
+}
+.qcancel {
+    color: #FFF;
+    background: #ff0000;
+    float: left;
+    margin-bottom: 8px;
+
+	border-radius: 0;
+}
+.refil .cancel_rct{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    float: left;
+}
+.body_contentt .display_block{
+    display: block;
+}
+.body_contentt .light_black{
+    color: #666666;
+    margin-left: 30px;
+    padding-right: 25px;
+}
+.body_contentt h5 span.user{
+    padding-left: 35px;
+}
+.newmedimodel .modal-body{
+	min-height: calc(94vh - 100px) !important;
+}
+
+@media all and (max-width: 768px) {
+    .reward_point span{
+        top: 22%;
+    }
+}
+@media all and (max-width: 690px) {
+    .reward_point span{
+        top: 21%;
+    }
+}
+@media all and (max-width: 550px) {
+    .reward_point span{
+        top: 20%;
+    }
+    .rx_rct_adr p, .rct_contatcs p{
+        font-size:11px;
+        line-height:inherit;
+    }
+    .rx_rct_title h3{
+        font-size:20px;
+    }
+}
+@media all and (max-width: 480px) {
+
+    .rx_app_ht h5{
+        font-size:13px;
+    }
+    .rx_app_ht h4{
+        font-size:13px;
+    }
+    .rx_app_ht small{
+        font-size:10px;
+    }
+    .rx_app_ht small a{
+        font-size:10px;
+    }
+    .rx_app_ht p{
+        font-size:10px;
+    }
+    .rx_app_ht .logo img{
+        width:60%;
+    }
+}
+@media all and (max-width: 470px) {
+    .rx_rct_adr p, .rct_contatcs p{
+        font-size:9px;
+        line-height:inherit;
+    }
+    .reward_point span{
+        top: 18%;
+    }
+}
+@media all and (max-width: 414px) {
+    .rx_rct_adr{
+        padding-left:15px;
+    }
+    .rx_rct_adr p, .rct_contatcs p{
+        font-size:9px;
+        line-height:inherit;
+    }
+    .rx_rct_logo{
+        padding-right:0;
+    }
+    .rx_rct_title h3{
+        font-size:15px;
+    }
+    .blue_bg a{
+        font-size:11px;
+    }
+    .reward_point span{
+        top: 17%;
+        font-size: 20px;
+    }
+    .newmedimodel .modal-header h3{
+        font-size:16px;
+        padding: 7px 8px;
+    }
+    .refil .form-control{
+        font-size:11px;
+    }
+    .columbt .qsent{
+        font-size:11px;
+        margin-top:3px;
+    }
+}
+@media all and (max-width: 370px) {
+    .reward_point span{
+        top: 15%;
+        font-size:18px;
+    }
+    .reward_para p{
+        font-size:11px;
+    }
+
+}
+@media all and (max-width: 360px) {
+    .rx_rct_adr{
+        padding-left:7px;
+    }
+    .blue_bg a{
+        font-size:10px;
+    }
+}
+@media all and (max-width: 340px) {
+    .blue_bg a{
+        font-size:9px;
+    }
+    .body_contentt h4 span{
+        font-size:11px;
+    }
+}
+@media all and (max-width: 330px) {
+    .rx_rct_adr p, .rct_contatcs p{
+        font-size:8px;
+        line-height:inherit;
+    }
+}
+.order_refill{
+display: block;
+bottom: 0;
+margin: 0 0 0;
+left: 0;
+width: 100%;
+border-radius: 0;
+color: #ffffff;
+font-weight: normal;
+background: #0170c0;
+font-size: 16px;
+}
+.btnfull_width{
+display: block;
+bottom: 0;
+margin: 0 0 0;
+left: 0;
+width: 100%;
+border-radius: 0;
+
+}
+.big{
+    width:100%;
+}
+.wait_untill{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.chnge_h5color h5{
+    color: #b1b1b1;
+    font-weight: bold;
+}
+.light_parah p{
+    color:dimgrey; font-size: 8px;margin: 70px 0px 0px 50px;
+}
+.backaccept{
+    /* display: block; */
+    bottom: 0;
+    margin: 0 0 0;
+    left: 0;
+    width: 100%;
+    border-radius: 0;
+    color: #ffffff;
+    font-weight: normal;
+    background: #FAC00F;
+    font-size: 16px;
+}
+.finger_box{
+    height: 70px;
+    width: auto;
+    background-origin: padding-box;
+    background-color: #fff;
+    border: 1px solid #0070c0;
+    margin: 10px 50px 30px 45px;
+}
+.finger_box p{
+    padding: 10px 10px;
+    color:dimgrey;
+}
+.finger_box hr{
+      border: 1px solid #0070c0;
+}

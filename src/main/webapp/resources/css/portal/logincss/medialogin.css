@@ -1,0 +1,1806 @@
+@media all and (max-width: 1920px){
+    .container{
+        max-width: 1820px !important;
+    }
+}
+
+@media all and (max-width:1866px){
+    .banner_back h1{
+        font-size:45px;
+    }
+}
+@media all and (max-width:1750px){
+    .banner_back h1{
+        font-size:44px;
+    }
+    .banner_back h3{
+        font-size:34px;
+        line-height:29px;
+    }
+    .banner_back i{
+        font-size:34px;
+        line-height:43px;
+    }
+}
+@media all and (max-width:1711px){
+    .banner_back h1{
+        font-size:39px;
+        line-height:0;
+    }
+    .banner_back h2{
+        font-size:33px;
+    }
+    .banner_back h3{
+        font-size:30px;
+    }
+    .banner_back i{
+        font-size:29px;
+    }
+}
+@media all and (max-width:1517px){
+    .banner_back h1{
+        font-size:32px;
+    }
+    .banner_back h2{
+        font-size:28px;
+    }
+    .banner_back h2 span{
+        font-size:22px;
+    }
+    .banner_back h3{
+        font-size:25px;
+    }
+    .banner_back i{
+        font-size:22px;
+    }
+}
+@media all and (max-width:1245px){
+    .banner_back h1{
+        font-size:27px;
+        line-height:27px;
+    }
+    .banner_back h2{
+        font-size:25px;
+    }
+    .banner_back h3{
+        font-size:22px;
+    }
+    .banner_back h2 span{
+        font-size:20px;
+    }
+    .banner_back i{
+        font-size:21px;
+    }
+}
+@media all and (max-width: 1240px) {
+
+
+
+    .set_pos{
+
+
+
+        top: 4%;
+
+
+
+    }
+
+
+
+    .banner_back h1{
+
+
+
+        padding-bottom: 0;
+
+
+
+    }
+
+
+
+    .banner_back img{
+
+
+
+        padding-bottom: 10px;
+
+
+
+    }
+
+
+
+    .banner_back h4{
+
+
+
+        padding-bottom: 0;
+
+
+
+    }
+
+
+
+    .set_pos{
+
+
+
+        left: 2%;
+
+
+
+    }
+
+
+
+}
+
+
+
+@media all and (min-width: 1200px) {
+
+
+
+    .container{
+
+
+
+        max-width: 1200px;
+
+
+
+        width: 100%;
+
+
+
+    }
+
+    .border_back{
+
+        min-height: 366px;
+
+    }
+
+}
+
+
+
+@media all and (max-width:1199px){
+
+    .border_back{
+
+        min-height:366px;
+
+    }
+
+    .proffdeliver p{
+
+        font-size:22px;
+
+    }
+
+}
+
+
+
+@media all and (max-width: 992px) {
+
+
+
+    .proffdeliver p{
+
+        font-size:16px;
+
+    }
+
+
+
+    .border_back{
+
+        min-height: 366px;
+
+    }
+
+
+
+    .hide_img{
+
+
+
+        display: none !important;
+
+
+
+
+
+
+
+    }
+
+
+
+    .banner_back .form-control{
+
+
+
+        padding: 12px 28px;
+
+
+
+    }
+
+
+
+    .trial_button{
+
+
+
+        padding: 5px 32px;
+
+
+
+    }
+
+
+
+    .app-btn1{
+
+
+
+        width: 130px;
+
+
+
+    }
+
+
+
+    .banner_back h1{
+
+
+
+        font-size: 28px;
+
+
+
+        line-height: 28px;
+
+
+
+    }
+
+
+
+    .banner_back h2{
+
+
+
+        font-size: 24px;
+
+
+
+        line-height: 28px;
+
+
+
+    }
+
+
+
+    .banner_back h3{
+
+
+
+        font-size: 24px;
+
+
+
+        line-height: 28px;
+
+
+
+    }
+
+
+
+    .banner_back h4{
+
+
+
+        font-size: 20px;
+
+
+
+        line-height: 24px;
+
+
+
+    }
+
+
+
+    .inner_hippa{
+
+
+
+        margin-bottom: 15px;
+
+
+
+        padding: 20px;
+
+
+
+    } 
+
+
+
+    .fa-calendar{
+
+
+
+        top: 9%;
+
+
+
+        left: 25%;
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+@media all and (max-width: 866px){
+
+    .form-sect{
+
+        max-width:314px;
+
+    }
+
+}
+
+
+
+@media all and (max-width:801px){
+
+    .banner_back i{
+
+        font-size: 18px;
+
+        line-height: 20px;
+
+    }
+
+}
+
+
+
+@media all and (max-width: 768px) {
+
+
+
+    .fa-calendar{
+
+
+
+        top: 9%;
+
+
+
+        left: 34%;
+
+
+
+    }
+
+
+
+    .inner_hippa{
+
+
+
+        margin-bottom: 15px;
+
+
+
+        padding: 20px;
+
+
+
+    }
+
+
+
+
+
+
+
+    .marg_bottom{
+
+
+
+        margin-bottom: 25px;
+
+
+
+    }
+
+
+
+    .footer_back h6{
+
+
+
+        border-bottom: 1px solid #999999;
+
+
+
+        padding-bottom: 10px;
+
+
+
+    }
+
+
+
+    .footer_back{
+
+
+
+        padding: 22px 0 0 0;
+
+
+
+    }
+
+
+
+    .footer_bottom p{
+
+
+
+        display: block;
+
+
+
+        width: 100%;
+
+
+
+        text-align: center;
+
+
+
+        float: none;
+
+
+
+        font-size: 13px;
+
+
+
+    }
+
+
+
+    .footer_bottom span a{
+
+
+
+        display: block;
+
+
+
+        width: 100%;
+
+
+
+        text-align: center;
+
+
+
+        padding-top: 5px;
+
+
+
+        font-size: 13px;
+
+
+
+    }
+
+
+
+    .mobile_text h2{
+
+
+
+        padding-top: 30px;
+
+
+
+
+
+
+
+    }
+
+
+
+    .mobile_text{
+
+
+
+        padding: 0 15px 0 15px;
+
+
+
+    }
+
+
+
+    .inner_hippa-calen{
+
+
+
+        margin-top: 20px;
+
+
+
+    }
+
+
+
+    .banner_back h1{
+
+
+
+        font-size: 30px;
+
+
+
+    }
+
+
+
+    .banner_back h2{
+
+
+
+        font-size: 24px;
+
+
+
+        line-height: 29px;
+
+
+
+    }
+
+
+
+    .banner_back h3{
+
+
+
+        font-size: 22px;
+
+
+
+        line-height: 29px;
+
+
+
+    }
+
+
+
+    .banner_back h4{
+
+
+
+        font-size: 20px;
+
+
+
+        line-height: 29px;
+
+
+
+        padding-bottom: 0;
+
+
+
+    }
+
+
+
+    .banner_back img {
+
+
+
+        padding-bottom: 20px;
+
+
+
+    }
+
+
+
+    .banner_back h1{
+
+
+
+        font-size: 17px;
+
+
+
+        line-height: 10px;
+
+
+
+        padding-bottom: 5px;
+
+
+
+    }
+
+
+
+    .banner_back h2{
+
+
+
+        font-size: 16px;
+
+
+
+        line-height: 16px;
+
+
+
+    }
+
+
+
+    .banner_back h2 span{
+
+        font-size:16px;
+
+    }
+
+
+
+    .banner_back h3{
+
+
+
+        font-size: 16px;
+
+
+
+        line-height: 30px;
+
+
+
+    }
+
+
+
+    .banner_back h4 {
+
+
+
+        font-size: 16px;
+
+
+
+        line-height: 17px;
+
+
+
+        padding-bottom: 0;
+
+
+
+    }
+
+
+
+    .app-btn1 {
+
+
+
+        width: 90px;
+
+
+
+    }
+
+
+
+    .banner_back .form-control {
+
+
+
+        padding: 7px 12px;
+
+        font-size:14px;
+
+
+
+    }
+
+
+
+    .trial_button {
+
+
+
+        padding: 0px 30px;
+
+
+
+    }
+
+    .banner_back i{
+
+        font-size:16px;
+
+        line-height:17px;
+
+        padding-bottom:10px;
+
+    }
+
+
+
+}
+
+
+
+
+
+@media all and (max-width:675px){
+
+    .banner_back h3{
+
+        font-size:14px;
+
+    }
+
+    .banner_back h2{
+
+        font-size: 15px;
+
+    }
+
+    .banner_back h2 span{
+
+        font-size:15px;
+
+    }
+
+    .banner_back h1{
+
+        font-size:16px;
+
+    }
+
+    .banner_back i{
+
+        font-size:15px;
+
+        line-height:10px;
+
+        padding-bottom:7px;
+
+    }
+
+    .form-sect{
+
+        max-width:266px;
+
+    }
+
+}
+
+@media all and (max-width:622px){
+    .banner_back h1{
+
+        line-height: 1.2;
+
+    }
+}
+
+@media all and (max-width:615px){
+
+    .banner_back h3{
+
+        font-size:13px;
+
+        line-height: 24px;
+
+    }
+
+    .banner_back h1{
+
+        font-size:14px;
+
+    }
+
+    .banner_back h2{
+
+        font-size:14px;
+
+    }
+
+    .banner_back h2 span{
+
+        font-size:14px;
+
+        line-height:17px;
+
+    }
+
+    .banner_back i {
+
+        font-size: 13px;
+
+        line-height: 8px;
+
+        padding-bottom: 1px;
+
+    }
+
+    .banner_back .form-control{
+
+        font-size:12px;
+
+    }
+
+    .trial_button{
+
+        top:6px;
+
+        padding:0px 17px;
+
+        font-size:12px;
+
+    }
+
+}
+
+
+
+@media all and (max-width: 590px) {
+
+
+
+    .banner_back h1 {
+
+
+
+        font-size: 13px;
+
+
+
+        line-height: 0px;
+
+
+
+    }
+
+
+
+    .banner_back h2 {
+
+
+
+        font-size: 14px;
+
+
+
+        line-height: 8px;
+
+
+
+    }
+
+
+
+    .banner_back h2 span{
+
+        line-height:12px;
+
+    }
+
+
+
+    .banner_back h3 {
+
+
+
+        font-size: 12px;
+
+
+
+        line-height: 15px;
+
+
+
+    }
+
+
+
+    .banner_back i{
+
+        font-size:12px;
+
+    }
+
+
+
+    .banner_back img {
+
+
+
+        padding-bottom: 7px;
+
+
+
+    }
+
+
+
+    .banner_back img {
+
+
+
+        padding-bottom: 7px;
+
+
+
+    }
+
+
+
+    .banner_back .form-control{
+
+
+
+        font-size: 12px;
+
+
+
+    }
+
+
+
+    .form-sect{
+
+
+
+        width: 87%;
+
+
+
+    }
+
+
+
+    .trial_button {
+
+
+
+        padding: 1px 8px;
+
+
+
+        font-size: 11px;
+
+
+
+    }
+
+
+
+    .set_pos{
+
+
+
+        top: 12%;
+
+
+
+    }
+
+
+
+}
+
+
+
+@media all and (max-width: 575px) {
+
+
+
+
+
+
+
+    .footer_bottom p{ 
+
+
+
+        font-size: 11px;
+
+
+
+    }
+
+
+
+    .footer_bottom span a{
+
+
+
+        font-size: 11px;
+
+
+
+    }
+
+
+
+    .navbar-light .navbar-brand{
+
+
+
+        padding-bottom: 20px;
+
+
+
+    }
+
+
+
+    .navbar-collapse{
+
+
+
+        border-top: 1px solid #999999;
+
+
+
+        padding: 10px 0px;
+
+
+
+    }
+
+
+
+    #header ul li a{
+
+
+
+        padding-left: 0;
+
+
+
+    }
+
+
+
+    .trial_button{
+
+
+
+        top: 6px;
+
+
+
+        right: 8px;
+
+
+
+    }
+
+
+
+    .banner_back .form-control{
+
+
+
+        font-size: 13px;
+
+
+
+    }
+
+
+
+    .fa-calendar{
+
+
+
+        top: 8%;
+
+
+
+        left: 24%;
+
+
+
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 520px) {
+
+
+
+    .banner_back h1 {
+
+
+
+        font-size: 12px;
+
+
+
+        line-height: 1.2;
+
+
+
+
+
+
+
+    }
+
+
+
+    .banner_back h2 {
+
+
+
+        font-size: 12px;
+
+
+
+        line-height: 10px;
+
+
+
+    }
+
+
+
+    .banner_back h3 {
+
+
+
+        font-size: 13px;
+
+
+
+        line-height: 1.2;
+
+
+
+    }
+
+
+
+    .banner_back img {
+
+
+
+        padding-bottom: 7px;
+
+
+
+    }
+
+
+
+    .banner_back img {
+
+
+
+        padding-bottom: 7px;
+
+
+
+    }
+
+
+
+    .banner_back .form-control{
+
+
+
+        font-size: 12px;
+
+
+
+    }
+
+
+
+    .form-sect{
+
+
+
+        width: 87%;
+
+
+
+    }
+
+
+
+    .trial_button {
+
+
+
+        padding: 1px 8px;
+
+
+
+        font-size: 11px;
+
+
+
+    }
+
+
+
+    .set_pos{
+
+
+
+        top: 12%;
+
+
+
+    }
+
+
+
+    .app-btn1 {
+
+
+
+        width: 60px;
+
+
+
+    }
+
+
+
+    .banner_back h4 {
+
+
+
+        font-size: 13px;
+
+
+
+        line-height: 17px;
+
+
+
+        padding-bottom: 0;
+
+
+
+    }
+
+
+
+    .banner_back .form-control {
+
+
+
+        padding: 6px 10px;
+
+
+
+    }
+
+
+
+}
+
+@media all and (max-width:466px){
+    .banner_back .form-control{
+        padding:6px 4px;
+    }
+    .trial_button{
+        top:6px;
+        right:8px;
+    }
+    .form-sect{
+        width:81%;
+    }
+}
+
+@media all and (max-width:456px){
+
+    .banner_back h1{
+
+        font-size:11px;
+
+    }
+
+}
+
+
+
+@media all and (max-width: 450px) {
+
+
+
+
+
+
+
+    .banner_back h4 {
+
+
+
+        font-size: 13px;
+
+
+
+        line-height: 17px;
+
+
+
+
+
+
+
+    }
+
+
+
+    .banner_back h1 {
+
+
+
+        font-size: 13px;
+
+
+
+        line-height: 14px;
+
+
+
+        margin-bottom: 0;
+
+
+
+        padding-bottom: 10px;
+
+
+
+
+
+
+
+    }
+
+
+
+    .banner_back h2 {
+
+
+
+        font-size: 12px;
+
+
+
+        line-height: 10px;
+
+
+
+    }
+
+
+
+    .banner_back h3 {
+
+
+
+        font-size: 12px;
+
+
+
+        line-height: 1.3;
+
+
+
+    }
+
+
+
+    .banner_back i{
+
+        font-size:11px;
+
+    }
+
+
+
+    .banner_back img {
+
+
+
+        padding-bottom: 7px;
+
+
+
+    }
+
+
+
+    .banner_back img {
+
+
+
+        padding-bottom: 7px;
+
+
+
+    }
+
+
+
+    .banner_back .form-control{
+
+
+
+        font-size: 12px;
+
+
+
+    }
+
+
+
+    .form-sect{
+
+
+
+        width: 87%;
+
+
+
+    }
+
+
+
+    .trial_button {
+
+
+
+        padding: 1px 8px;
+
+
+
+        font-size: 11px;
+
+
+
+    }
+
+
+
+    .set_pos{
+
+
+
+        top: 12%;
+
+
+
+    }
+
+
+
+    .app-btn1 {
+
+
+
+        width: 60px;
+
+
+
+    }
+
+
+
+}
+
+
+
+@media all and (max-width: 450px) {
+
+
+
+    .app-btn1{
+
+
+
+        display: none !important;
+
+
+
+    }
+
+
+
+    .form-sect{
+
+
+
+        display: none !important;
+
+
+
+
+
+
+
+    }
+
+
+
+    .mobile_button_show{
+
+
+
+        display:block !important;
+
+
+
+        text-align: center;
+
+
+
+    }
+
+
+
+    .app-btn2{
+
+
+
+        width: 35%;
+
+
+
+        margin-bottom: 10px;
+
+
+
+    }
+
+
+
+    .form-sect2 {
+
+
+
+        position: relative;
+
+
+
+        max-width: 365px;
+
+
+
+        width: 100%;
+
+
+
+    }
+
+
+
+    .trial_button {
+
+
+
+        color: #fff;
+
+
+
+        background-color: #0c58a8;
+
+
+
+        font-size: 13px;
+
+
+
+        font-family: 'Open Sans';
+
+
+
+        border: none;
+
+
+
+        border-radius: 5px;
+
+
+
+        padding: 12px 32px;
+
+
+
+        float: left;
+
+
+
+        position: absolute;
+
+
+
+        top: 8px;
+
+
+
+        right: 8px;
+
+
+
+        border-radius: 28px;
+
+
+
+    }
+
+
+
+    .form-control{
+
+
+
+        padding: 11px 15px;
+
+
+
+        color: #666666;
+
+
+
+        font-size: 11px;
+
+
+
+        border-radius: 28px;
+
+
+
+        padding: 9px 10px;
+
+
+
+    }
+
+
+
+    .trial_button {
+
+
+
+        padding: 1px 8px;
+
+
+
+        font-size: 11px;
+
+
+
+    }
+
+
+
+}
+
+@media all and (max-width:384px){
+    .banner_back i{
+        line-height:1.2;
+    }
+}
+
+@media all and (max-width:370px){
+
+    .banner_back h1{
+
+        font-size:9px;
+
+        line-height:23px;
+
+        padding-bottom:3px;
+
+    }
+
+    .banner_back h2{
+        font-size:11px;
+    }
+    .banner_back h2 span{
+        font-size:10px;
+    }
+    .banner_back h3{
+
+        font-size:11px;
+
+        line-height:1.2;
+
+    }
+
+    .banner_back i{
+
+        font-size:10px;
+
+    }
+
+}
+
+
+
+@media all and (max-width: 350px) {
+
+    .banner_back h1 {
+        font-size: 8px;
+        line-height: 14px;
+        padding-bottom: 3px;
+    }
+
+    .set_pos {
+
+
+
+        top: 13%;
+
+
+
+    }
+
+
+
+
+
+
+
+}

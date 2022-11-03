@@ -1,0 +1,1601 @@
+
+@media all and (max-width:1345px){
+
+    .wrapper{
+
+        width: 96%;
+
+    }
+
+    /*    rxqueue table tabs responsive 29-9-2016 omair */
+
+    .search_tab_f{
+
+        clear:left;
+
+        float:right;
+
+        padding-top: 10px; 
+
+    }
+
+    .sorting_tab_f{ 
+
+        float:left;
+
+        padding-top:10px; 
+
+    }
+
+    .dataTables_length,.dataTables_filter{
+
+        margin:0 0 10px;
+
+    } 
+
+   
+
+    .table_headh .nav-tabs{
+
+        float:none;
+
+    }
+
+    .customRow{
+
+        margin: 12px 0 17px;
+
+    }
+
+    .customTableRow {
+
+        
+
+    }
+
+    .cutome_left label.cutmobtn{
+
+        left:4px;
+
+    }
+
+    .cutome_left .custome_right{
+
+        padding-left:15px;
+
+    }
+
+    .table_headh .nav-tabs{
+
+        display:inline-block;
+
+        vertical-align:top;
+
+    }
+
+}
+
+@media all and (max-width: 1250px) {
+
+    .table_headh .nav-tabs{
+
+        display:block;
+
+    }
+
+    .btn_estimate{
+
+        float:none;
+
+        margin-bottom:10px;
+
+    }
+
+.rx_newtable .tab-content > .tab-pane{
+
+    /* overflow:auto; */
+
+}
+
+/*.rx_newtable .tab-content > .tab-pane table{
+
+    min-width:1240px;
+
+}*/
+
+.home_padding .head_top .btn-multiprice
+{
+	margin-left:0;
+	padding:5px;
+	
+}
+.home_padding .head_top .btn-estimate
+{
+	margin-left:4px;
+	padding:5px;
+}
+.home_padding .head_top .btn-save
+{
+	margin-right:0;
+	padding:5px;
+}
+.dataTables_wrapper
+{
+	padding-bottom:55px;
+}
+
+.customTableRow .tab-content > .tab-pane
+{
+	display:none !important;
+}
+.customTableRow .tab-content > .tab-pane.active
+{
+	display:block !important;
+}
+
+}
+
+@media all and (max-width: 1200px) {
+
+    .banner_video img{
+
+        height:115%;
+
+        width:auto;
+
+    }
+
+    .ico_video {
+
+        right: 57%;
+
+        top: 52%;
+
+    }
+
+    .btextual_content h2 {
+
+        font-size: 28px;
+
+        line-height: 35px;
+
+    }
+
+    .btextual_content p {
+
+        font-size: 13px;
+
+        line-height: 22px;
+
+    }
+
+    .btextual_content .btn {
+
+        font-size: 18px;
+
+
+
+        padding: 5px 30px 6px;
+
+        margin: 12px 0 22px;
+
+    }
+
+    .btextual_content h5 {
+
+        font-size: 16px;
+
+    }
+
+    .paddBot {
+
+        padding-bottom: 77px;
+
+    }
+
+    .wrapper .userBanner li:nth-child(4), .wrapper .userBanner li:nth-child(5), .wrapper .userBanner li:last-child{
+
+        margin-top:5px;
+
+    }
+
+    .wrapper .userBanner li{
+
+        width:33.3333333%;
+
+    }
+
+    .wrapper .userBanner li:last-child{
+
+        width:33.3333333%;
+
+    }
+
+    .wrapper .userBanner li:last-child .new_usere{
+
+        float:none;
+
+        margin-left:0;
+
+        margin-right:6px;
+
+    }
+	#searchBox.input-group.add-on.search_container .input-group .pad_labe_new
+	{
+		padding-right:73px !important;
+	}
+	
+	.dataTables_wrapper table
+	{
+		min-width:inherit;
+	}
+
+}
+
+
+
+@media all and (min-width: 1200px){
+
+    .wrapper .userBanner li:nth-child(1){
+
+        width:14.5%;
+
+    }
+
+    .wrapper .userBanner li:nth-child(2){
+
+        width:16%;
+
+    }
+
+    .wrapper .userBanner li:nth-child(3){
+
+        width:19%;
+
+    }
+
+    .wrapper .userBanner li:nth-child(4){
+
+        width:15%;
+
+    } 
+
+    .wrapper .userBanner li:nth-child(5){
+
+        width:13%;
+
+    }
+
+    .wrapper .userBanner li:last-child{
+
+        text-align: right;
+
+    }
+
+
+
+}
+
+@media all and (min-width: 1199px){
+
+
+
+
+
+}
+
+@media all and (max-width: 1120px) {
+
+    .banner_video img{
+
+        height:110%;
+
+        width:auto;
+
+    }
+
+    .btextual_content {
+
+        padding: 30px 52px 0 30px;
+
+    }
+
+    .my_apps {
+
+        padding: 10px 10px 0 30px;
+
+    }
+
+    .ico_video {
+
+        right: 56%;
+
+        top: 57%;
+
+    }
+
+.tableContainer .nav-tabs li{
+
+    width:33.333%;
+	margin-bottom:9px;
+	min-height:73px;
+
+}
+
+#searchBox.input-group.add-on.search_container .drp-ipad .input-group span#basic-addon1, 
+#searchBox.input-group.add-on.search_container .drp-ipad .input-group span#basic-addon1 select#searchByddl
+{
+	/*width:100% !important;*/
+}
+
+}
+
+@media all and (max-width: 1199px) {
+
+
+
+    .footer_privcy{
+
+        text-align:center;
+
+        padding-top:7px;
+
+        padding-bottom:12px;
+
+    }
+
+    .registration_layout{
+
+        padding:0 15px 0;
+
+    }
+
+    .r_p_head{
+
+        padding-top:10px;
+
+    }
+
+    .regi_col{
+
+        margin-bottom:15px;
+
+    }
+
+    .time_third{
+
+        float:none;
+
+        clear:left;
+
+    }
+
+    .cle{
+
+        clear:left;
+
+    }
+
+    .schedule_list .timeBlock:nth-child(2n+3){
+
+        clear:left;
+
+    }
+
+}
+
+@media all and (max-width:1199px){
+
+    .registration_menu ul li{
+
+        width:16%;
+
+        float: left;
+
+        margin:0 0 3px 7px;
+
+    }
+	.logo
+	{
+		margin-bottom:2px;
+	}
+
+}
+
+@media all and (max-width:1110px){
+
+    .registration_menu ul li{
+
+        width:32%;
+
+        margin:0 0 8px 8px;
+
+    }
+.home_padding .head_top .btn-save
+{
+	
+	padding:5px 3px;
+}
+.home_padding .head_top .fa-usd, .home_padding .head_top .fa-plus-circle
+{
+	margin-right:2px;
+}
+#searchBox.input-group.add-on.search_container .col-sm-2 .padd_none_new_page
+{
+	padding-right:0;
+}
+
+}
+
+@media all and (max-width: 1045px) {
+
+    .banner_video img {
+
+        height: 117%;
+
+        width: auto;
+
+    }
+
+    .btextual_content {
+
+        padding: 30px 52px 0 30px;
+
+    }
+
+    .ico_video {
+
+        right: 54%;
+
+        top: 57%;
+
+    }
+
+    .banner {
+
+        min-height: 411px;
+
+    }
+
+    .banner_video {
+
+        min-height: 308px;
+
+    }
+
+}
+
+@media all and (max-width: 1032px) {
+
+    .mini_wrapper{
+
+        width:100%;
+
+    }
+
+
+
+}
+
+@media all and (max-width: 1000px) {
+
+    .table_headh .nav-tabs{
+
+        display:block;
+
+    }
+
+    .btn_estimate{
+
+        float:none;
+
+        margin-bottom:10px;
+
+    }
+
+}
+
+@media all and (max-width: 991px) {
+
+    .login_col {
+
+        padding-right: 15px;
+
+        border-right:0;
+
+        border-bottom: #999999 1px solid;
+
+        padding-bottom:25px;
+
+    }
+
+    .register_col{
+
+        padding-top:20px;
+
+    }
+
+    .licence_col{
+
+        padding-bottom:20px;
+
+        border-bottom: #999999 1px solid;
+
+        margin-bottom:20px;
+
+    }
+
+    .home_content h2{
+
+        font-size:23px;
+
+    }
+
+    .footer ul{
+
+        padding-top:7px;
+
+    }
+
+    .footer_privcy{
+
+        text-align:center;
+
+        padding-top:0px;
+
+        padding-bottom:12px;
+
+    }
+
+    .banner_video img {
+
+        height: 100%;
+
+        width: auto;
+
+        bottom:0;
+
+    }
+
+    .ico_video {
+
+        right: 232px;
+
+        top: 31%;
+
+    }
+
+    .my_apps{
+
+        position:relative;
+
+    }
+
+    .my_apps ul {
+
+        padding: 0 0 0;
+
+        margin: 0 0 0;
+
+        list-style: none;
+
+        background: none;
+
+        overflow: hidden;
+
+        position:absolute;
+
+        left:30px;
+
+        bottom:15px;
+
+    }
+
+    .my_apps ul li{
+
+        width:31%;
+
+        margin-right:2%;
+
+    }
+
+    .my_apps ul li img{
+
+        width:100%;
+
+    }
+
+    .my_apps ul li:first-child{
+
+        display:block;
+
+        float:none;
+
+        background:none;
+
+        width:auto;
+
+    }
+
+    .paddBot {
+
+        padding-bottom: 95px;
+
+    }
+
+    .logo h1{
+
+        display:inline-block
+
+    }
+
+    .logo{
+
+        text-align:center;
+
+    }
+
+    .rxQueueInfoCont .customRow > div{
+
+        width: 50%;
+
+        margin:5px 0 5px;
+
+    }
+
+    /*    headerTwo responsive style rules omair 29-9-2016*/
+
+    .secondHeaderBody .headerTwo .rightHead {
+
+        text-align:center;
+
+    }
+
+    .secondHeaderBody .headerTwo .loginDiv {
+
+        margin-top: 17px;
+
+    }
+
+    .secondHeaderBody .headerTwo .rightHead h2{
+
+        font-size:23.76px;
+
+    }
+
+    .secondHeaderBody .headerTwo .logo h1 a img{
+
+        max-height: 60px;
+
+    }
+
+    body.secondHeaderBody{
+
+        padding-top:99px;
+
+    }
+
+}
+
+@media all and (max-width: 890px) {
+
+    .home_content h2{
+
+        font-size:20px;
+
+    }
+
+    .home_widget h5{
+
+        font-size:14px;
+
+    }
+
+    .home_widget p{
+
+        font-size:12px;
+
+        line-height:18px;
+
+    }
+
+}
+
+@media all and (max-width: 770px) {
+
+    .modal-content{
+
+        width:94%;
+
+    }
+
+}
+
+@media all and (max-width: 767px) {
+
+
+
+    .home_content h2 {
+
+        font-size: 17px;
+
+        margin: 0 0 24px;
+
+        padding: 0 0 14px;
+
+    }
+
+    .home_content{
+
+        padding-top:0px;
+
+    }
+
+    .secont_field{
+
+        padding-left:15px;
+
+    }
+
+    .first_field{
+
+        padding-right:15px;
+
+    }
+
+    .regi_col i{
+
+        margin-bottom:10px;
+
+    }
+
+    .table_headh .nav-tabs li:nth-child(1){
+
+        width:40.3333333%;
+
+    }
+
+    .table_headh .nav-tabs li:nth-child(2){
+
+        width:25.3333333%;
+
+    }
+
+    .table_headh .nav-tabs li:nth-child(3){
+
+        width:34.3333333%;
+
+    }
+
+    .dataTables_wrapper{
+
+        overflow-x:scroll;
+
+        padding-bottom: 15px;
+
+    }
+
+    .wrapper .userBanner li:nth-child(3), .wrapper .userBanner li:nth-child(4), .wrapper .userBanner li:nth-child(5), .wrapper .userBanner li:last-child{
+
+        margin-top:5px;
+
+    }
+
+    .wrapper .userBanner li{
+
+        width:50%;
+
+    }
+
+
+
+    .secondHeaderBody .headerTwo .rightHead{
+
+        text-align:left;
+
+    }
+
+    .secondHeaderBody .headerTwo .logo h1 a img {
+
+        max-height: 52px;
+
+    }
+
+    .secondHeaderBody .headerTwo .loginDiv i {
+
+        font-size: 14px;
+
+    }
+
+    .secondHeaderBody .headerTwo .loginDiv .btn {
+
+        font-size: 13px;
+
+    }
+
+    .secondHeaderBody .headerTwo .rightHead h2 {
+
+        font-size: 22.76px;
+
+        margin-bottom: 0;
+
+    }
+
+    body.secondHeaderBody{
+
+        padding-top:140px;
+
+    }
+
+    .wrapper .userBanner li:last-child {
+
+        width: 50%;
+
+    }
+
+
+
+
+
+    .drug_modals .padding-left {
+
+        padding-right: 0;
+
+    }
+
+    .drug_modals .padding-right {
+
+        padding-left: 0;
+
+    }
+
+    .brand_indicator{
+
+        clear:both;
+
+        margin-bottom:10px;
+
+    }
+
+    .cutome_left .tque_left {
+
+        position: relative;
+
+        top: 0;
+
+        left: 0;
+
+        margin: 0 0 15px 0;
+
+        width: 100%;
+
+        -moz-transition: all 200ms ease-in;
+
+        -webkit-transition: all 200ms ease-in;
+
+        -o-transition: all 200ms ease-in;
+
+        transition: all 200ms ease-in;
+
+    }
+
+    .cutome_left .custome_right{
+
+        padding-left:10px;
+
+    }
+
+    .cutome_left label.cutmobtn{
+
+        display:none;
+
+    }
+
+.tableContainer .nav-tabs li{
+
+    width:50%;
+
+}
+
+}
+
+@media all and (max-width: 660px) {
+
+    .my_apps{
+
+        padding-bottom:20px;
+
+
+
+    }
+
+    .my_apps ul{
+
+        width:80%;
+
+    }
+
+    .dependant_table{
+
+        width:100%;
+
+        overflow:auto;
+
+    }
+
+    .dependant_table .table{
+
+        width:680px;
+
+    }
+
+}
+
+@media all and (max-width: 650px) {
+
+    .registration_menu ul li {
+
+        width: 49%;
+
+        margin: 0 2% 8px 0;
+
+    }
+
+    .registration_menu ul li:nth-child(2n){
+
+        margin-right:0;
+
+    }
+
+}
+
+@media all and (max-width: 620px) {
+
+    .home_content h2 {
+
+        font-size: 15px;
+
+        margin: 0 0 24px;
+
+        padding: 0 0 14px;
+
+        line-height:22px;
+
+    }
+
+}
+
+@media all and (max-width: 590px) {
+
+    .registration_head p{
+
+        font-size:16px;
+
+    }
+
+    .secondHeaderBody .headerTwo .loginDiv {
+
+        float:none;
+
+        text-align:center;
+
+        margin-top:15px;
+
+    }
+
+    .secondHeaderBody .headerTwo .rightHead h2 {
+
+        width:100%;
+
+        text-align:center;
+
+        margin-top:14px;
+
+    }
+
+    /*30-9-2016 small bug in logout drop down fixed below (2 rules)omair*/
+
+    .secondHeaderBody .headerTwo .loginDiv {
+
+        display:inline-block;
+
+    }
+
+    .secondHeaderBody .headerTwo .rightHead{
+
+        text-align:center;
+
+    }
+
+
+
+    body.secondHeaderBody{
+
+        padding-top:175px;
+
+    }
+
+    .drug_p_det h3 small{
+
+        float:none;
+
+        display:block;
+
+        padding:4px 0;
+
+    }
+
+    .drug_p_det h3 small{
+
+        float:none;
+
+        display:block;
+
+        padding:4px 0;
+
+    }
+
+}
+
+@media all and (max-width: 530px) {
+
+    .modal-content{
+
+        width:92%;
+
+    }
+
+    .login_col {
+
+        padding-bottom:15px;
+
+    }
+
+    .regitsre_model .select_div ul li label{
+
+        font-size:14px;
+
+    }
+
+    .regitsre_model .select_div ul li label span{
+
+        font-size:11px;
+
+    }
+
+    .banner_video img {
+
+        height: auto;
+
+        width: 80%;
+
+        bottom: 0;
+
+    }
+
+    .ico_video {
+
+        right: 42%;
+
+        top: 38%;
+
+    }
+
+    .btextual_content h2 {
+
+        font-size: 25px;
+
+        line-height: 33px;
+
+    }
+
+    .rxQueueInfoCont .customRow > div{
+
+        width: 100%;
+
+        margin:5px 0 5px;
+
+    }
+
+    /*below (2 rules) are the fix for horizontal scroll bar appearing on mobile devices 29-9-2016 */
+
+    .customTableRow > div{
+
+        padding:0;
+
+    }
+
+    .lessWidthNumber {
+
+        width:20%;
+
+    }
+
+    .lessWidthNumber + .textDetail {
+
+        width: 80%;
+
+    }
+
+    .customTableRow{
+
+        margin: 0;
+
+    }
+
+}
+
+@media all and (max-width: 480px) {
+
+    .registration_head p{
+
+        font-size:14px;
+
+    }
+
+    .registration_head p span{
+
+        padding-top:3px;
+
+    }
+
+    .registration_head{
+
+        margin-bottom:15px;
+
+    }
+
+    .r_p_head p {
+
+        font-size: 14px;
+
+        line-height: 25px;
+
+    }
+
+    .ico_video {
+
+        right: 42%;
+
+        top: 40%;
+
+    }
+
+    .tableContainer .nav-tabs li:nth-child(1), .tableContainer .nav-tabs li:nth-child(2), .tableContainer .nav-tabs li:nth-child(3){
+
+        width: 100%;
+
+    }
+
+    .tableContainer .nav-tabs li:nth-child(2){
+
+        border-right:1px solid #d4d2d6;
+
+    }
+
+    .sorting_tab_f, .search_tab_f {
+
+        float:none;
+
+        margin:5px 0;
+
+    }
+
+    .dataTables_filter label{
+
+        margin:0;
+
+        width:100%;
+
+    }
+
+    .dataTables_filter input[type="search"]{
+
+        width: 100%;
+
+        margin:0;
+
+    }
+
+    .wrapper .userBanner li:nth-child(2), .wrapper .userBanner li:nth-child(3), .wrapper .userBanner li:nth-child(4), .wrapper .userBanner li:nth-child(5), .wrapper .userBanner li:last-child{
+
+        margin-top:5px;
+
+    }
+
+    .wrapper .userBanner li{
+
+        width:100%;
+
+        text-align:left;
+
+        padding-left:15px;
+
+    }
+
+    .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter{
+
+        text-align: left;
+
+    }
+
+    .sorting_tab_f{
+
+        padding-top: 0;
+
+    }
+
+    .search_tab_f{
+
+        padding-top: 5px; 
+
+    }
+
+    .wrapper .userBanner li:last-child {
+
+        width: 100%;
+
+    }
+
+}
+
+@media all and (max-width: 450px) {
+
+    .modal-content{
+
+        width:90%;
+
+    }
+
+    .login_model h2{
+
+        font-size:23px;
+
+    }
+
+    .login_footer p{
+
+        font-size:11px;
+
+    }
+
+    .regitsre_model .select_div ul li label{
+
+        font-size:12px;
+
+        line-height:inherit;
+
+    }
+
+    .regitsre_model .select_div ul li label span{
+
+        font-size:10px;
+
+    }
+
+    .ico_video {
+
+        right: 40%;
+
+        top: 39%;
+
+    }
+
+    .banner_video {
+
+        min-height: 280px;
+
+    }
+
+}
+
+@media all and (max-width: 440px) {
+
+    .home_widget p {
+
+        font-size: 11px;
+
+        line-height: 15px;
+
+    }
+
+    .home_widget h5{
+
+        font-size:13px;
+
+        text-transform:capitalize;
+
+        line-height:16px;
+
+    }
+
+    .home_widget {
+
+        background: #f0f0f0;
+
+        position: relative;
+
+        padding: 24px 17px 15px 96px;
+
+    }
+
+    .timeBlock {
+
+        min-width: 47.7px;
+
+        height:22px;
+
+        font-size: 10px;
+
+        padding: 3px 4px 0;
+
+        margin: 0 3px 8px 0;
+
+    }
+
+    .regi_col label{
+
+        font-size:12px;
+
+    }
+
+    .regi_col .radio_style ul li label{
+
+        font-size:12px;
+
+    }
+
+    .regi_col h5{
+
+        font-size:15px;
+
+    }
+
+    .regi_col h4{
+
+        font-size:14px
+
+    }
+
+    .regi_cofi p{
+
+        font-size:11px;
+
+    }
+
+    .ico_video {
+
+        width: 45px;
+
+        height: 31px;
+
+        right: 44%;
+
+        top: 46%;
+
+        background-size:100%;
+
+    }
+
+    .btextual_content h2 {
+
+        font-size: 17px;
+
+        line-height: 27px;
+
+        font-weight:normal;
+
+    }
+
+    .btextual_content p {
+
+        font-size: 12px;
+
+        line-height: 22px;
+
+    }
+
+    .btextual_content h5 {
+
+        font-size: 14px;
+
+    }
+
+
+
+    .drug_ul_cost li{
+
+        font-size:12px;
+
+    }
+
+    .drug_ul_cost li span {
+
+        min-width: 54px;
+
+        font-size: 14px;
+
+    }
+
+}
+
+@media all and (max-width: 400px) {
+
+    .login_col .field_btn{
+
+        float:none !important;
+
+        display:block;
+
+        width:100px;
+
+        margin-bottom:10px;
+
+    }
+
+    .forget_pass{
+
+        float:none !important;
+
+    }
+
+    .footer_privcy p{
+
+        display:block;
+
+    }
+
+
+
+    .footer p{
+
+        font-size:11px;
+
+    }
+
+    .footer ul li{
+
+        font-size:12px;
+
+    }
+
+    .footer_privcy a{
+
+        display:inline-block;
+
+        clear:left;
+
+        margin:0 0 0 5px;
+
+    }
+
+    .registration_menu ul li {
+
+        width: 100%;
+
+        margin: 0 0 8px 0;
+
+    }
+
+    .banner_video {
+
+        min-height: 238px;
+
+    }
+
+    .ico_video {
+
+        right: 44%;
+
+        top: 40%;
+
+    }
+
+    .my_apps {
+
+        padding-bottom: 36px;
+
+    }
+
+    .secondHeaderBody .headerTwo .head_top{
+
+        padding:10px 0 !important;
+
+    }
+
+    body.secondHeaderBody{
+
+        padding-top:159px;
+
+    }
+
+}
+
+@media all and (max-width: 370px) {
+
+    .ico_video {
+
+        right: 42%;
+
+        top: 38%;
+
+    }
+
+    .banner_video {
+
+        min-height: 213px;
+
+    }
+
+    .btextual_content h5 {
+
+        font-size: 12px;
+
+    }
+
+}
+
+@media all and (max-width: 345px) {
+
+    .ico_video {
+
+        right: 42%;
+
+        top: 42%;
+
+    }
+
+    .banner_video {
+
+        min-height: 213px;
+
+    }
+
+
+
+}
+@media all and (max-width: 335px) {
+
+    .footer ul li{
+
+        margin:0 6px 0;
+
+    }
+
+    .timeBlock {
+
+        min-width: 44.7px;
+
+        height: 22px;
+
+        font-size: 9px;
+
+        padding: 5px 2px 0;
+
+        margin: 0 3px 8px 0;
+
+    }
+
+    .paddBot {
+
+        padding-bottom: 118px;
+
+    }
+
+}
+@media all and (max-width: 320px) {
+
+    .footmenu{
+
+        display:none;
+
+    }
+
+}
+
+
+
+/*O responsive*/
+
+
+

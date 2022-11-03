@@ -1,0 +1,363 @@
+@media (min-width: 1200px){
+	.container {
+		width: 1180px;
+	}
+}
+@media (max-width: 1200px){
+	.rx-navbar .btn-pharmacy{
+		padding: 3px 10px;
+		font-size: 16px;
+	}
+	.navbar-toggleable-md .navbar-nav .nav-link{
+		padding-left: 0;
+	}
+	.rx-navbar .btn-join{
+		padding: 3px 10px;
+		font-size: 16px;
+	}
+	.pharmacist-section h4 {
+		right: 3%;
+		font-size: 46px;
+		top: 29%;
+	}
+	.cross-going h4 {
+		font-size: 47px;
+		top: 55%;
+		left: 7%;
+	}
+	.top_slid .parah {
+		top: 30%;
+		width: 51%;
+		left: 5%;
+	}
+	.top_slid .parah h3 {
+		font-size: 35px;
+	}
+	.top_slid .Xr-parah {
+		margin-top: 10px;
+	}
+	.top_slid .xr-metro{
+		left: 5%;
+	}
+}
+@media (max-width: 1030px){
+	.top_slid .parah {
+		top: 30%;
+		width: 58%;
+		left: 3%;
+	}
+	.top_slid .parah h3 {
+		font-size: 30px;
+	}
+	.top_slid .parah p{
+		font-size: 20px;
+	}
+}
+@media (max-width: 960px){ 
+	.pharmacist-section h4{
+		right: 8px;
+		font-size: 40px;
+		top: 29%;
+	}
+	.cross-going h4 {
+		font-size: 42px;
+		top: 55%;
+		left: 5%;
+	}
+
+}
+
+@media (max-width: 992px){
+	.metro-delivery ul li a span{
+		margin-right: 2px;
+	}
+	.metro-delivery {
+		padding: 25px 0 25px; 
+	}
+	.rx-navbar .btn-pharmacy {
+		margin-top: 10px;
+		margin-left: 0;
+	}
+	.my-navbar .rx-navbar {
+		float: left;
+	}
+}
+
+@media (max-width: 910px){
+	.top_slid .parah p{
+		line-height: 10px;
+	}
+	.top_slid .xr-metro p {
+		font-size: 22px;
+	}
+	.top_slid .xr-metro{
+		padding: 10px 0;
+	}
+	.app-btn img{
+		margin-top: 2px; 
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+}
+@media (max-width: 805px){
+	.top_slid .parah h3 {
+		font-size: 25px;
+	}
+	.top_slid .parah p {
+		font-size: 16px;
+	}
+	.top_slid .xr-metro p{
+		line-height: 20px;
+		font-size: 17px;
+	}
+}
+@media (max-width: 768px){  
+	.pharmacist-section h4{
+		right: 8px;
+		font-size: 32px;
+		top: 29%;
+	}
+	.cross-going h4 {
+		font-size: 36px;
+		top: 55%;
+		left: 2%;
+	}
+	.metro-delivery {
+		padding: 15px 0 15px;
+	}
+	.metro-delivery ul li a{
+		font-size: 30px;
+	}
+	.metro-delivery h4{
+		font-size: 40px;
+
+	}
+	.metro-delivery p{
+		font-size: 20px;
+	}
+	.metro-delivery h2{
+		font-size: 20px;
+		margin-bottom: 2px;
+	}
+	.metro-delivery ul{
+		margin-bottom: 10px;
+	}
+	.frequently_ask h3{
+		font-size: 38px;
+	}
+	.frequently_ask #accordion-first .accordion-heading .accordion-toggle{
+		font-size: 20px;
+	}
+	.frequently_ask{
+		padding: 20px 0;
+	}
+	.frequently_ask .accordion .accordion-inner p{
+		font-size: 16px;
+		line-height: 18px;
+	}
+	.top_slid .parah {
+		width: 60%;
+
+	}
+	.frequently_ask #accordion-first .accordion-heading .accordion-toggle > em{
+		line-height: 30.5px;
+	}
+	.frequently_ask #accordion-first .accordion-group {
+		margin-bottom: 0;
+	}
+
+}
+@media (max-width: 720px){  
+	.pharmacist-section h4{
+		right: 8px;
+		font-size: 32px;
+		top: 29%;
+	}
+}
+@media (max-width: 635px) {
+	.top_slid .parah {
+		width: 70%;
+		left: 1%;
+	}
+	.top_slid .xr-metro{
+		left: 4%;
+	}
+}
+
+@media (max-width: 605px) {
+	.cross-going h4 {
+		font-size: 30px;
+		top: 40%;
+		left: 1%;
+	}
+	.top_slid .parah {
+		width: 68%;
+		left: 5%;
+		top: 33%;
+	}
+	.top_slid .parah h3 {
+		font-size: 20px;
+		margin-bottom: 0;
+	}
+	.top_slid .parah p {
+		line-height: 4px;
+	}
+	.top_slid .parah p {
+		font-size: 14px;
+	}
+	.top_slid .xr-metro p {
+		line-height: 15px;
+		font-size: 14px;
+	}
+	.top_slid .xr-metro{
+		width: 45%;
+	}
+	.fa-plus:before {
+		content: "\f067";
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 575px){
+	.navbar-light .navbar-toggler{
+		z-index: 1;
+	}
+}
+@media (max-width: 540px) {
+	.pharmacist-section h4{
+		right: 8px;
+		font-size: 28px;
+		top: 29%;
+	}
+	.rx-footer {
+		padding: 4px 0;
+	}
+	.cross-going h4 {
+		font-size: 25px;
+		top: 40%;
+		left: 3%;
+	}
+	.metro-delivery ul li a {
+		font-size: 20px;
+	}
+	.metro-delivery ul li:first-child {
+		padding-left: 22px;
+	}
+}
+@media (max-width: 480px){
+	.rx-footer p{
+		font-size: 13px;
+	}
+	.fa-plus:before {
+		content: "\f067";
+		font-size: 13px;
+	}
+	.top_slid .Xr-parah{
+		margin-left: 0;
+	}
+	.top_slid .parah h3 {
+		font-size: 14px;
+		margin-bottom: 2px;
+	}
+	.top_slid .parah {
+		width: 57%;
+	}
+	.top_slid .parah p {
+		font-size: 12px;
+		line-height: 0;
+	}
+	.top_slid .xr-metro p {
+		line-height: 11px;
+		font-size: 11px;
+	}
+	.app-btn img{
+		width: 40%;
+	}
+	.top_slid .xr-metro{
+		padding: 2px 0;
+	}
+	.my-navbar .col-sm-4{
+		border-bottom: 1px solid #9ac642; 
+	}
+}
+@media (max-width: 460px) {
+	.pharmacist-section h4{
+		right: 8px;
+		font-size: 20px;
+		top: 29%;
+	}
+	.frequently_ask h3{
+		font-size: 23px;
+	}
+	.frequently_ask #accordion-first .accordion-heading .accordion-toggle{
+		font-size: 12px;
+	}
+	.frequently_ask{
+		padding: 10px 0;
+	}
+	.frequently_ask #accordion-first .accordion-heading .accordion-toggle{
+		padding:  0px !important;
+	}
+	.cross-going h4 {
+		font-size: 22px;
+		top: 40%;
+		left: 1%; 
+	}
+	.metro-delivery h4 {
+		font-size: 30px;
+	}
+	.metro-delivery p:last-child{
+		padding-left: 15px;
+	}
+	.frequently_ask #accordion-first .accordion-heading .accordion-toggle > em {
+		line-height: 17.5px;
+	}
+	.frequently_ask .accordion .accordion-inner p {
+		font-size: 11px;
+		line-height: 18px;
+	}
+
+}
+@media (max-width: 385px) {
+	.pharmacist-section h4{
+		right: 15px;
+		font-size: 18px;
+		top: 52%;
+	}
+	.cross-going h4 {
+		font-size: 18px;
+		top: 60%;
+		left: 2.5%; 
+	}
+	.metro-delivery ul li a {
+		font-size: 14px;
+	}
+	.metro-delivery h4 {
+		font-size: 20px;
+	}
+	.metro-delivery p {
+		font-size: 17px;
+	}
+	.metro-delivery h2 {
+		font-size: 17px;
+		margin-bottom: 2px;
+	}
+	.fa-plus:before {
+		content: "\f067";
+		font-size: 12px;
+	}
+	.metro-delivery ul li:first-child {
+		padding-left: 15px;
+	}
+	.top_slid .parah {
+		width: 68%;
+	}
+	.top_slid .parah h3 {
+		font-size: 12px;
+
+	}
+	.top_slid .parah p {
+		font-size: 11px;
+		line-height: 0;
+	}
+}

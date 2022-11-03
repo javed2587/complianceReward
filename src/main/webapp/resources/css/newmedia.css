@@ -1,0 +1,256 @@
+@media (max-width: 1366px){
+    .patient_bar{
+	width:inherit;
+	padding-right: 121px;
+}
+}
+@media (max-width: 1345px){
+.tableContainer .nav-tabs li {
+    /*width: 23.333333%;
+    text-align: center;*/
+}
+.patient_bar{
+	width:inherit;
+	padding-right: 121px;
+}
+.wrapper {
+    width: 96%;
+}
+.patient_bar ul li{
+	line-height:27px;
+}
+}
+@media all and (max-width: 1260px) {
+.patient_bar ul li {
+    padding: 0 10px 0;
+}
+.patient_info .wrapper{
+	width:100%;
+}
+}
+@media all and (max-width: 1200px) {
+.patient_bar{
+	padding-right:130px;
+}
+.patient_bar ul li{
+	float:none;
+	display:inline-block;
+	vertical-align:top;
+}
+.tableContainer.patient_info .tableTenRecord{
+	min-width:100%;
+	overflow:auto;
+}
+.tableContainer.patient_info .tableTenRecord table{
+	width:1230px;
+}
+
+}
+@media all and (max-width: 1199px) {
+.rightvideo{
+	padding-left:0;
+	padding-top:20px;
+}
+.rx_detail_table{
+	width:100%;
+	overflow:auto;
+}
+.transfer_wrap .set_table .rx_detail_table table{
+	width:1200px;
+}
+.home_padding .head_top .wrapper{
+	width:96%;
+}
+.transfer_wrap .set_table table.dt_tables tr td .form-control.small_field1, .transfer_wrap .set_table table.dt_tables tr td .form-control.small_field2, .transfer_wrap .set_table table.dt_tables tr td .form-control.small_field3{
+	min-width:inherit;
+	width:inherit;
+	display:inline-block;
+	vertical-align:top;
+	text-align:center;
+}
+.transfer_wrap .set_table table.dt_tables tr td{
+	text-align:center;
+	padding:4px 5px;
+}
+.transfer_wrap .set_table table.dt_tables tr th{
+	text-align:center;
+}
+.type_comment{
+	width:100%;
+	clear:both;
+	margin-bottom:5px;
+}
+.transfer_wrap .set_table .cutome_tb table.dt_tables tr th{
+	text-align:center;
+}
+
+.type_comment{
+	padding-left:0;
+}
+
+}
+@media all and (max-width: 991px){
+	.transfer_wrap .set_table .cutome_tb{
+		clear:both;
+	}
+}
+@media all and (max-width: 897px) {
+.tableContainer.patient_info .nav-tabs li a{
+	font-size:11px;
+}
+}
+@media all and (max-width: 767px) {
+.patient_box {
+    width: 100%;
+    float: none;
+}
+.tableContainer.patient_info > .nav-tabs
+{
+	margin-top:5px;
+}
+.patient_bar ul li.dropdown .dropdown-menu.address_dropdown.ins_cardlist
+{
+	min-width:260px;
+}
+.patient_bar ul li.dropdown .dropdown-menu.address_dropdown.ins_cardlist .card_colum{
+	margin-bottom:10px;
+}
+.home_padding{
+	padding-top:161px;
+}
+.tableContainer .nav-tabs li{
+	width:50%;
+}
+.table_col_left, .table_col_right{
+	padding:0 0 0 0;
+}
+.pharmacy_tables h6{
+	width:100%;
+}
+.table_col_full .medi_col{
+	padding:0 0 0;
+}
+}  
+@media all and (max-width: 700px) {
+.rx_nav_btns{
+	float:none;
+	text-align:center;
+}
+.rx_nav_btns form{
+	display:inline-block;
+	vertical-align:top;
+}
+.table_col_full{
+	overflow:auto; 
+}
+.table_col_full table{
+	min-width:750px;
+}
+}
+@media all and (max-width: 520px) {
+.logo h1 a img{
+	width:70%;
+}
+.rightHead h2{
+	display:block;
+	text-align: center;
+    font-size: 19px;
+    margin: 15px 0 15px;
+}
+.rightHead{
+	text-align:center;
+}
+.loginDiv{
+	float:none;
+	display:inline-block;
+}
+.loginDiv{
+	margin-top:3px;
+}
+.home_padding {
+    padding-top: 169px;
+}
+}
+@media all and (max-width: 490px) {
+.shipping_btns{
+	float:none;
+	display:block;
+	text-align:center;
+}
+.shipping_btns .btn_dtail{
+	display:inline-block;
+}
+.rx_nav_btns{
+	float:none;
+	display:block;
+	text-align:center;
+}
+.rx_nav_btns form{
+	display:inline-block;
+}
+}
+@media all and (max-width: 411px) {
+	.patient_bar ul li .form-control{
+	margin-left:0;
+	display:block;
+}
+.tableContainer.patient_info .nav-tabs{
+	float:none;
+	display:block;
+}
+.tableContainer.patient_info .nav-tabs li{
+	width:100%;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.tableContainer.patient_info .nav-tabs li a{
+	display:block;
+	font-size:11px;
+}
+.tableContainer.patient_info ul.pagination{
+	float:none;
+	display:block;
+	margin-top:10px;
+	vertical-align:top;
+}
+.tableContainer.patient_info ul.pagination li{
+	display:inline-block;
+	float:none;
+	vertical-align:top;
+}
+.backtoque{
+	float:none;
+	display:inline-block;
+}
+.tableContainer.patient_info nav{
+	text-align:center;
+}
+}  
+@media all and (max-width: 400px){
+.rightHead {
+    padding: 0 0 17px;
+}
+.next_qq, .back_qq{
+	float:none !important;
+	margin:0 auto 5px;
+	clear:both;
+}
+}
+@media all and (max-width: 335px) {
+
+.rx_nav_btns form .btn.pull-right{
+	float:none !important;
+	display:block;
+	margin:0 auto 5px;
+}
+}
+@media all and (max-width: 330px) {
+.tableContainer.patient_info .nav-tabs li a{
+	font-size:10px;
+}
+.patient_bar ul li.dropdown .dropdown-menu.address_dropdown{
+	min-width:inherit;
+	width:260px;
+}
+}

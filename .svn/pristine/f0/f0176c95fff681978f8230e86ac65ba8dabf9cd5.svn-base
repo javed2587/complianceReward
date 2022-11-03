@@ -1,0 +1,169 @@
+NotEmpty.users.userName = Please provide user name
+NotEmpty.users.firstName = Required
+NotEmpty.users.lastName = Required
+NotEmpty.users.userStartDate = Required
+NotEmpty.users.selectedBrands = Select atleast one brand
+NotEmpty.users.telNo = Please Required
+NotEmpty.users.emailAddress = Required
+Pattern.users.telNo = Provide valid 10 digits Phone number
+Pattern.users.cellNo = Provide valid 10 digits Phone number
+
+NotEmpty.role.roleTitle=Required
+
+NotEmpty.industry.industryTitle = Required
+
+NotEmpty.folder.folderName = Required
+
+NotEmpty.brand.brandTitle = Required
+NotEmpty.brand.shortCodeIds = Required
+
+NotEmpty.messageType.messageTypeTitle = Required
+NotEmpty.messageType.selectedBrands = Required
+NotEmpty.messageType.id.folderId = Required
+
+NotEmpty.response.responseTitle = Required
+NotEmpty.response.validResponses.validWord = Required
+
+NotNull.drugBrand.brandId= Required
+NotEmpty.drugBrand.genericName = Required
+NotEmpty.drugBrand.drugs.strength = Required
+NotEmpty.drugBrand.drugs.ndcnumber = Required
+Pattern.drugBrand.drugs.ndcnumber=Provide valid 11 digits NDC Number
+
+NotEmpty.smtpServerInfo.fromEmail = Required
+NotEmpty.smtpServerInfo.fromName = Required
+NotEmpty.smtpServerInfo.outGoingSmtp = Required
+NotEmpty.smtpServerInfo.smtpPort = Required
+NotEmpty.smtpServerInfo.smtpUserName = Required
+NotEmpty.smtpServerInfo.smtpPassword = Required
+
+NotEmpty.intervalsType.intervalsTypeTitle =Required
+NotNull.intervalsType.unitInSecond = Required
+NotNull.intervalsType.intervals.intervalValue = Required
+
+NotEmpty.widgetUser.userName = Required
+NotEmpty.widgetUser.password = Required
+NotNull.widgetUser.campaignId = Required
+
+NotEmpty.event.eventTitle = Required
+NotEmpty.event.selectedBrands = Required
+NotEmpty.event.staticValue = Required
+
+typeMismatch.date = Invalid date
+typeMismatch.java.util.Date = Invalid date
+typeMismatch = Invalid date
+
+NotNull.java.util.Date = Required
+NotNull.campaigns.triggers = Select one or more trigger(s)
+NotEmpty.java.lang.String.NotEmpty = Required
+
+login.user.empty = Please enter valid username / password
+login.user.not.found = This User does not exist
+login.invalid.credentials = Invalid username / password.
+login.inactive.user = This User is not Active
+login.startdate.future = This User has future start date
+NotEmpty.campaigns.campaignName = Required
+field.value.required = Required
+NotEmpty.campaigns.triggers.id.keyword = Required
+
+field.value.successfully = Record has been saved successfully.
+field.updated.successfully = Record has been updated successfully.
+field.deleted.successfully=Record has been deleted successfully.
+field.value.duplicate = Record already exists. Please correct and try again.
+field.db.error = Some data base errors has been occurred.
+field.access.restriction.column = You can't view more then five(5) interval types at a time
+field.already.column = Requested interval type already in the display list
+field.value.zero.negative = Value can not be negative or zero
+field.child.error = You can't update this record. Child record exists in one of the Campaign
+field.email.invalid = Enter valid email.
+row.saved.successfully = Record saved successfully out of 
+domain.name.missing = Domain name is missing in SMTP
+field.email.duplicate = Email already exists. Please correct and try again.
+field.validResponse.duplicate=Valid Response already exists. Please correct and try again.
+field.responseTitle.duplicate=Response Title  already exists. Please correct and try again.
+field.folder.required = Communication Folder value required.
+field.ndcNumber.duplicate=NDC Number already exists. Please correct and try again.
+field.brand.duplicate=Brand value already exists. Please correct and try again.
+field.genericName.duplicate= Compound Title already exists. Please correct and try again.
+field.saved.error=Unable to save record.
+field.deleted.error=Unable to delete, record is associated with further records.
+field.intervalValue.duplicate=Interval value already exists. Please correct and try again.
+field.intervalTitle.duplicate=Interval Title already exists. Please correct and try again.
+field.folder.duplicate=Folder Title already exists. Please correct and try again.
+field.widgetUser.duplicate=User Name already exists. Please correct and try again.
+field.widgetUser.widgetUserIpaddresseses.duplicate=IP Address already exists. Please correct and try again.
+field.event.duplicate=Event Title already exists. Please correct and try again.
+field.messageType.duplicate=Message Title already exist against this Message Type and folder.
+field.roleTitle.duplicate=Role Title already exists. Please correct and try again.
+field.industryTitle.duplicate=Industry Title already exists. Please correct and try again.
+field.brand.duplicate=Brand Title already exists. Please correct and try again.
+field.move.successfully=Campaign has been successfully moved to production.
+field.ipaddress.error=Invalid IP address
+error.field.required=Required
+field.surveyResponseType.duplicate=Response Title already exists. Please correct and try again.
+field.ipaddress.required=IP Address value required.
+
+process.executed = Processes executed successfully.
+process.name.required = Please select process name.
+process.unsuccessful = Processes not executed successfully.
+
+file.missing = File not found.
+
+support.success = Process executed successfully.
+support.err.missing = Please select the process.
+
+field.surveyQuestionTitle.duplicate=Question already exists. Please correct and try again.
+error.field.required = Required
+field.emailTemplateTitle.duplicate=Email Template Title already exists. Please correct and try again.
+field.less.percentage=This Should be greater than '0' or equal to 100
+field.ingredient.duplicate=Ingredient Title already exists. Please correct and try again.
+field.less.MinOffer=This Should be greater than '0' and equal to or less than Max Offer 
+field.less.MaxOffer=Offer amount should not be greater than AWP price.
+field.less.strength=Minimum length 2 character 
+field.survey.duplicate=Survey Title already exists. Please correct and try again.
+field.pharmacyTitle.duplicate=Pharmacy Name already exists. Please correct and try again.
+field.pharmacyNPI.duplicate=Pharmacy NPI # already exists. Please correct and try again.
+login.inactive.userPharmacy = This Pharmacy User is not Active
+field.OrderTrackNo.duplicate=Tracking # already exists.
+error.associated.record=Associated Record can't be inactive.
+error.invalid.email=Invalid email
+field.campaign.duplicate=Campaign Name already exists. Please correct and try again.
+message.sent.successfully=Test survey has been sent successfully.
+email.send.successfully=Test survey has been sent successfully.
+error.send.email=There is some problem to send email.
+error.userresponse=Please provide your response, at least against one question.
+field.sortOrder.duplicate=Sort Order already exist against this folder,Please correct and try again.
+field.less.spread=Spread value should not be greater than 100.
+not.space.allow=Space before value not allowed
+order.status.successfully=Order status updated successfully.
+order.status.error=Please select Order Status.
+orderhistory.comments.error=Please enter comments and try again.
+dailyRedemption.duplicate=Transaction No already exists. Please correct and try again.
+error.invalid.Email=Invalid email Address.
+error.empty.tc=Please accept terms & conditions and try again.
+webportal.process=Thank You ! Please check your Device / Inbox to complete registration.
+webportal.empty.field=Please provide communication id and try again.
+invalid.phoneNo=Invalid Phone Number.
+order.orderTrackNo.required=Tracking # is required.
+consumer.email.not.found=This email is not registered.
+field.cmsdocument.duplicate=Document Title already exists. Please correct and try again.
+filed.contactUs.success=Your message has been received, we will shortly contact with you. Feel free to browse through our website for more information.
+consumer.password.invalid=Please enter valid password.
+consumer.newpassword.invalid=New password & Repeat new password should be same.
+consumer.password.updated=New password sent at your email address. Please login again with new password.
+consumer.forgotusername.success=Username sent at provided email address.
+consumer.forgotusername.invalid.email=Please enter valid email address.
+consumer.forgotpassword.success=Password sent at provided email address.
+consumer.lookup.notfound=No pharmacy found. Correct your information & try again.
+order.orderscarriers.error=Please select Order Carrier.
+cardconnect.shortterm.error=Temporary error in payment card verification, try again after few minutes.
+cardconnect.declined.error=Payment card information is invalid, Please update payment card information and try again.
+cardconnect.refund.error=There is temporary error in payment refund please try again.
+facilityoperation.schedule.required=Facility operation schedule at least for one day must be defined.
+facilityoperation.schedule.error='From' time should be less than 'To' time.
+consumer.updated.success=Pharmacy detail has been updated successfully.
+field.less.Awp=AWP amount should not be less than WAC price.
+order.field.save=Record saved successfully.
+field.rx.exist=Rx # already exist.
+server.error=Internal server error.
+error.record.found=There is no record found.

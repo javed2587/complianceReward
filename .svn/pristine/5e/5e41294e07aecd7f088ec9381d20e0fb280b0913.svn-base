@@ -1,0 +1,748 @@
+package com.ssa.cms.model;
+
+import com.ssa.cms.modelinterfaces.CommonPatientFunctionalityI;
+import com.ssa.cms.modellisteners.PatientListener;
+import com.ssa.cms.util.CustomJsonDmyFormat;
+import java.io.Serializable;
+import java.math.BigDecimal;
+import java.util.Date;
+import java.util.List;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.EntityListeners;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+import javax.persistence.Transient;
+import org.codehaus.jackson.map.annotate.JsonSerialize;
+import org.hibernate.annotations.OrderBy;
+import org.springframework.format.annotation.DateTimeFormat;
+
+/**
+ *
+ * @author Saber Hussain
+ */
+@Entity
+@Table(name = "PatientProfileInfo")
+@EntityListeners(PatientListener.class)
+public class PatientProfile extends AuditFields implements Serializable, CommonPatientFunctionalityI {
+
+    private static final long serialVersionUID = 1L;
+    private Integer patientProfileSeqNo;
+    private String mobileNumber;
+    private String firstName;
+    private String lastName;
+    private String nickName;
+    private Integer verificationCode;
+    private String emailAddress;
+    private Date dob;
+    private String birthDate;
+    private String gender;
+    private String allergies;
+    private String cardHolderRelation;
+    private String securityToken;
+    private String memberId;
+    private Integer discountPercentage;
+    private String status;
+    private String comments;
+    private String alternatePhoneNumber;
+    private List<NotificationMessages> notificationMessagesList;
+    private List<Order> orders;
+    private List<PatientDeliveryAddress> patientDeliveryAddresses;
+    private String miles;
+    private BigDecimal deliveryFee;
+    private List<PatientGlucoseResults> patientGlucoseResultsList;
+    private List<YearEndStatementInfo> yearEndStatementInfoList;
+    private List<OrderBatch> orderBatchs;
+    private List<MessageResponses> messageResponseses;
+    private String signature;
+    private String password;
+    private String enrollmentPath;
+    private Date updatePasswordDate;
+    private String refillRequestSign;
+
+    private String allergyStatus;
+    private String successOrFailure;
+    private String description;
+    private String insuranceProvider;
+    private String planId;
+    private String groupNumber;
+    private String providerPhoneNumber;
+    private String providerAddress;
+    private Date insuranceExpiryDate;
+    private String insuranceBackCardPath;
+    private String insuranceFrontCardPath;
+    private Long totalRewardPoints;
+    private Integer dprefaId;
+
+    private String osType;
+    private String deviceToken;
+    private String state;
+
+    private boolean isOldPatient;
+    private String defaultAddress;
+    private String defaultAddresszip;
+    private float stateTaxPercent;
+    private Long dependentCount;
+    private Long insCardCount;
+    private Long dependentInsCardCount;
+    private String practiceName;
+    private Integer practiceId;
+    private Date createdAt;
+    private Date updatedAt;
+    private String city;
+    private String zipcode;
+    private State statee;
+    private Long cardNumber;
+    private int surveyReminderCount;
+    private int surveyFlag;
+    private Integer physicianPracticeId;
+    private int cbdStatus;
+    private int parent_id;
+
+
+
+    public PatientProfile() {
+    }
+
+    public PatientProfile(Integer patientProfileSeqNo) {
+        this.patientProfileSeqNo = patientProfileSeqNo;
+    }
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Basic(optional = false)
+    @Column(name = "Id")
+    public Integer getPatientProfileSeqNo() {
+        return patientProfileSeqNo;
+    }
+
+    public void setPatientProfileSeqNo(Integer patientProfileSeqNo) {
+        this.patientProfileSeqNo = patientProfileSeqNo;
+    }
+
+    @Column(name = "MobileNumber")
+    public String getMobileNumber() {
+        return mobileNumber;
+    }
+
+    public void setMobileNumber(String mobileNumber) {
+        this.mobileNumber = mobileNumber;
+    }
+
+    @Column(name = "FirstName")
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    @Column(name = "LastName")
+    public String getLastName() {
+        return lastName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    @Column(name = "NickName")
+    public String getNickName() {
+        return nickName;
+    }
+
+    public void setNickName(String nickName) {
+        this.nickName = nickName;
+    }
+
+    @Transient
+//    @Column(name = "Dob")
+//    @Temporal(TemporalType.DATE)
+//    @DateTimeFormat(pattern = "MM/dd/yyyy")
+    @JsonSerialize(using = CustomJsonDmyFormat.class)
+    @Override
+    public Date getDob() {
+        return dob;
+    }
+
+    @Override
+    public void setDob(Date dob) {
+        this.dob = dob;
+    }
+
+    @Column(name = "Gender")
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    @Column(name = "CardHolderRelationship")
+    public String getCardHolderRelation() {
+        return cardHolderRelation;
+    }
+
+    public void setCardHolderRelation(String cardHolderRelation) {
+        this.cardHolderRelation = cardHolderRelation;
+    }
+
+    @Column(name = "Allergies")
+    public String getAllergies() {
+        return allergies;
+    }
+
+    public void setAllergies(String allergies) {
+        this.allergies = allergies;
+    }
+
+    @Column(name = "Status")
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    @Column(name = "Comments")
+    public String getComments() {
+        return comments;
+    }
+
+    public void setComments(String comments) {
+        this.comments = comments;
+    }
+
+    @Transient
+    public String getAllergyStatus() {
+        return allergyStatus;
+    }
+
+    public void setAllergyStatus(String allergyStatus) {
+        this.allergyStatus = allergyStatus;
+    }
+
+    @Column(name = "VerificationCode")
+    public Integer getVerificationCode() {
+        return verificationCode;
+    }
+
+    public void setVerificationCode(Integer verificationCode) {
+        this.verificationCode = verificationCode;
+    }
+
+    @Column(name = "EmailAddress")
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+    }
+
+    @Column(name = "MemberId")
+    public String getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(String memberId) {
+        this.memberId = memberId;
+    }
+
+    @Column(name = "DiscountPercentage")
+    public Integer getDiscountPercentage() {
+        return discountPercentage;
+    }
+
+    public void setDiscountPercentage(Integer discountPercentage) {
+        this.discountPercentage = discountPercentage;
+    }
+
+    @Transient
+    public String getSuccessOrFailure() {
+        return successOrFailure;
+    }
+
+    public void setSuccessOrFailure(String successOrFailure) {
+        this.successOrFailure = successOrFailure;
+    }
+
+    @Transient
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    @Column(name = "InsuranceProvider")
+    public String getInsuranceProvider() {
+        return insuranceProvider;
+    }
+
+    public void setInsuranceProvider(String insuranceProvider) {
+        this.insuranceProvider = insuranceProvider;
+    }
+
+    @Column(name = "PlanId")
+    public String getPlanId() {
+        return planId;
+    }
+
+    public void setPlanId(String planId) {
+        this.planId = planId;
+    }
+
+    @Column(name = "GroupNumber")
+    public String getGroupNumber() {
+        return groupNumber;
+    }
+
+    public void setGroupNumber(String groupNumber) {
+        this.groupNumber = groupNumber;
+    }
+
+    @Column(name = "ProviderPhoneNumber")
+    public String getProviderPhoneNumber() {
+        return providerPhoneNumber;
+    }
+
+    public void setProviderPhoneNumber(String providerPhoneNumber) {
+        this.providerPhoneNumber = providerPhoneNumber;
+    }
+
+    @Column(name = "Address")
+    public String getProviderAddress() {
+        return providerAddress;
+    }
+
+    public void setProviderAddress(String providerAddress) {
+        this.providerAddress = providerAddress;
+    }
+
+    @Column(name = "InsuranceExpiryDate")
+    @Temporal(javax.persistence.TemporalType.DATE)
+    @DateTimeFormat(pattern = "MM/dd/yyyy")
+    public Date getInsuranceExpiryDate() {
+        return insuranceExpiryDate;
+    }
+
+    public void setInsuranceExpiryDate(Date insuranceExpiryDate) {
+        this.insuranceExpiryDate = insuranceExpiryDate;
+    }
+
+    @Column(name = "SecurityToken")
+    public String getSecurityToken() {
+        return securityToken;
+    }
+
+    public void setSecurityToken(String securityToken) {
+        this.securityToken = securityToken;
+    }
+
+    @Column(name = "InsuranceBackCardPath")
+    public String getInsuranceBackCardPath() {
+        return insuranceBackCardPath;
+    }
+
+    public void setInsuranceBackCardPath(String insuranceBackCardPath) {
+        this.insuranceBackCardPath = insuranceBackCardPath;
+    }
+
+    @Column(name = "InsuranceFrontCardPath")
+    public String getInsuranceFrontCardPath() {
+        return insuranceFrontCardPath;
+    }
+
+    public void setInsuranceFrontCardPath(String insuranceFrontCardPath) {
+        this.insuranceFrontCardPath = insuranceFrontCardPath;
+    }
+
+    @Column(name = "AlternatePhoneNumber")
+    public String getAlternatePhoneNumber() {
+        return alternatePhoneNumber;
+    }
+
+    public void setAlternatePhoneNumber(String alternatePhoneNumber) {
+        this.alternatePhoneNumber = alternatePhoneNumber;
+    }
+
+    @Transient
+    public Long getTotalRewardPoints() {
+        return totalRewardPoints;
+    }
+
+    public void setTotalRewardPoints(Long totalRewardPoints) {
+        this.totalRewardPoints = totalRewardPoints;
+    }
+
+    @OneToMany(mappedBy = "patientProfile", fetch = FetchType.LAZY, orphanRemoval = true)
+    public List<NotificationMessages> getNotificationMessagesList() {
+        return notificationMessagesList;
+    }
+
+    public void setNotificationMessagesList(List<NotificationMessages> notificationMessagesList) {
+        this.notificationMessagesList = notificationMessagesList;
+    }
+
+    @OneToMany(mappedBy = "patientProfile", fetch = FetchType.LAZY, orphanRemoval = true)
+    public List<Order> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Order> orders) {
+        this.orders = orders;
+    }
+
+    @OneToMany(mappedBy = "patientProfile", fetch = FetchType.EAGER, orphanRemoval = true)
+    @OrderBy(clause = "defaultAddress ASC")
+    public List<PatientDeliveryAddress> getPatientDeliveryAddresses() {
+        return patientDeliveryAddresses;
+    }
+
+    public void setPatientDeliveryAddresses(List<PatientDeliveryAddress> patientDeliveryAddresses) {
+        this.patientDeliveryAddresses = patientDeliveryAddresses;
+    }
+
+    @Transient
+    public Integer getDprefaId() {
+        return dprefaId;
+    }
+
+    public void setDprefaId(Integer dprefaId) {
+        this.dprefaId = dprefaId;
+    }
+
+    @Column(name = "DeliveryFee")
+    public BigDecimal getDeliveryFee() {
+        return deliveryFee;
+    }
+
+    public void setDeliveryFee(BigDecimal deliveryFee) {
+        this.deliveryFee = deliveryFee;
+    }
+
+    @Column(name = "Distance")
+    public String getMiles() {
+        return miles;
+    }
+
+    public void setMiles(String miles) {
+        this.miles = miles;
+    }
+
+    @Column(name = "OS_TYPE")
+    public String getOsType() {
+        return osType;
+    }
+
+    public void setOsType(String osType) {
+        this.osType = osType;
+    }
+
+    @Column(name = "DeviceToken")
+    public String getDeviceToken() {
+        return deviceToken;
+    }
+
+    public void setDeviceToken(String deviceToken) {
+        this.deviceToken = deviceToken;
+    }
+
+    @Transient
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    @Transient
+    public boolean isIsOldPatient() {
+        return isOldPatient;
+    }
+
+    public void setIsOldPatient(boolean isOldPatient) {
+        this.isOldPatient = isOldPatient;
+    }
+
+    @OneToMany(mappedBy = "patientProfile", fetch = FetchType.LAZY, orphanRemoval = true)
+    public List<PatientGlucoseResults> getPatientGlucoseResultsList() {
+        return patientGlucoseResultsList;
+    }
+
+    public void setPatientGlucoseResultsList(List<PatientGlucoseResults> patientGlucoseResultsList) {
+        this.patientGlucoseResultsList = patientGlucoseResultsList;
+    }
+
+    @Transient
+    public String getDefaultAddress() {
+        return defaultAddress;
+    }
+
+    public void setDefaultAddress(String defaultAddress) {
+        this.defaultAddress = defaultAddress;
+    }
+
+    @Transient
+    public String getDefaultAddresszip() {
+        return defaultAddresszip;
+    }
+
+    public void setDefaultAddresszip(String defaultAddresszip) {
+        this.defaultAddresszip = defaultAddresszip;
+    }
+
+    @OneToMany(mappedBy = "patientProfile", fetch = FetchType.LAZY, orphanRemoval = true)
+    public List<YearEndStatementInfo> getYearEndStatementInfoList() {
+        return yearEndStatementInfoList;
+    }
+
+    public void setYearEndStatementInfoList(List<YearEndStatementInfo> yearEndStatementInfoList) {
+        this.yearEndStatementInfoList = yearEndStatementInfoList;
+    }
+
+    @Transient
+    public float getStateTaxPercent() {
+        return stateTaxPercent;
+    }
+
+    public void setStateTaxPercent(float stateTaxPercent) {
+        this.stateTaxPercent = stateTaxPercent;
+    }
+
+    @Transient
+    public Long getDependentCount() {
+        return dependentCount;
+    }
+
+    public void setDependentCount(Long dependentCount) {
+        this.dependentCount = dependentCount;
+    }
+
+    @Transient
+    public Long getInsCardCount() {
+        return insCardCount;
+    }
+
+    public void setInsCardCount(Long insCardCount) {
+        this.insCardCount = insCardCount;
+    }
+
+    @Transient
+    public long getDependentInsCardCount() {
+        return dependentInsCardCount;
+    }
+
+    public void setDependentInsCardCount(long dependentInsCardCount) {
+        this.dependentInsCardCount = dependentInsCardCount;
+    }
+
+    @OneToMany(mappedBy = "patientProfile", fetch = FetchType.LAZY, orphanRemoval = true)
+    public List<OrderBatch> getOrderBatchs() {
+        return orderBatchs;
+    }
+
+    public void setOrderBatchs(List<OrderBatch> orderBatchs) {
+        this.orderBatchs = orderBatchs;
+    }
+
+    @OneToMany(mappedBy = "patientProfile", fetch = FetchType.LAZY, orphanRemoval = true)
+    public List<MessageResponses> getMessageResponseses() {
+        return messageResponseses;
+    }
+
+    public void setMessageResponseses(List<MessageResponses> messageResponseses) {
+        this.messageResponseses = messageResponseses;
+    }
+
+    //@Transient
+    @Column(name = "BirthDate")
+    public String getBirthDate() {
+        return birthDate;
+    }
+
+    public void setBirthDate(String birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    @Column(name = "PaymentSignature")
+    public String getSignature() {
+        return signature;
+    }
+
+    public void setSignature(String signature) {
+        this.signature = signature;
+    }
+
+    @Column(name = "Password")
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    @Column(name = "EnrollmentPath")
+    public String getEnrollmentPath() {
+        return enrollmentPath;
+    }
+
+    public void setEnrollmentPath(String enrollmentPath) {
+        this.enrollmentPath = enrollmentPath;
+    }
+
+    @Column(name = "UpdatePasswordDate")
+    @Temporal(javax.persistence.TemporalType.TIMESTAMP)
+    public Date getUpdatePasswordDate() {
+        return updatePasswordDate;
+    }
+
+    public void setUpdatePasswordDate(Date updatePasswordDate) {
+        this.updatePasswordDate = updatePasswordDate;
+    }
+
+    @Column(name = "Practice_Name")
+    public String getPracticeName() {
+        return practiceName;
+    }
+
+    public void setPracticeName(String practiceName) {
+        this.practiceName = practiceName;
+    }
+
+    @Column(name = "Practice_ID")
+    public Integer getPracticeId() {
+        return practiceId;
+    }
+
+    public void setPracticeId(Integer practiceId) {
+        this.practiceId = practiceId;
+    }
+
+    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name = "created_at")
+    public Date getCreatedAt() {
+        return createdAt;
+    }
+
+    public void setCreatedAt(Date createdAt) {
+        this.createdAt = createdAt;
+    }
+
+    @Temporal(TemporalType.TIMESTAMP)
+    @Column(name = "updated_at")
+    public Date getUpdatedAt() {
+        return updatedAt;
+    }
+
+    public void setUpdatedAt(Date updatedAt) {
+        this.updatedAt = updatedAt;
+    }
+
+    @Column(name = "City")
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    @Column(name = "ZipCode")
+    public String getZipcode() {
+        return zipcode;
+    }
+
+    public void setZipcode(String zipcode) {
+        this.zipcode = zipcode;
+    }
+
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
+    @JoinColumn(name = "State")
+    public State getStatee() {
+        return statee;
+    }
+
+    public void setStatee(State statee) {
+        this.statee = statee;
+    }
+
+    @Column(name = "cardNumber")
+    public Long getCardNumber() {
+        return cardNumber;
+    }
+
+    public void setCardNumber(Long cardNumber) {
+        this.cardNumber = cardNumber;
+    }
+
+    @Column(name = "RefillRequestSign")
+    public String getRefillRequestSign() {
+        return refillRequestSign;
+    }
+
+    public void setRefillRequestSign(String refillRequestSign) {
+        this.refillRequestSign = refillRequestSign;
+    }
+
+    @Transient
+// @Column(name = "surveyReminderCount")
+    public int getSurveyReminderCount()  {
+        return surveyReminderCount;
+    }
+
+    public void setSurveyReminderCount(int surveyReminderCount) {
+        this.surveyReminderCount = surveyReminderCount;
+    }
+
+    @Transient
+//    @Column(name = "surveyFlag")
+    public int getSurveyFlag() {
+        return surveyFlag;
+    }
+
+    public void setSurveyFlag(int surveyFlag) {
+        this.surveyFlag = surveyFlag;
+    }
+    @Column(name = "physcian_practice_id")
+    public Integer getPhysicianPracticeId() {
+        return physicianPracticeId;
+    }
+
+    public void setPhysicianPracticeId(Integer physicianPracticeId) {
+        this.physicianPracticeId = physicianPracticeId;
+    }
+      @Column(name = "CBD_Status")
+        public int getCbdStatus() {
+        return cbdStatus;
+    }
+
+    public void setCbdStatus(int cbdStatus) {
+        this.cbdStatus = cbdStatus;
+    }
+     @Column(name = "parent_id")
+        public int getParent_id() {
+        return parent_id;
+    }
+
+    public void setParent_id(int parent_id) {
+        this.parent_id = parent_id;
+    }
+
+}

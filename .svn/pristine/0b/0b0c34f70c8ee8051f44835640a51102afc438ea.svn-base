@@ -1,0 +1,212 @@
+h2{
+
+    font-size: 20px;
+
+    line-height: 20px;
+
+    color: #575757;
+
+}
+
+.background-blue{
+
+    background-color: #2171b6 !important;
+
+    color: white !important;
+
+    font-size: 11px !important; 
+
+}
+
+.color-box{
+
+    color: #575757;
+
+    font-size: 11px;
+
+}
+
+span{
+
+  color:#2171b6;
+
+  font-weight: 500;
+
+  font-size: 11px;
+
+}
+
+.border-box{
+
+    border: 1px solid #dee2e6 !important; 
+
+    width: 100%;
+
+}
+
+.table td, .table th {
+
+    padding: 6px;
+
+}
+
+.box-blue{
+
+    background-color: #2171b6;
+
+    color: white;
+
+    font-size: 10px;
+
+    text-align: none;
+
+    line-height: 13px;
+
+}
+
+.black-box{
+
+    color: black;
+
+}
+
+ input {
+
+    width: 100%;
+
+    line-height:0;
+
+    
+
+}
+
+.text-size{
+
+ font-size: 10px;
+
+}
+
+.btn {
+
+    width: 184px;
+
+    display: inline-block;
+
+    font-weight: 400;
+
+    text-align: center;
+
+    font-size: 12px;
+
+    line-height:auto;
+
+     border-radius:0px;
+
+     margin: 10px;
+
+}
+
+.footer{
+
+    width: 100%;
+
+    background-color:#2171b6; 
+
+    text-align: center;
+
+    font-size: 11px;
+
+    color: white;
+
+    padding-top: 10px;
+
+
+
+}
+
+ul li
+
+{
+
+    display: inline;
+
+}
+
+ul li i{
+
+    padding: 4px;
+
+}
+
+li a{
+
+    color:#89caf7;
+
+}
+
+.bottom{
+
+    padding-bottom:293px;
+
+}
+
+.table-bordered th {
+
+    padding: 8px 10px;
+
+}
+
+.table-bordered td{
+
+    border: 1px solid #dee2e6;
+
+    padding: 5px 10px;
+
+}
+
+.btn-info{
+
+    background-color: #2171b6;
+
+}
+
+.grand-total{
+
+    font-size: 11px;
+
+}
+
+#notCarried{
+    background-color:#df1111 !important;
+    font-size:12px !important;
+    font-weight:700;
+    text-transform: uppercase;
+}
+#btnOrderShip{
+    font-size:12px !important;
+    font-weight:700;
+    text-transform:uppercase;
+}
+.back_qq{
+    margin:5px 5px;
+    float:right;
+}
+.icon_Status{
+    z-index: 99999;
+}
+.icon_unew{
+    z-index: 99999;
+}
+.border-box td{
+    font-size:11px !important;
+}
+.min_heigt_custom{
+    height:370px;
+    overflow-y:auto;
+}
+.padd_none{
+    padding:0;
+}
+.padding_right_none{
+    padding-right:0;
+}

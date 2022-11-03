@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+     Created on : March 09, 2015, 3:20:37 PM
+    Author     : Saimoon Durrani
+*/
+* {
+    margin:0px;
+    padding:0px;
+}
+html,body {
+    height: 100%;
+    color:#666666;  
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	background:#fffff;
+}
+img, a {
+    border:none;
+    outline: none !important;
+}
+
+
+.max-width {width:100%;}
+.img-responsive {width:100%;}
+.padd-zero {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.rx_app_ht{
+	width:100%;
+	margin:0 auto;
+	padding:0 15px 10px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.logo{
+	text-align:center;
+	margin-bottom:10px;
+	padding-top:10px;
+}
+.rx_app_ht h4{
+	color:#000;
+	font-weight:bold;
+	font-size:17px;
+	margin:0 0 0;
+}
+.rx_app_ht p{
+	font-size:13px;
+	line-height:inherit;
+	margin:0 0 14px;
+}
+.green{
+	color:#94c242;
+	font-weight:bold;
+}
+.blue{
+	color:#246dbc;
+	font-weight:bold;
+}
+.rx_app_ht h5{
+	color:#94c242;
+	font-weight:bold;
+	font-size:15px;
+	margin:0 0 0;
+}
+.rx_app_ht h5 span{
+	display:block;
+	color:#000;
+}
+.ad_span{
+	font-weight:bold;
+	color:#2a71ba;
+	display:block;
+}
+small{
+	display:block;
+	width:96%;
+	text-align:center;
+	font-size:13px;
+	color:#666666;
+	padding-top:14px;
+}
+small a{
+	color:#000;
+	font-size:13px;
+	font-weight:bold;
+	text-decoration:none;
+	margin-bottom:5px;
+	display:inline-block;
+}
+
+@media all and (max-width: 480px) {
+.rx_app_ht h5{
+	font-size:13px;
+}
+.rx_app_ht h4{
+	font-size:14px;
+}
+small{
+	font-size:12px;
+}
+small a{
+	font-size:12px;
+}
+.rx_app_ht p{
+	font-size:12px;
+}
+.rx_app_ht img{
+	width:60%;
+}
+}

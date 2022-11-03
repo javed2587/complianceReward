@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:task="http://www.springframework.org/schema/task"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.0.xsd
+       http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+       http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task-4.0.xsd">
+
+    <context:component-scan base-package="com.ssa.cms" />
+    <context:component-scan base-package="com.ssa.cms.servlet" />
+    
+    <bean id="viewResolver2" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="viewClass" value="org.springframework.web.servlet.view.JstlView"/>
+        <property name="prefix" value="/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+    <bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver" >
+     <!-- max upload size in bytes -->
+        <property name="maxUploadSize" value="45971520" /> <!-- 40MB -->
+         
+        <!-- max size of file in memory (in bytes) -->
+        <property name="maxInMemorySize" value="1048576" /> <!-- 1MB -->
+ 
+    </bean>
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>properties/database.properties</value>
+<!--                <value>properties/cronjobs.properties</value>-->
+            </list>
+        </property>
+    </bean>
+    
+    <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${dataSource.driverClassName}" />
+        <property name="url" value="${dataSource.url}" />
+        <property name="username" value="${dataSource.username}" />
+        <property name="password" value="${dataSource.password}" />
+    </bean>
+    
+<!--    <bean id="sessionFactory" class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="packagesToScan" value="com.ssa.cms.model" />
+        <property name="hibernateProperties">-->
+      <bean id="entityManagerFactoryBean" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+      <property name="dataSource" ref="dataSource" />
+      <!-- This makes /META-INF/persistence.xml is no longer necessary -->
+      <property name="packagesToScan" value="com.ssa.cms.model" />
+      <!-- JpaVendorAdapter implementation for Hibernate EntityManager.
+           Exposes Hibernate's persistence provider and EntityManager extension interface -->
+      <property name="jpaVendorAdapter">
+         <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
+      </property>
+      <property name="jpaProperties">
+            <props>
+                <prop key="hibernate.dialect">${hibernate.dialect}</prop>
+                <prop key="hibernate.show_sql">${hibernate.show_sql}</prop>
+                <prop key="hibernate.c3p0.min_size">${hibernate.c3p0.min_size}</prop>
+                <prop key="hibernate.c3p0.max_size">${hibernate.c3p0.max_size}</prop>
+                <prop key="hibernate.c3p0.max_statements">${hibernate.c3p0.max_statements}</prop>
+                <prop key="hibernate.c3p0.idle_test_period">${hibernate.c3p0.idle_test_period}</prop>
+            </props>
+        </property>
+<!--        <property name="namingStrategy">
+            <bean class="com.ssa.cms.model.CustomNamingStrategy" />
+        </property>-->
+    </bean>
+    
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <bean id="transactionManager"
+          class="org.springframework.orm.jpa.JpaTransactionManager">
+     <property name="entityManagerFactory" ref="entityManagerFactoryBean" />
+        <!--<property name="sessionFactory" ref="sessionFactory" />-->
+    </bean>
+<!--    <bean id="transactionManager"
+          class="org.springframework.orm.hibernate4.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>-->
+    
+    <context:annotation-config />
+    
+    <mvc:annotation-driven />
+    
+    <mvc:resources mapping="/resources/**" location="/resources/" />
+    
+    <bean name="methodNameResolver" class="org.springframework.web.servlet.mvc.multiaction.ParameterMethodNameResolver">
+        <property name="paramName" value="method"/>        
+    </bean>
+    
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basename" value = "com.ssa.cms.message.messages" />
+    </bean>
+    
+    <bean id="contextProvider" class="com.ssa.cms.service.ContextProvider"></bean>
+    
+    <bean id="viewResolver1" class="org.springframework.web.servlet.view.XmlViewResolver">
+        <property name="order" value="1"/>
+        <property name="location" value="/WEB-INF/pdf-view.xml"/>
+    </bean>
+    <!--cron jobs configured here -->
+    
+    
+<import resource="jobs.xml"/>
+   
+   
+</beans>

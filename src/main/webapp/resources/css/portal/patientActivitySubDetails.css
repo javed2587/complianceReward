@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 2, 2019, 2:26:42 PM
+    Author     : ahsan.sharif
+*/
+
+.patient-activity-sub-details{
+    float: left;
+    margin-right: 20px;
+    color:#3A3A3A;
+}
+table{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    border-collapse: separate;
+}
+.patient-activity-sub-details-div-table{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.patient-activity-sub-details-div-table td, .patient-activity-sub-details-div-table th{
+    padding-left: 10px;
+    padding-right: 10px;
+}

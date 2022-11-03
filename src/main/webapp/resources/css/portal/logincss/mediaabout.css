@@ -1,0 +1,759 @@
+@media all and (min-width: 1200px) {
+
+
+
+    .container{
+
+
+
+        max-width: 1200px;
+
+
+
+        width: 100%;
+
+
+
+    }
+
+
+
+    .banner_back_faq h1{
+
+
+
+        padding:47px 0;
+
+
+
+    }
+
+
+
+    .banner_back_contact h1{
+
+
+
+        padding:47px 0;
+
+
+
+    }
+
+
+
+    .banner_back_about{
+
+        padding:45px 0;
+
+    }
+
+
+
+}
+
+@media all and (max-width: 1199px){
+    .banner_back_faq h1{
+        padding: 46px 0;
+    }
+    .banner_back_contact h1{
+        padding:46px 0;
+    }
+    .banner_back_about{
+        padding:46px 0;
+    }
+}
+
+
+
+@media all and (max-width: 992px) {
+
+
+
+    .inner_hippa{
+
+
+
+        margin-bottom: 15px;
+
+
+
+        padding: 20px;
+
+
+
+    } 
+
+
+
+    .fa-calendar{
+
+
+
+        top: 9%;
+
+
+
+        left: 25%;
+
+
+
+    }
+
+
+
+    .banner_back_faq h1{
+
+
+
+        line-height:23px;
+
+
+
+    }
+
+
+
+    .banner_back_contact h1{
+
+
+
+        line-height:23px;
+
+
+
+    }
+
+
+
+    .banner_back_about h1{
+
+
+
+        line-height:23px;
+
+
+
+    }
+
+    .banner_back_about{
+        padding:57px 0;
+    }
+
+
+
+}
+
+
+
+@media all and (max-width: 768px) {
+
+
+
+    .fa-calendar{
+
+
+
+        top: 9%;
+
+
+
+        left: 34%;
+
+
+
+    }
+
+
+
+    .inner_hippa{
+
+
+
+        margin-bottom: 15px;
+
+
+
+        padding: 20px;
+
+
+
+    }
+
+
+
+
+
+
+
+    .marg_bottom{
+
+
+
+        margin-bottom: 25px;
+
+
+
+    }
+
+
+
+    .footer_back h6{
+
+
+
+        border-bottom: 1px solid #999999;
+
+
+
+        padding-bottom: 10px;
+
+
+
+    }
+
+
+
+    .footer_back{
+
+
+
+        padding: 22px 0 0 0;
+
+
+
+    }
+
+
+
+    .footer_bottom p{
+
+
+
+        display: block;
+
+
+
+        width: 100%;
+
+
+
+        text-align: center;
+
+
+
+        float: none;
+
+
+
+        font-size: 13px;
+
+
+
+    }
+
+
+
+    .footer_bottom span a{
+
+
+
+        display: block;
+
+
+
+        width: 100%;
+
+
+
+        text-align: center;
+
+
+
+        padding-top: 5px;
+
+
+
+        font-size: 13px;
+
+
+
+    }
+
+
+
+    .mobile_text h2{
+
+
+
+        padding-top: 30px;
+
+
+
+
+
+
+
+    }
+
+
+
+    .mobile_text{
+
+
+
+        padding: 0 15px 0 15px;
+
+
+
+    }
+
+
+
+    .inner_hippa-calen{
+
+
+
+        margin-top: 20px;
+
+
+
+    }
+
+
+
+    .banner_back h1{
+
+
+
+        font-size: 30px;
+
+
+
+    }
+
+
+
+    .banner_back h2{
+
+
+
+        font-size: 24px;
+
+
+
+        line-height: 29px;
+
+
+
+    }
+
+
+
+    .banner_back h3{
+
+
+
+        font-size: 22px;
+
+
+
+        line-height: 29px;
+
+
+
+    }
+
+
+
+    .banner_back h4{
+
+
+
+        font-size: 20px;
+
+
+
+        line-height: 29px;
+
+
+
+        padding-bottom: 0;
+
+
+
+    }
+
+
+
+    .banner_back img {
+
+
+
+        padding-bottom: 20px;
+
+
+
+    }
+
+
+
+    .banner_back{
+
+
+
+        padding: 20px 0;
+
+
+
+    }
+
+
+
+    .banner_back_faq h1{
+
+
+
+        padding:34px 0;
+
+
+
+    }
+
+
+
+    .banner_back_contact h1{
+
+
+
+        padding:34px 0;
+
+
+
+    }
+
+    .banner_back_about{
+
+        padding:30px 0;
+
+    }
+
+
+
+}
+
+
+
+@media all and (max-width: 575px) {
+
+    .banner_back_faq{
+        margin-top:95px;
+    }
+    .banner_back_about{
+        padding:40px 0;
+    }
+
+
+
+
+    .footer_bottom p{ 
+
+
+
+        font-size: 11px;
+
+
+
+    }
+
+
+
+    .footer_bottom span a{
+
+
+
+        font-size: 11px;
+
+
+
+    }
+
+
+
+    .navbar-light .navbar-brand{
+
+
+
+        padding-bottom: 20px;
+
+
+
+    }
+
+
+
+    .navbar-collapse{
+
+
+
+        border-top: 1px solid #999999;
+
+
+
+        padding: 10px 0px;
+
+
+
+    }
+
+
+
+    #header ul li a{
+
+
+
+        padding-left: 0;
+
+
+
+    }
+
+
+
+    .trial_button{
+
+
+
+        top: 6px;
+
+
+
+        right: 8px;
+
+
+
+    }
+
+
+
+    .banner_back .form-control{
+
+
+
+        font-size: 13px;
+
+
+
+    }
+
+
+
+    .fa-calendar{
+
+
+
+        top: 8%;
+
+
+
+        left: 24%;
+
+
+
+    }
+
+
+
+    .banner_back_faq h1{
+
+
+
+        line-height:0;
+
+
+
+    }
+
+
+
+    .banner_back_contact h1{
+
+
+
+        line-height:0;
+
+
+
+    }
+
+
+
+    .banner_back_about h1{
+
+
+
+        line-height:0;
+
+
+
+    }
+
+
+
+}
+
+
+
+@media all and (max-width: 453px) {
+
+
+
+    .banner_back_faq h1{
+
+
+
+        padding:27px 0;
+
+
+
+    }
+
+
+
+    .banner_back_contact h1{
+
+
+
+        padding:27px 0;
+
+
+
+    }
+
+
+
+    .banner_back_about{
+
+
+
+        padding:27px 0;
+
+
+
+    }
+
+    .banner_back_about h1{
+
+        font-size:30px;
+
+    }
+
+
+
+}
+
+
+
+@media all and (max-width: 387px) {
+
+
+
+    .banner_back_faq h1{
+
+
+
+        padding:23px 0;
+
+
+
+    }
+
+
+
+    .banner_back_contact h1{
+
+
+
+        padding:23px 0;
+
+
+
+    }
+
+
+
+    .banner_back_about{
+
+
+
+        padding:23px 0;
+
+        margin-top:95px;
+
+    }
+
+
+
+}
+
+
+
+@media all and (max-width: 340px) {
+
+
+
+    .banner_back_faq h1{
+
+
+
+        font-size:25px;
+
+
+
+        padding:20px 0;
+
+
+
+    }
+
+
+
+    .banner_back_contact h1{
+
+
+
+        font-size:25px;
+
+
+
+        padding:20px 0;
+
+
+
+    }
+
+
+
+    .banner_back_about h1{
+
+
+
+        font-size:25px;
+
+
+
+        padding:0 0;
+
+
+
+    }
+    .banner_back_faq{
+        margin-top:94px;
+    }
+
+    .banner_back_contact{
+        margin-top:94px;
+    }
+
+
+}

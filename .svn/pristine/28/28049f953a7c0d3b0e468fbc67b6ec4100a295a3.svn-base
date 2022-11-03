@@ -1,0 +1,146 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.ssa.cms.controller;
+
+import com.ssa.cms.common.Constants;
+import com.ssa.cms.dto.OrdersDTO;
+import com.ssa.cms.enums.EventTitleEnum;
+import com.ssa.cms.enums.ResponseTitleEnum;
+import com.ssa.cms.model.JsonResponse;
+import com.ssa.cms.model.Order;
+import com.ssa.cms.model.PatientProfile;
+import com.ssa.cms.model.RxRenewal;
+import com.ssa.cms.service.PatientProfileService;
+import com.ssa.cms.util.CommonUtil;
+import com.ssa.cms.validation.APIValidationUtil;
+import java.util.Date;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.codehaus.jackson.JsonNode;
+import org.codehaus.jackson.map.ObjectMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ *
+ * @author Zubair
+ */
+@RestController
+public class APIControllers {
+
+    private static final Log logger = LogFactory.getLog(PatientWsControllers.class.getName());
+
+    @Autowired
+    private PatientProfileService patientProfileService;
+
+    @RequestMapping(value = "/requestCallToHcpRefillRxWs", produces = "application/json", method = RequestMethod.POST)
+    public @ResponseBody
+    Object requestCallToHcpRefillRxWs(@RequestHeader(value = "securityToken", required = false) String securityToken, @RequestBody String json) {
+        JsonResponse jsonResponse = new JsonResponse();
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            //validate SecurityToken
+            PatientProfile patientProfile = APIValidationUtil.validateToken(securityToken, jsonResponse, patientProfileService, logger);
+            if (patientProfile == null || CommonUtil.isNullOrEmpty(patientProfile.getPatientProfileSeqNo())) {
+                return jsonResponse;
+            }
+            OrdersDTO ordersDTO = objectMapper.readValue(json, OrdersDTO.class);
+            if (CommonUtil.isNullOrEmpty(ordersDTO.getOrderId())) {
+                jsonResponse.setErrorCode(0);
+                jsonResponse.setErrorMessage("order is null");
+                return jsonResponse;
+            }
+            Order dbOrder = patientProfileService.getOrderByOrderId(ordersDTO.getOrderId());
+            if (dbOrder == null) {
+                logger.info("No order exist against this ord# " + ordersDTO.getOrderId());
+                jsonResponse.setErrorCode(0);
+                jsonResponse.setErrorMessage("No order exist against this ord# " + ordersDTO.getOrderId());
+                return jsonResponse;
+            }
+            RxRenewal renewal = patientProfileService.getRxRenewalRequestByOrderId(ordersDTO.getOrderId());
+            if(renewal != null){
+                jsonResponse.setErrorCode(0);
+                jsonResponse.setErrorMessage("Duplicate request not allowed against this ord#");
+                return jsonResponse; 
+            }
+            boolean isMsgSend=patientProfileService.sendPushNotificationOnPlaceOrder(patientProfile, dbOrder, ResponseTitleEnum.REQUEST_CALL_TO_HCP_RX_REFILL.getValue(), EventTitleEnum.Rx_Advisory.getValue());
+            if(isMsgSend){
+//                dbOrder.setViewStatus("HcpReq_Created");
+//                patientProfileService.update(dbOrder);
+                RxRenewal rxRenewal = new RxRenewal();
+                rxRenewal.setOrdrId(ordersDTO.getOrderId());
+                rxRenewal.setViewStatus("HcpReq_Created");
+//                rxRenewal.setRenewalOrderId(json);
+                rxRenewal.setCreatedOn(new Date());
+                patientProfileService.save(rxRenewal);
+                jsonResponse.setErrorCode(1);
+                jsonResponse.setErrorMessage("Notification sent successfully.");
+            }else{
+                jsonResponse.setErrorCode(0);
+                jsonResponse.setErrorMessage("There is some problem to send this notification.");
+            }
+        } catch (Exception e) {
+            logger.error("Exception#requestCallToHcpRefillRxWs# ", e);
+            jsonResponse.setErrorCode(0);
+            jsonResponse.setErrorMessage(Constants.ERROR_SAVE_MESSAGE);
+        }
+        return jsonResponse;
+    }
+     @RequestMapping(value = "/cancelRxRenewalWs",produces = "application/json", method = RequestMethod.POST) 
+    public @ResponseBody
+    Object cancelRxRenewalWs(@RequestHeader(value = "securityToken", required = false) String securityToken,
+            @RequestBody String json) throws Exception {
+        JsonResponse jsonResponse = new JsonResponse();
+        ObjectMapper objectMapper = new ObjectMapper();
+        try {
+            JsonNode rootNode = objectMapper.readTree(json);
+
+            JsonNode userInputNode = rootNode.path("orderId");
+            String orderId = userInputNode.asText();
+            PatientProfile profile = patientProfileService.getPatientProfileBySecurityToken(securityToken);
+            if (profile == null || CommonUtil.isNullOrEmpty(profile.getPatientProfileSeqNo())) {
+                jsonResponse.setErrorCode(0);
+                jsonResponse.setErrorMessage("Invalid Security Token.");
+                return jsonResponse;
+            }
+           if (CommonUtil.isNullOrEmpty(orderId)) {
+                jsonResponse.setErrorCode(0);
+                jsonResponse.setErrorMessage("Enter valid Order Id.");
+                return jsonResponse;
+            }
+            RxRenewal renewal = patientProfileService.getRxRenewalByOrderId(orderId);
+            if(renewal == null){
+                jsonResponse.setErrorCode(0);
+                jsonResponse.setErrorMessage("No Request Exist for deletion.");
+                return jsonResponse; 
+            }
+//            Order ord = patientProfileService.getOrderById(orderId);
+            if("RxRenewal_Canceled".equals(renewal.getViewStatus())) {
+                jsonResponse.setErrorCode(0);
+                jsonResponse.setErrorMessage("Your request already has been cancelled.");
+                return jsonResponse;
+            }
+           boolean isCanceled = patientProfileService.isRequestCanceled(orderId);
+          if(isCanceled == true){
+            jsonResponse.setErrorCode(1);
+            jsonResponse.setSuccessMessage("Your request has been cancelled. ");
+          }else {
+            jsonResponse.setErrorCode(0);
+            jsonResponse.setSuccessMessage("faild to Cancelled. ");
+          }       
+        } catch (Exception e) {
+            jsonResponse.setErrorCode(0);
+            jsonResponse.setErrorMessage("process.unsuccessful");
+            return jsonResponse;
+        }
+        return jsonResponse;
+    }
+}
